@@ -1,5 +1,5 @@
 #labels QNX,Neutrino,BeagleBoard,OMAP3,QEMU,Momentics
-==On Linux Hosts==
+==Installing QNX SDP On Linux Hosts==
   * If you haven't already done so, [https://www.qnx.com/account/login.html#showcreate register] for a QNX.com account, by following the instructions provided
   * Log-in to QNX.com using your account, and visit [http://www.qnx.com/download/feature.html?programid=18773 this page] to download a copy of QNX Software Development Platform 6.4.0 (includes both QNX Neutrino, and Momentics - a customised version of [http://www.eclipse.org Eclipse]) for Linux
   * Set the Executable bit on the downloaded file ({{{qnxsdp-6.4.0-200810211530-linux.bin}}} as of writing) using {{{chmod +x qnxsdp-6.4.0-200810211530-linux.bin}}}
