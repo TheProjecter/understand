@@ -9,4 +9,4 @@
   * Follow the instructions [http://www.qnx.com/developers/articles/inst_3107_2.html here] (from the "Activating QNX SDP 6.4.0" section) to enter any license keys and activate QNX Software Development Platform - free-of-cost license keys were provided for non-commercial/hobbyist use, last time I checked
 
 ==Useful Information==
-  * [Additional useful information is provided at http://www.qnx.com/developers/articles/rel_3101_16.html The QNX Neutrino/SDP 6.4.0 Release Nodes] contain a wealth of information related to using SDP, and errata to take note of
+  * [http://www.qnx.com/developers/articles/rel_3101_16.html The QNX Neutrino/SDP 6.4.0 Release Nodes] contain a wealth of information related to using SDP, and errata to take note of
