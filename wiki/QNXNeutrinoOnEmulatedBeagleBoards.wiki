@@ -1,14 +1,4 @@
-#summary One-sentence summary of this page.
 #labels QNX,Neutrino,BeagleBoard,OMAP3,QEMU
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==On Linux Hosts==
+  * If you haven't already done so, [https://www.qnx.com/account/login.html#showcreate register] for a QNX.com account, by following the instructions provided
+  * Log-in to QNX.com using your account, and visit [http://www.qnx.com/download/feature.html?programid=18773 this page] to download a copy of QNX Software Development Platform 6.4.0 (includes both QNX Neutrino, and Momentics - a customised version of [http://www.eclipse.org Eclipse]) for Linux
