@@ -5,12 +5,14 @@ This entry will be added to as information is obtained and/or discoveries are ma
 
 ==General Overview (.KOZ/Orange Music Player)==
 A .KOZ file appears to be a standard MP3 file at low level when displayed in a hex editor, or using certain MP3 playback software.
-It is not entirely encrypted, as I expected, and could be transfered by Bluetooth and stored to an RS-MMC Flash Storage Card. (It was not Forward Locked).
+It is not entirely encrypted, as I expected, and could be transferred by Bluetooth and stored to an RS-MMC Flash Storage Card. (It was not Forward Locked).
 
-The file that I obtained (UtadaHikaru-ThisIsLove.koz) contains the song "This Is Love" from the album "ULTRA BLUE" by Utada Hikaru (for those curious about it), and cost 1.50GBP to purchase (excluding the data transfer cost for downloading the Catalogue after installing the Orange Media Player to the Nokia N70 used for testing).
+The file that I obtained ({{{UtadaHikaru-ThisIsLove.koz}}}) contains the song "This Is Love" from the album "ULTRA BLUE" by Utada Hikaru (for those curious about it), and cost 1.50GBP to purchase (excluding the data transfer cost for downloading the Catalogue after installing the Orange Media Player to the Nokia N70 used for testing).
 
-The Player application itself was not a chargable download (it was obtained from a section of the Orange World portal that was marked as "Free", and GPRS data charges were not applied).<br/> I am still trying to obtain a copy of the Player installer/application binary for examination outside of the handset.
+The Player application itself was not a chargeable download (it was obtained from a section of the Orange World portal that was marked as "Free", and GPRS data charges were not applied).
 
-As usual for most modern MP3 files, the .KOZ I viewed contained the magic number "ID3" (0x494433), and the usual set of ID3 tags (although the TLEN seems to be shorter than the real track length, or damaged), as well as a non-encrypted, Base64-encoded JPEG image file in either a KPIC or PIC (not sure from looking) tag.
+I am still trying to obtain a copy of the Player installer/application binary for examination outside of the handset.
+
+As usual for most modern MP3 files, the .KOZ I viewed contained the magic number "ID3" ({{{0x494433}}}), and the usual set of ID3 tags (although the {{{TLEN}}} seems to be shorter than the real track length, or damaged), as well as a non-encrypted, Base64-encoded JPEG image file in either a {{{KPIC}}} or {{{PIC}}} (not sure from looking) tag.
 
 At a glance, the rest of the file seems like a regular MP3 file.
