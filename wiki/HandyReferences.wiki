@@ -18,4 +18,4 @@ Evolution of the pcap-ng file format is driven by several mailing lists. These a
   * [http://www.winpcap.org/pipermail/ntar-workers ntar-workers]
 
 ==Universal Disk Format (UDF)==
-  * The current steward/maintainer of the UDF specifications is the [http://www.osta.org Optical Storage Technology Association (OSTA)], who currently make them freely accessible [http://www.osta.org/specs/ here] as PDF files
+  * The current steward/maintainer of the UDF specifications is the [http://www.osta.org Optical Storage Technology Association (OSTA)], who currently make them freely available [http://www.osta.org/specs/ here] as PDF files
