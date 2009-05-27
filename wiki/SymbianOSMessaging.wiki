@@ -1,8 +1,7 @@
 #summary Documenting the messaging file formats used by Symbian OS/S60, one bit at a time...
 #labels SymbianOS,Symbian,Messaging,SMS,MMS,GSM
 
-= Introduction =
-#No intro yet
+== Introduction =
 
-= Symbian OS 8.1a/S60v2 Feature Pack 3 (Nokia N70) Implementation =
-== File System Layout ==
+== Symbian OS 8.1a/S60v2 Feature Pack 3 (Nokia N70) Implementation ==
+=== File System Layout ===
