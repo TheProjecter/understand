@@ -8,9 +8,9 @@
   * The Wireshark [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3166 bug] that spawned support 
 
 ==pcap-ng File Format==
-
-===The Current Draft Specification===
-As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time.
+  * As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time
+  * A number of sample captures, containing several different protocols, link-layer types and format features are available on our [http://code.google.com/p/understand/downloads/list Downloads] page (tagged with "ntar" and "pcapng")
+  * Additional sample files are available at [http://wiki.wireshark.org/Development/PcapNg this page] on the Wireshark Wiki 
 
 ===Mailing Lists===
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
