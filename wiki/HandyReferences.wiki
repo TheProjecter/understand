@@ -19,4 +19,4 @@ Evolution of the pcap-ng file format is driven by several mailing lists. These a
 
 ==Universal Disk Format (UDF)==
   * The current steward/maintainer of the UDF specifications is the [http://www.osta.org Optical Storage Technology Association (OSTA)], who currently make them freely available [http://www.osta.org/specs/ here] as PDF files
-  * Some information on various implementations is curated at the UDFInteroperabilityTesting page, here at the Understand Wiki
+  * Some information on various implementations is curated on the UDFInteroperabilityTesting page of this wiki
