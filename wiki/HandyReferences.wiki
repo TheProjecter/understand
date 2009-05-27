@@ -1,8 +1,18 @@
 #summary Resources that help you to use our stuff more effectively
-#labels References,Assistance,See_Also
+#labels References,Assistance,See_Also,DCT3,pcapng,Networks,File_Formats,ntar
 
 ==DCT3 GSM Traces==
   * A selection of GSM protocol trace files (as well as the one on our Downloads page) are available [http://wiki.thc.org/gsm/debugtrace here] from the THC Wiki.
   * Additional information on obtaining DCT3 trace files is available [https://svn.berlin.ccc.de/projects/airprobe/wiki/tracelog here]
   * [http://www.wireshark.org Wireshark] supports reading these files, as of at least 1.1.4-SVN-28442 (or maybe earlier) and the newly released [http://www.wireshark.org/docs/relnotes/wireshark-1.2.0.html 1.2.0pre1]
   * The Wireshark [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3166 bug] that spawned support 
+
+==pcap-ng File Format==
+
+===The Current Draft Specification===
+As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time.
+
+===Mailing Lists===
+Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
+  * [http://www.mail-archive.com/wireshark-dev@wireshark.org/ wireshark-dev]
+  * [http://www.winpcap.org/pipermail/ntar-workers ntar-workers]
