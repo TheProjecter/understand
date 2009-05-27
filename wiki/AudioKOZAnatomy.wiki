@@ -19,3 +19,6 @@ At a glance, the rest of the file seems like a regular MP3 file.
 
 
 ==Deliberate Corruption/Encryption/Obfuscation==
+It seems as if the {{{.KOZ}}} file is deliberately corrupted, contains encrypted portions, or is otherwise obfuscated in places to prevent playback in anything but the proprietary Orange Music Player application for Symbian OS (unsure if the same applies to the Windows Mobile version, if it exists).
+
+At present, I am unable to work out how the file has been altered to make this possible, although I have discovered that it is possible to load the file into the MPlayer application, and obtain audio that skips, plays faster than it does with the proprietary player, and contains glitches.
