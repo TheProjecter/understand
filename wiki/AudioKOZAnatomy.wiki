@@ -25,3 +25,14 @@ At present, I am unable to work out how the file has been altered to make this p
 
 Several error messages are produced by MPlayer at a rate that makes them difficult to read easily, without using the {{{script}}} utility to record them to a file.
 It appears that many of them relate to non-standard or missing data structures that are presumably worked around/accounted for by the Player application's playback engine/file parser. 
+
+I have placed a {{{script}}} log of these error messages at <a href="http://house404.co.uk/KOZ/KOZ-Playback">http://house404.co.uk/KOZ/KOZ-Playback</a>, along with the extracted JPEG
+ image (<a href="http://house404.co.uk/KOZ/image-file.jpg">http://house404.co.uk/KOZ/image-file.jpg</a>), and the .KOZ file itself (<a href="http://house404.co.uk/KOZ/UtadaHikaru-ThisIsLove.koz">http://house404.co.uk/KOZ/UtadaHikaru-ThisIsLove.koz</a>).
+
+I have not been able to get a satisfactory amount of information about the file from the [http://www.wireshark.org Wireshark] protocol analyzer's MPEG Audio Layer 3/MPEG-2 dissector.
+
+I have also not been able to play it in either the Linux or Symbian versions of RealPlayer or in Xine (although the first frame plays in Xine 
+ after changing the extension, before playback cuts out).<br/>On Linux, RealPlayer gives an "Unsupported document type" error, even after changing
+ the file name extension.
+
+In addition, the file causes the {{{mp3-cmdline}}} utility to exist prematurely after the third frame, without an error message.
