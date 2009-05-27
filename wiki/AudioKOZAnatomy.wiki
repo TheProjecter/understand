@@ -13,6 +13,6 @@ The Player application itself was not a chargeable download (it was obtained fro
 
 I am still trying to obtain a copy of the Player installer/application binary for examination outside of the handset.
 
-As usual for most modern MP3 files, the .KOZ I viewed contained the magic number "ID3" ({{{0x494433}}}), and the usual set of ID3 tags (although the {{{TLEN}}} seems to be shorter than the real track length, or damaged), as well as a non-encrypted, Base64-encoded JPEG image file in either a {{{KPIC}}} or {{{PIC}}} (not sure from looking) tag.
+As usual for most modern MP3 files, the {{{.KOZ}}} I viewed contained the magic number "{{{ID3}}}" ({{{0x494433}}}), and the usual set of ID3 tags (although the {{{TLEN}}} seems to be shorter than the real track length, or damaged), as well as a non-encrypted, Base64-encoded JPEG image file in either a {{{KPIC}}} or {{{PIC}}} (not sure from looking) tag.
 
 At a glance, the rest of the file seems like a regular MP3 file.
