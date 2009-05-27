@@ -26,7 +26,7 @@ At present, I am unable to work out how the file has been altered to make this p
 Several error messages are produced by MPlayer at a rate that makes them difficult to read easily, without using the {{{script}}} utility to record them to a file.
 It appears that many of them relate to non-standard or missing data structures that are presumably worked around/accounted for by the Player application's playback engine/file parser. 
 
-I have placed a {{{script}}} log of these error messages at <a href="http://house404.co.uk/KOZ/KOZ-Playback">http://house404.co.uk/KOZ/KOZ-Playback</a>, along with the extracted [http://house404.co.uk/KOZ/image-file.jpg JPEG image], and the [http://house404.co.uk/KOZ/UtadaHikaru-ThisIsLove.koz .KOZ file itself].
+I have placed a {{{script}}} log of these error messages [http://house404.co.uk/KOZ/KOZ-Playback here], along with the extracted [http://house404.co.uk/KOZ/image-file.jpg JPEG image], and the [http://house404.co.uk/KOZ/UtadaHikaru-ThisIsLove.koz .KOZ file itself].
 
 I have not been able to get a satisfactory amount of information about the file from the [http://www.wireshark.org Wireshark] protocol analyzer's MPEG Audio Layer 3/MPEG-2 dissector.
 
