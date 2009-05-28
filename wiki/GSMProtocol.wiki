@@ -5,7 +5,8 @@
   * There is a Wikipedia entry, with some background and technical information [http://en.wikipedia.org/wiki/Global_System_for_Mobile_Communications here]
 
 ==DCT3 GSM Traces==
-  * A selection of GSM protocol trace files (as well as the one on our Downloads page) are available [http://wiki.thc.org/gsm/debugtrace here] from the THC Wiki.
+  * The Gammu/DCT3 trace format is based upon XML, without a specified DTD or schema, and contains raw packet data in hexadecimal format, encapsulated in an number of tags that provide metadata
+  * A selection of GSM protocol trace files (as well as [http://understand.googlecode.com/files/requesting_phone_number.xml the one] on our [http://code.google.com/p/understand/downloads/list Downloads] page) are available [http://wiki.thc.org/gsm/debugtrace here] from the THC Wiki.
   * Additional information on obtaining DCT3 trace files is available [https://svn.berlin.ccc.de/projects/airprobe/wiki/tracelog here]
   * [http://www.wireshark.org Wireshark] supports reading these files, as of at least 1.1.4-SVN-28442 (or maybe earlier) and the newly released [http://www.wireshark.org/docs/relnotes/wireshark-1.2.0.html 1.2.0pre1]
   * The Wireshark [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3166 bug] that spawned support 
