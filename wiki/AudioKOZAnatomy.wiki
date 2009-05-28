@@ -36,14 +36,14 @@ On Linux, !RealPlayer gives an "Unsupported document type" error, even after cha
 
 In addition, the file causes the {{{mp3-cmdline}}} utility to exist prematurely after the third frame, without an error message.
 
-==trackdbfx.dat and trackdbvr.dat Files==
+=={{{trackdbfx.dat}}} and {{{trackdbvr.dat}}} Files==
 It appears that two additional files are created or modified on the RS-MMC storage card, when a {{{.KOZ}}} file is downloaded.
-These files are: trackdbfx.dat and trackdbvr.dat, and appear to identify the audio file with the Player application.
+These files are: {{{trackdbfx.dat}}} and {{{trackdbvr.dat}}}, and appear to identify the audio file with the Player application.
 
 {{{trackdbvr.dat}}} has the ASCII magic number "{{{VR 2.1#}}}" ({{{0x565220322E3123}}}), and contains a {{{.KOZ}}} track file name, the associated track artist, track title, and the album name in UTF-16 format, along with other data of an unknown purpose.
 
 
-I am unsure what {{{trackdbfx.dat}}} is used for, or what the data contained within means, although it has an ASCII magic number of "{{{FX 2.1}}}".
+I am unsure about what {{{trackdbfx.dat}}} is used for, or what the data contained within means, although it has an ASCII magic number of "{{{FX 2.1}}}".
 
 ==Misc Notes==
 I have determined that it is possible to crash Orange Music Player by playing a corrupt/damaged .KOZ file to the point where the file is damaged.
