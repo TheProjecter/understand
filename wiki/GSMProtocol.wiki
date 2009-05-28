@@ -1,6 +1,9 @@
 #summary The Global System for Mobile Communications
 #labels GSM,Protocols,DCT3
 
+==The GSM Protocol Stack==
+  * There is a Wikipedia entry, with some background and technical information [http://en.wikipedia.org/wiki/Global_System_for_Mobile_Communications here]
+
 ==DCT3 GSM Traces==
   * A selection of GSM protocol trace files (as well as the one on our Downloads page) are available [http://wiki.thc.org/gsm/debugtrace here] from the THC Wiki.
   * Additional information on obtaining DCT3 trace files is available [https://svn.berlin.ccc.de/projects/airprobe/wiki/tracelog here]
