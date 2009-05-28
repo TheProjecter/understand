@@ -1,5 +1,5 @@
 #summary The Global System for Mobile Communications
-#labels GSM,Protocols
+#labels GSM,Protocols,DCT3
 
 ==DCT3 GSM Traces==
   * A selection of GSM protocol trace files (as well as the one on our Downloads page) are available [http://wiki.thc.org/gsm/debugtrace here] from the THC Wiki.
