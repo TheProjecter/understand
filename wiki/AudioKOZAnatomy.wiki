@@ -49,8 +49,7 @@ I am unsure what {{{trackdbfx.dat}}} is used for, or what the data contained wit
 I have determined that it is possible to crash Orange Music Player by playing a corrupt/damaged .KOZ file to the point where the file is damaged.
 At least during testing, the player either closed gracefully, died and prevented applications other than the Telephone function from playing audio, or crashed other processes on the handset (including the Telephone process) and required the a power-cycle of the handset.
 
-I would expect that the player would present an error message and gracefully close the file, instead of crashing/freezing the handset or
- processes running on it.
+I would expect that the player would present an error message and gracefully close the file, instead of crashing/freezing the handset or processes running on it.
 
 The Orange Media Player version tested was "{{{Build Number: 1137.14241}}}", with a copyright notice of "{{{Copyright (c) 2003-2005 GrooveMobile}}}". There is also a URL given for perusal, offering copies of the Player software for public access: [http://orange.kozmusic.com http://orange.kozmusic.com].
 
