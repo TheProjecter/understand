@@ -55,7 +55,7 @@ The Orange Media Player version tested was "{{{Build Number: 1137.14241}}}", wit
 
 Although I do not know what they cover, the Player is unfortunately "{{{Protected by US patents 6,137,045 and 6,363,153}}}", with a notice that others were/are pending in application, which could hinder attempts to build a player compatible with .KOZ files. (Such is the sorry state of things until some breakthrough happens, and software patents are rendered invalid, although I believe that they cannot be applied for in the UK yet, thankfully).
 
-File format specifications are/were supposedly available, although I have had no success so far finding them :(
+File format specifications are/were supposedly available, according to [http://www.iana.org/assignments/media-types/audio/vnd.audiokoz IANA], although I have had no success so far finding them, and the PDF URL provided expired 5 years ago. :(
 
 == A Quick Legal Notice == 
 The information provided here was mostly derived from reverse-engineering publicly available materials (some of which were provided at-cost to the author) for interoperability purposes, with the belief that it is legal in the United Kingdom. 
