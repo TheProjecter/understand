@@ -1,5 +1,5 @@
 #summary Anatomy of an Orange Music Player Purchased Track (.KOZ/.KZI)
-#labels MPEG,MP3,AudioKOZ,Audio
+#labels MPEG,MP3,AudioKOZ,Audio,File_Formats
 
 This entry will be added to as information is obtained and/or discoveries are made.
 
