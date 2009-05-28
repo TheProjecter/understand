@@ -1,5 +1,5 @@
 #summary Resources that help you to use our stuff more effectively
-#labels References,Assistance,See_Also,DCT3,pcapng,Networks,File_Formats,ntar
+#labels References,Assistance,See_Also,pcapng,Networks,File_Formats,ntar
 
 ==pcap-ng File Format==
   * As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time
