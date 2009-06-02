@@ -5,3 +5,6 @@
 
 == Symbian OS 8.1a/S60v2 Feature Pack 3 (Nokia N70) Implementation ==
 === File System Layout ===
+=== Sample Messages ===
+  * [http://understand.googlecode.com/files/00100004 A sample SMS message] obtained from the  {{{C:\System\Mail\00001001_S\4}}} directory, sent from the [http://www.vodafone.co.uk Vodafone UK] [http://help.vodafone.co.uk/system/selfservice.controller?CMD=VIEW_ARTICLE&ARTICLE_ID=2472&CONFIGURATION=1000&PARTITION_ID=1&RELATED_ARTICLE_CLICK=1&RELATED_ARTICLE_NAME=Why%20do%20I%20have%20charges%20on%20my%20bill%20for%20texts%20to%20+447785016005? SMS Message Centre] ({{{+447785016005}}}), and the number/name "{{{Google}}}". Contains the text "{{{Go to http://m.google.com/latitude?dc=lato on your mobile browser}}}". 
+No other information has been determined yet.
