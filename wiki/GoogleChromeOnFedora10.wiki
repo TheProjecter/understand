@@ -12,6 +12,6 @@ It is necessary to create symbolic links for several libraries, before Chrome wi
   * {{{/usr/lib/libnssutil3.so}}} -> {{{libnssutil3.so.1d}}}
   * {{{/usr/lib/libsmime3.so}}} -> {{{/usr/lib/libsmime3.so.1d}}}
   * {{{/usr/lib/libssl3.so}}} -> {{{/usr/lib/libssl3.so.1d}}}
-  * {{{/usr/lib/libplds4.so}}} -> {{{/usr/lib/libplds4.so.0d
+  * {{{/usr/lib/libplds4.so}}} -> {{{/usr/lib/libplds4.so.0d}}}
   * {{{/usr/lib/libplc4.so}}} -> {{{/usr/lib/libplc4.so.0d}}}
   * {{{/usr/lib/libnspr4.so}}} -> {{{/usr/lib/libnspr4.so.0d}}}
