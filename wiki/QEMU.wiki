@@ -2,7 +2,7 @@
 #labels QEMU
 
 = What is QEMU? =
-QEMU emulates a number of hardware platforms and CPU architectures (at least x86, ARM, MIPS and PowerPC), as well as a number of other devices (e.g. Secure Digital Card readers, Bluetooth radios, Ethernet chipsets, VGA adaptors, and audio chipsets). 
+[http://www.qemu.org QEMU] emulates a number of hardware platforms and CPU architectures (at least x86, ARM, MIPS and PowerPC), as well as a number of other devices (e.g. Secure Digital Card readers, Bluetooth radios, Ethernet chipsets, VGA adaptors, and audio chipsets). 
 
 = Variants and Forks =
   * [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] concentrates on adding support for OMAP3 chipsets from Texas Instruments based upon the ARM architecture
