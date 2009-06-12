@@ -2,9 +2,9 @@
 #labels RISC_OS,QEMU,OMAP3
 
 = RISC OS on QEMU-OMAP3 =
-If you prefer, there is a pre-patched version of <a href="http://code.google.com/p/qemu-omap3">QEMU-OMAP3</a> [here AddALink].
+If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] [here here].
 
-  * Otherwise, download the patch from [here http://understand.googlecode.com/files/qemu-omap3-patch.txt], as well as the [QEMU-OMAP3 tarball http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2]
+  * Otherwise, download the patch from [here http://understand.googlecode.com/files/qemu-omap3-patch.txt], as well as the QEMU-OMAP3 [http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2 tarball]
   * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
   * Apply the patch with {{{patch < qemu-omap3-patch.txt}}}, taking care to choose the {{{+++ qemu-omap3/}}} files, over the {{{--- qemu-omap3-orig/}}} ones
 
