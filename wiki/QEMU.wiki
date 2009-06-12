@@ -3,5 +3,5 @@
 
 = Operating Systems =
 
-  * [[QNXNeutrinoOnQEMU QNX Neutrino]]
-  * [[RISCOSOnQEMU RISC OS]]
+  * [QNXNeutrinoOnQEMU QNX Neutrino]
+  * [RISCOSOnQEMU RISC OS]
