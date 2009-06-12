@@ -14,7 +14,7 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
 
   * Download and unzip the BeagleBoard ROM archive from [http://www.riscosopen.org/zipfiles/misc/rom-omap.5.15.zip?1243515133 here] - this may be superseded by later versions listed on [http://www.riscosopen.org/content/downloads/other-zipfiles this] page
 
-== Attempting to run RISC OS on QEMU-OMAP3, without patches ===
+== Attempting to run a bare RISC OS ROM image on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
 
 If you didn't patch QEMU-OMAP3, expect results similar to these. If you're lucky, you might also see a window filled with a white framebuffer screen:
