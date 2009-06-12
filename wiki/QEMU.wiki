@@ -12,8 +12,9 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
   * If everything went to plan, you should have these binaries and scripts in the QEMU-OMAP3 patched source directory:
 || {{{bb_nandflash_ecc}}} || {{{bb_nandflash.sh}}}|| {{{dyngen}}} || {{{qemu-img}}} || {{{qemu-nbd}}} || 
   * There should also be a {{{qemu-system-arm}}} binary in the {{{arm-softmmu}}} subdirectory
-
   * Download and unzip the BeagleBoard ROM archive from [http://www.riscosopen.org/zipfiles/misc/rom-omap.5.15.zip?1243515133 here] - this may be superseded by later versions listed on [http://www.riscosopen.org/content/downloads/other-zipfiles this] page
+  * Obtain the UBoot and XLoader test image from [http://qemu-omap3.googlecode.com/files/image-v0.01.tar.bz2 here], and extract the contents using {{{bzip2}}} and {{{tar}}}
+  * Rename the extracted {{{riscos}}} ROM image file from {{{rom-omap.5.15.zip}}} to {{{riscos.rom}}}
 
 == Attempting to run a bare RISC OS ROM image on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
