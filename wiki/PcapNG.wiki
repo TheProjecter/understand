@@ -1,3 +1,4 @@
+#summary Content related to the new pcap-ng packet capture file format
 #labels pcapng,ntar,Networks,File_Formats
 ==pcap-ng File Format==
   * As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time
