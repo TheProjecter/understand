@@ -10,7 +10,7 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
   * Ensure that a GCC 3.4.x release is installed, or install one from your Linux distribution's repositories (assuming you use a Linux distribution)
   * For speed, run {{{./configure --target-list=arm-softmmu && make}}} to build only the ARM emulator target
   * If everything went to plan, you should have these binaries and scripts in the QEMU-OMAP3 patched source directory:
-|| bb_nandflash_ecc || bb_nandflash.sh|| dyngen || qemu-img || qemu-nbd || 
+|| {{{bb_nandflash_ecc}}} || {{{bb_nandflash.sh}}}|| {{{dyngen}}} || {{{qemu-img}}} || {{{qemu-nbd}}} || 
 
 
 == Attempting to run RISC OS on QEMU-OMAP3, without patches ===
