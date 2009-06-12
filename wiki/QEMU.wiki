@@ -2,7 +2,7 @@
 #labels RISC_OS,QEMU,OMAP3
 
 = RISC OS on QEMU-OMAP3 =
-If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] [http://understand.googlecode.com/files/qemu-omap3-risc_os.tar.bz2 here].
+If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] [http://understand.googlecode.com/files/qemu-omap3-risc_os.tar.bz2 here]. Additional information and tools that may be useful are available [http://www.riscosopen.org/wiki/documentation/pages/Cortex-A8+port here].
 
   * Otherwise, download the patch from [http://understand.googlecode.com/files/qemu-omap3-patch.txt here], as well as the QEMU-OMAP3 [http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2 tarball]
   * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
