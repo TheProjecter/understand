@@ -1,5 +1,5 @@
-﻿#summary Everything related to running various OSes on QEMU
-#labels RISC_OS,QEMU,OMAP3,QNX,Neutrino,BeagleBoard,Momentics
+﻿#summary Running RISC OS on QEMU
+#labels RISC_OS,QEMU,OMAP3,BeagleBoard
 
 = RISC OS on QEMU-OMAP3 =
 If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] [http://understand.googlecode.com/files/qemu-omap3-risc_os.tar.bz2 here]. Additional information and tools that may be useful are available [http://www.riscosopen.org/wiki/documentation/pages/Cortex-A8+port here].
