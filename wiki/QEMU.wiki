@@ -11,6 +11,7 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
   * For speed, run {{{./configure --target-list=arm-softmmu && make}}} to build only the ARM emulator target
   * If everything went to plan, you should have these binaries and scripts in the QEMU-OMAP3 patched source directory:
 || {{{bb_nandflash_ecc}}} || {{{bb_nandflash.sh}}}|| {{{dyngen}}} || {{{qemu-img}}} || {{{qemu-nbd}}} || 
+  * There should also be a {{{qemu-system-arm}}} binary in the {{{arm-softmmu}}} subdirectory
 
   * Download and unzip the BeagleBoard ROM archive from [http://www.riscosopen.org/zipfiles/misc/rom-omap.5.15.zip?1243515133 here] - this may be superseded by later versions listed on [http://www.riscosopen.org/content/downloads/other-zipfiles this] page
 
