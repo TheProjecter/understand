@@ -5,12 +5,18 @@
 If you prefer, there is a pre-patched version of [QEMU-OMAP3 http://code.google.com/p/qemu-omap3] [here AddALink].
 
   * Otherwise, download the patch from [here http://understand.googlecode.com/files/qemu-omap3-patch.txt], as well as the [QEMU-OMAP3 tarball http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2]
-  * Unpack the QEMU-OMAP3 tarball in the usual manner (bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar)
+  * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
   * Apply the patch with {{{patch < qemu-omap3-patch.txt}}}, taking care to choose the {{{+++ qemu-omap3/}}} files, over the {{{--- qemu-omap3-orig/}}} ones
 
 == RISC OS on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
 
-If you didn't patch QEMU-OMAP3, expect results similar to these:
+If you didn't patch QEMU-OMAP3, expect results similar to these. If you're lucky, you might also see a window filled with a white framebuffer screen:
 
-{{{[tyson@nagasaki ~]$ ./qemu-omap3/arm-softmmu/qemu-system-arm -M beagle  -kernel riscos  -m 256}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>gptimer ckl 8000<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{Segmentation fault}}} 
+{{{[tyson@nagasaki ~]$ ./qemu-omap3/arm-softmmu/qemu-system-arm -M beagle  -kernel riscos  -m 256}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{gptimer ckl 8000}}}<br/>{{{Segmentation fault}}} 
+
+
+If you used {{{./qemu-omap3/arm-softmmu/qemu-system-arm -M n800 -kernel riscos -m 256}}} instead, you'll get the same {{{gptimer ckl 8000}}} spray, but with this little extra:
+
+{{{f->base 0 f->size 1000000}}}<br/>{{{mipid_reset: Display off}}}<br/>{{{f->base 4000000 f->size 1000000}}}<br/>{{{Unassigned mem writeb 49020000 = 0x41 pc 80010064}}}<br/>
+
