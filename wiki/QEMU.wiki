@@ -1,4 +1,4 @@
-﻿i#summary Everything related to running various OSes on QEMU
+﻿#summary Everything related to running various OSes on QEMU
 #labels RISC_OS,QEMU,OMAP3,QNX,Neutrino,BeagleBoard,Momentics
 
 = RISC OS on QEMU-OMAP3 =
