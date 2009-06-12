@@ -1,5 +1,4 @@
-#labels QNX,Neutrino,BeagleBoard,OMAP3,QEMU,Momentics
-==Installing QNX SDP On Linux Hosts==
+﻿==Installing QNX SDP On Linux Hosts==
   * If you haven't already done so, [https://www.qnx.com/account/login.html#showcreate register] for a QNX.com account, by following the instructions provided
   * Log-in to QNX.com using your account, and visit [http://www.qnx.com/download/feature.html?programid=18773 this page] to download a copy of QNX Software Development Platform 6.4.0 (includes both QNX Neutrino, and Momentics - a customised version of [http://www.eclipse.org Eclipse]) for Linux
   * Set the Executable bit on the downloaded file ({{{qnxsdp-6.4.0-200810211530-linux.bin}}} as of writing) using {{{chmod +x qnxsdp-6.4.0-200810211530-linux.bin}}}
@@ -12,4 +11,4 @@
 The [http://www.beagleboard.org BeagleBoards] are based upon [http://www.ti.com Texas Instruments'] OMAP-3530 CPUs using upon the ARM architecture, and QNX supply a basic [http://community.qnx.com/sf/wiki/do/viewPage/projects.bsp/wiki/TiOmap3530evm1.0.020080109ReleaseNotes?showDetails=true BSP] for use with them. Unfortunately, the BSP far from "Just Works" with the emulated version of the BeagleBoard implemented in [http://code.google.com/p/qemu-omap3 QEMU-OMAP3].
 
 ==Useful Information==
-  * [http://www.qnx.com/developers/articles/rel_3101_16.html The QNX Neutrino/SDP 6.4.0 Release Notes] contain a wealth of information related to using SDP, and errata to take note of
+  i* [http://www.qnx.com/developers/articles/rel_3101_16.html The QNX Neutrino/SDP 6.4.0 Release Notes] contain a wealth of information related to using SDP, and errata to take note of
