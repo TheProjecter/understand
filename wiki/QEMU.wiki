@@ -19,6 +19,16 @@ Whilst writing this, I stored all related files in {{{$HOME/RISC_OS}}}, and most
   * Obtain the UBoot and XLoader test image from [http://qemu-omap3.googlecode.com/files/image-v0.01.tar.bz2 here], extract the contents using {{{bzip2}}} and {{{tar}}}, and discard or move the {{{uImage}}} file elsewhere (it contains a Linux kernel)
   * Rename the extracted {{{riscos}}} ROM image file from {{{rom-omap.5.15.zip}}} to {{{riscos.rom}}}
 
+For the avoidance of any doubt, or any confusion, there is *not* a {{{beagle-nand.bin}}} file shipped with QEMU-OMAP3 (this is generated manually) the files extracted from {{{image-v0.01.tar.bz2}}}.
+
+  *  Run {{{./qemu-omap3-risc_os/bb_nandflash.sh x-load.bin.ift beagle-nand.bin x-loader}}} and wait a little while, to be presented with this:
+
+{{{flash image name:beagle-nand.bin}}}<br/>
+{{{beagle-nand.bin does not exist.Create it!}}}<br/><br/>
+{{{xloader image name:x-load.bin.ift}}}<br/>{{{1+0 records in}}}<br/>{{{0+1 records out}}}<br/>{{{2048 bytes (2.0 kB) copied, 0.0505243 s, 40.5 kB/s}}}<br/>{{{1+0 records in}}}<br/>{{{0+1 records out}}}<br/>{{{2048 bytes (2.0 kB) copied, 0.0323682 s, 63.3 kB/s}}}<br/>{{{1+0 records in}}}<br/>{{{0+1 records out}}}<br/>{{{2048 bytes (2.0 kB) copied, 8.8908e-05 s, 23.0 MB/s}}}<br/>{{{1+0 records in}}}<br/>{{{0+1 records out}}}<br/>{{{2048 bytes (2.0 kB) copied, 0.0148137 s, 138 kB/s}}}<br/>{{{0+1 records in}}}<br/>
+{{{0+1 records out}}}<br/>{{{8 bytes (8 B) copied, 0.000108463 s, 73.8 kB/s}}}<br/>{{{put xloader into flash image done!}}}<br/>
+
+
 == Attempting to run a bare RISC OS ROM image on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
 
