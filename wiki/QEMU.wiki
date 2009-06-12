@@ -4,7 +4,9 @@
 = RISC OS on QEMU-OMAP3 =
 If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] [http://understand.googlecode.com/files/qemu-omap3-risc_os.tar.bz2 here]. Additional information and tools that may be useful are available [http://www.riscosopen.org/wiki/documentation/pages/Cortex-A8+port here].
 
-Whilst writing this, I stored all related files in {{{$HOME/RISC_OS}}}, and most paths mentioned are absolute or relative, based upon that directory. I suggest that you use the same directory, or another suitable one.
+Whilst writing this, I stored all related files in {{{$HOME/RISC_OS}}}, and most paths mentioned are absolute or relative, based upon that directory. I suggest that you use the same directory, or another suitable one. 
+
+Thanks to the kind folks in the {{{#riscos}}} IRC channel on [[http://www.freenode.org FreeNode] for their assistance and persistence during this undertaking, and for coping with any misunderstandings or issues I had.
 
   * Otherwise, download the patch from [http://understand.googlecode.com/files/qemu-omap3-patch.txt here], as well as the QEMU-OMAP3 [http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2 tarball]
   * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
@@ -30,7 +32,7 @@ For the avoidance of any doubt, or any confusion, there is *not* a {{{beagle-nan
 
   * Now run {{{./qemu-omap3-risc_os/bb_nandflash.sh riscos.rom beagle-nand.bin u-boot}}} to receive some more (very similar) copying messages
   * Finally, to complete the home stretch, run {{{./qemu-omap3-risc_os/bb_nandflash_ecc beagle-nand.bin 0x0 0xe80000}}}, to receive a nice, shiny 256MB file named beagle-nand.bin
-  * To test, run {{{./qemu-omap3-risc_os/arm-softmmu/qemu-system-arm -M beagle -m 256  -mtdblock ./beagle-nand.bin}}}, hit Ctrl+2 and bask in the glow of {{{serial0 console}}}<br/>{{{Texas Instruments X-Loader 1.41}}}<br/>{{{Starting OS bootloader...}}},<br/>{{{ A0012345612123BCDBCEFGDSS init}}} from the RISC OS kernel and bootloader - sadly, thanks to broken USB support, it gets stuck there indefinitely 
+  * To test, run {{{./qemu-omap3-risc_os/arm-softmmu/qemu-system-arm -M beagle -m 256  -mtdblock ./beagle-nand.bin}}}, hit Ctrl+2 and bask in the glow of {{{serial0 console}}}<br/>{{{Texas Instruments X-Loader 1.41}}}<br/>{{{Starting OS bootloader...}}},<br/>{{{ A0012345612123BCDBCEFGDSS init}}}<br/> from the RISC OS kernel and bootloader - sadly, thanks to broken USB support, it gets stuck there indefinitely 
 
 == Attempting to run a bare RISC OS ROM image on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
@@ -43,3 +45,6 @@ If you didn't patch QEMU-OMAP3, expect results similar to these. If you're lucky
 If you used {{{./qemu-omap3/arm-softmmu/qemu-system-arm -M n800 -kernel riscos -m 256}}} instead, you'll get the same {{{gptimer ckl 8000}}} spray, but with this little extra:
 
 {{{f->base 0 f->size 1000000}}}<br/>{{{mipid_reset: Display off}}}<br/>{{{f->base 4000000 f->size 1000000}}}<br/>{{{Unassigned mem writeb 49020000 = 0x41 pc 80010064}}}<br/>
+
+== Screenshots of RISC OS on QEMU ==
+<a href="http://picasaweb.google.com/lh/photo/c9sQrKtw8Hy4KUIU-B3LfQ?feat=embedwebsite"><img src="http://lh5.ggpht.com/_Y5mZY1-de8o/SjJ25da9wzI/AAAAAAAAB2k/gs4XqH5oWZE/s144/serial_console_1.png" /></a>
