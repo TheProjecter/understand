@@ -9,8 +9,11 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
   * Apply the patch with {{{patch < qemu-omap3-patch.txt}}}, taking care to choose the {{{+++ qemu-omap3/}}} files, over the {{{--- qemu-omap3-orig/}}} ones
   * Ensure that a GCC 3.4.x release is installed, or install one from your Linux distribution's repositories (assuming you use a Linux distribution)
   * For speed, run {{{./configure --target-list=arm-softmmu && make}}} to build only the ARM emulator target
+  * If everything went to plan, you should have these binaries and scripts in the QEMU-OMAP3 patched source directory:
+|| bb_nandflash_ecc || bb_nandflash.sh|| dyngen || qemu-img || qemu-nbd || 
 
-== RISC OS on QEMU-OMAP3, without patches ===
+
+== Attempting to run RISC OS on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
 
 If you didn't patch QEMU-OMAP3, expect results similar to these. If you're lucky, you might also see a window filled with a white framebuffer screen:
