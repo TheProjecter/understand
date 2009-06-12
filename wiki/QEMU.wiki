@@ -6,7 +6,7 @@ If you prefer, there is a pre-patched version of [http://code.google.com/p/qemu-
 
 Whilst writing this, I stored all related files in {{{$HOME/RISC_OS}}}, and most paths mentioned are absolute or relative, based upon that directory. I suggest that you use the same directory, or another suitable one. 
 
-Thanks to the kind folks in the {{{#riscos}}} IRC channel on [[http://www.freenode.org FreeNode] for their assistance and persistence during this undertaking, and for coping with any misunderstandings or issues I had.
+Thanks to the kind folks in the {{{#riscos}}} IRC channel on <a href="http://www.freenode.org"> FreeNode</a> for their assistance and persistence during this undertaking, and for coping with any misunderstandings or issues I had.
 
   * Otherwise, download the patch from [http://understand.googlecode.com/files/qemu-omap3-patch.txt here], as well as the QEMU-OMAP3 [http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2 tarball]
   * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
