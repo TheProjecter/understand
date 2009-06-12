@@ -32,7 +32,7 @@ For the avoidance of any doubt, or any confusion, there is *not* a {{{beagle-nan
 
   * Now run {{{./qemu-omap3-risc_os/bb_nandflash.sh riscos.rom beagle-nand.bin u-boot}}} to receive some more (very similar) copying messages
   * Finally, to complete the home stretch, run {{{./qemu-omap3-risc_os/bb_nandflash_ecc beagle-nand.bin 0x0 0xe80000}}}, to receive a nice, shiny 256MB file named beagle-nand.bin
-  * To test, run {{{./qemu-omap3-risc_os/arm-softmmu/qemu-system-arm -M beagle -m 256  -mtdblock ./beagle-nand.bin}}}, hit Ctrl+2 and bask in the glow of {{{serial0 console}}}<br/>{{{Texas Instruments X-Loader 1.41}}}<br/>{{{Starting OS bootloader...}}},<br/>{{{ A0012345612123BCDBCEFGDSS init}}}<br/> from the RISC OS kernel and bootloader - sadly, thanks to broken USB support, it gets stuck there indefinitely 
+  * To test, run {{{./qemu-omap3-risc_os/arm-softmmu/qemu-system-arm -M beagle -m 256  -mtdblock ./beagle-nand.bin}}}, hit Ctrl+2 and bask in the glow of {{{serial0 console}}}<br/>{{{Texas Instruments X-Loader 1.41}}}<br/>{{{Starting OS bootloader...}}},<br/>{{{ A0012345612123BCDBCEFGDSS init}}}<br/> from the RISC OS kernel and bootloader, as well as [http://paster.dazjorz.com/?p=4416 this] in the shell - sadly, thanks to broken USB support, it gets stuck there indefinitely
 
 == Attempting to run a bare RISC OS ROM image on QEMU-OMAP3, without patches ===
 Take heed that the BeagleBoard and most ARM-based devices emulated by QEMU-OMAP3 only support a maximum of 256MB of RAM.
