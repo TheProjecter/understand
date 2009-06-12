@@ -2,7 +2,7 @@
 #labels RISC_OS,QEMU,OMAP3
 
 = RISC OS on QEMU-OMAP3 =
-If you prefer, there is a pre-patched version of [QEMU-OMAP3 http://code.google.com/p/qemu-omap3] [here AddALink].
+If you prefer, there is a pre-patched version of <a href="http://code.google.com/p/qemu-omap3">QEMU-OMAP3</a> [here AddALink].
 
   * Otherwise, download the patch from [here http://understand.googlecode.com/files/qemu-omap3-patch.txt], as well as the [QEMU-OMAP3 tarball http://qemu-omap3.googlecode.com/files/qemu-omap3-v0.01.tar.bz2]
   * Unpack the QEMU-OMAP3 tarball in the usual manner ({{{bunzip2 qemu-omap3-v0.01.tar.bz2 && tar xvf qemu-omap3-v0.01.tar}}})
@@ -19,4 +19,3 @@ If you didn't patch QEMU-OMAP3, expect results similar to these. If you're lucky
 If you used {{{./qemu-omap3/arm-softmmu/qemu-system-arm -M n800 -kernel riscos -m 256}}} instead, you'll get the same {{{gptimer ckl 8000}}} spray, but with this little extra:
 
 {{{f->base 0 f->size 1000000}}}<br/>{{{mipid_reset: Display off}}}<br/>{{{f->base 4000000 f->size 1000000}}}<br/>{{{Unassigned mem writeb 49020000 = 0x41 pc 80010064}}}<br/>
-
