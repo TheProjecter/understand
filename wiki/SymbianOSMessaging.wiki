@@ -8,7 +8,9 @@
 A typical directory structure containing Mail files looks like this:<br/>
 [http://understand.googlecode.com/files/Mail_Directory_Tree_Graph.png]
 
-In the name of efficiency (and redundancy), an {{{Index}}} file in the root of {{{?:\System\Mail}}} is used to store one or more additional copies of messages, as well as metadata (e.g. type, source, and destination) and virtual folders. Files are organised into (decimal) numbered directories, residing inside more (hexadecimal) numbered directories located in the root of {{{?:\System\Mail}}}, with either {{{_F}}} (containing attached files) or {{{_S}}} (containing mail messages) appended, depending on the type of content that is stored.
+In the name of efficiency (and redundancy), an {{{Index}}} file in the root of {{{?:\System\Mail}}} is used to store one or more additional copies of messages, as well as metadata (e.g. type, source, and destination) and virtual folders. However, it seems that this file becomes fragmented over time, and sometimes tends to store copies of message data that was previously deleted from the file system.
+
+Files are organised into (decimal) numbered directories, residing inside more (hexadecimal) numbered directories located in the root of {{{?:\System\Mail}}}, with either {{{_F}}} (containing attached files) or {{{_S}}} (containing mail messages) appended, depending on the type of content that is stored.
 
 It appears that message files with related attachments are split into several chunks, stored in additional files scattered in a somewhat random manner, although the "parent" message file's namesake {{{_F}}} directory always accompanies it.
 
