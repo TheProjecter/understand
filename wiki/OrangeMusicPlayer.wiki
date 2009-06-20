@@ -1,13 +1,5 @@
-#summary One-sentence summary of this page.
+#summary The Proprietary KOZ Player Application
 
 = Introduction =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS/S60 (ARM), Windows Mobile (ARM), and a Java version may also exist in some form).
