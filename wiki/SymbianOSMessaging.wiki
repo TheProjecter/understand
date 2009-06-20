@@ -10,4 +10,4 @@
 
   * [http://understand.googlecode.com/files/00100022 A sample Hesine message] obtained from the {{{E:\System\Mail\00001001_S\2}}} directory
 
-*  A complete dump of a relatively clean {{{E:\System\Mail}}} directory containing the master Index file for reference, a sent MMS message (to an e-mail address) spread across several files (containing a text attachment and a SMIL stream), an opened, received Configuration Message (containing GPRS and MMS settings from [http://www.o2.co.uk O2 UK]), and a received SMS message is available at FillMeIn
+  * A complete dump of a relatively clean {{{E:\System\Mail}}} directory containing the master Index file for reference, a sent MMS message (to an e-mail address) spread across several files (containing a text attachment and a SMIL stream), an opened, received Configuration Message (containing GPRS and MMS settings from [http://www.o2.co.uk O2 UK]), and a received SMS message is available [http://understand.googlecode.com/files/Nokia_N70_Mail_Directory_1.tar.gz here]
