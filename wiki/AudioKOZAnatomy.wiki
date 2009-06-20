@@ -53,7 +53,7 @@ I would expect that the player would present an error message and gracefully clo
 
 The [OrangeMusicPlayer Orange Media Player] version tested was "{{{Build Number: 1137.14241}}}", with a copyright notice of "{{{Copyright (c) 2003-2005 GrooveMobile}}}". There is also a URL given for perusal, offering copies of the Player software for public access: [http://orange.kozmusic.com http://orange.kozmusic.com].
 
-Although I do not know what they cover, the Player is unfortunately "{{{Protected by US patents 6,137,045 and 6,363,153}}}", with a notice that others were/are pending in application, which could hinder attempts to build a player compatible with .KOZ files. (Such is the sorry state of things until some breakthrough happens, and software patents are rendered invalid, although I believe that they cannot be applied for in the UK yet, thankfully).
+Although I do not know what they cover, the Player is unfortunately "{{{Protected by US patents 6,137,045 and 6,363,153}}}", with a notice that others were/are pending in application, which could hinder attempts to build a player compatible with {{{.KOZ}}} files. (Such is the sorry state of things until some breakthrough happens, and software patents are rendered invalid, although I believe that they cannot be applied for in the UK yet, thankfully).
 
 File format specifications are/were supposedly available, according to [http://www.iana.org/assignments/media-types/audio/vnd.audiokoz IANA], although I have had no success so far finding them, and the PDF URL provided expired 5 years ago. :(
 
