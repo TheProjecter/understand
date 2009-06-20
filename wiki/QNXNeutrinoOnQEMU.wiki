@@ -11,7 +11,7 @@
   * Follow the instructions [http://www.qnx.com/developers/articles/inst_3107_2.html here] (from the "Activating QNX SDP 6.4.0" section) to enter any license keys and activate QNX Software Development Platform - free-of-cost license keys were provided for non-commercial/hobbyist use, last time I checked
 
 ==BeagleBoard Emulators and the QNX Board Support Package (BSP)==
-The [http://www.beagleboard.org BeagleBoards] are based upon [http://www.ti.com Texas Instruments'] OMAP-3530 CPUs using upon the ARM architecture, and QNX supply a basic [http://community.qnx.com/sf/wiki/do/viewPage/projects.bsp/wiki/TiOmap3530evm1.0.020080109ReleaseNotes?showDetails=true BSP] for use with them. Unfortunately, the BSP far from "Just Works" with the emulated version of the BeagleBoard implemented in [http://code.google.com/p/qemu-omap3 QEMU-OMAP3].
+The [http://www.beagleboard.org BeagleBoards] are based upon [http://www.ti.com Texas Instruments'] OMAP-3530 CPUs using upon the ARM architecture, and QNX supply a basic [http://community.qnx.com/sf/wiki/do/viewPage/projects.bsp/wiki/TiOmap3530evm1.0.020080109ReleaseNotes?showDetails=true BSP] for use with them. Unfortunately, the BSP far from "Just Works" with the emulated version of the !BeagleBoard implemented in [http://code.google.com/p/qemu-omap3 QEMU-OMAP3].
 
 ==Useful Information==
   * [http://www.qnx.com/developers/articles/rel_3101_16.html The QNX Neutrino/SDP 6.4.0 Release Notes] contain a wealth of information related to using SDP, and errata to take note of
