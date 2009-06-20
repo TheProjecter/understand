@@ -10,3 +10,5 @@ In theory, the S60v3 version may work on S60v5/[http://blog.symbian.org/2009/04/
 == Symbian OS/S60v2 version ==
 
 It is possible to install this version on either a handset's internal Flash memory, or on an external Flash memory card (e.g. RS-MMC or MicroSD), a number of directories and files are installed or otherwise created, and a number of files are also downloaded from an undetermined HTTP server.
+
+== Java/J2ME version==
