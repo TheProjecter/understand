@@ -1,9 +1,11 @@
 #summary The Proprietary KOZ Player Application
-#labels AudioKOZ
+#labels AudioKOZ,Audio,MP3,SymbianOS,Java,S60,OrangeMusicPlayer
 
 == Introduction ==
 
-Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS/S60 (ARM - S60 and UIQ), Windows Mobile (ARM), and a [http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jad Java version] intended primarily for Motorola phones).
+Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS/S60 (ARM - S60v2, S60v3 and UIQ), Windows Mobile (ARM), and a [http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jad Java version] intended primarily for Motorola phones). 
+
+In theory, the S60v3 version may work on S60v5/[http://blog.symbian.org/2009/04/30/reviewing-the-release-plan/ Symbian^2]-based devices, as they are also based upon Symbian OS 9.x versions, and share substantial amounts of source code and infrastructure.
 
 == Symbian OS/S60v2 version ==
 
