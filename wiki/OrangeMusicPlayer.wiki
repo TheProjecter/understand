@@ -1,9 +1,10 @@
 #summary The Proprietary KOZ Player Application
+#labels AudioKOZ
 
-= Introduction =
+== Introduction ==
 
 Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS/S60 (ARM), Windows Mobile (ARM), and a Java version may also exist in some form).
 
-= Symbian OS/S60v2 version =
+== Symbian OS/S60v2 version ==
 
 It is possible to install this version on either a handset's internal Flash memory, or on an external Flash memory card (e.g. RS-MMC or MicroSD), a number of directories and files are installed or otherwise created, and a number of files are also downloaded from an undetermined HTTP server.
