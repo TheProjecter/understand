@@ -7,7 +7,7 @@ This entry will be added to as information is obtained and/or discoveries are ma
 A .KOZ file appears to be a standard MP3 file at low level when displayed in a hex editor, or using certain MP3 playback software.
 It is not entirely encrypted, as I expected, and could be transferred by Bluetooth and stored to an RS-MMC Flash Storage Card. (It was not Forward Locked).
 
-The file that I obtained ({{{UtadaHikaru-ThisIsLove.koz}}}) contains the song "This Is Love" from the album "ULTRA BLUE" by Utada Hikaru (for those curious about it), and cost 1.50GBP to purchase (excluding the data transfer cost for downloading the Catalogue after installing the Orange Media Player to the Nokia N70 used for testing).
+The file that I obtained ({{{UtadaHikaru-ThisIsLove.koz}}}) contains the song "This Is Love" from the album "ULTRA BLUE" by Utada Hikaru (for those curious about it), and cost 1.50GBP to purchase (excluding the data transfer cost for downloading the Catalogue after installing the [OrangeMusicPlayer Orange Media Player] to the Nokia N70 used for testing).
 
 The Player application itself was not a chargeable download (it was obtained from a section of the Orange World portal that was marked as "Free", and GPRS data charges were not applied).
 
@@ -19,7 +19,7 @@ At a glance, the rest of the file seems like a regular MP3 file.
 
 
 ==Deliberate Corruption/Encryption/Obfuscation==
-It seems as if the {{{.KOZ}}} file is deliberately corrupted, contains encrypted portions, or is otherwise obfuscated in places to prevent playback in anything but the proprietary Orange Music Player application for Symbian OS (unsure if the same applies to the Windows Mobile version, if it exists).
+It seems as if the {{{.KOZ}}} file is deliberately corrupted, contains encrypted portions, or is otherwise obfuscated in places to prevent playback in anything but the proprietary [OrangeMusicPlayer Orange Music Player] application for Symbian OS (unsure if the same applies to the Windows Mobile version, if it exists).
 
 At present, I am unable to work out how the file has been altered to make this possible, although I have discovered that it is possible to load the file into the MPlayer application, and obtain audio that skips, plays faster than it does with the proprietary player, and contains glitches.
 
@@ -46,12 +46,12 @@ These files are: {{{trackdbfx.dat}}} and {{{trackdbvr.dat}}}, and appear to iden
 I am unsure about what {{{trackdbfx.dat}}} is used for, or what the data contained within means, although it has an ASCII magic number of "{{{FX 2.1}}}".
 
 ==Misc Notes==
-I have determined that it is possible to crash Orange Music Player by playing a corrupt/damaged .KOZ file to the point where the file is damaged.
+I have determined that it is possible to crash [OrangeMusicPlayer Orange Music Player] by playing a corrupt/damaged .KOZ file to the point where the file is damaged.
 At least during testing, the player either closed gracefully, died and prevented applications other than the Telephone function from playing audio, or crashed other processes on the handset (including the Telephone process) and required the a power-cycle of the handset.
 
 I would expect that the player would present an error message and gracefully close the file, instead of crashing/freezing the handset or processes running on it.
 
-The Orange Media Player version tested was "{{{Build Number: 1137.14241}}}", with a copyright notice of "{{{Copyright (c) 2003-2005 GrooveMobile}}}". There is also a URL given for perusal, offering copies of the Player software for public access: [http://orange.kozmusic.com http://orange.kozmusic.com].
+The [OrangeMusicPlayer Orange Media Player] version tested was "{{{Build Number: 1137.14241}}}", with a copyright notice of "{{{Copyright (c) 2003-2005 GrooveMobile}}}". There is also a URL given for perusal, offering copies of the Player software for public access: [http://orange.kozmusic.com http://orange.kozmusic.com].
 
 Although I do not know what they cover, the Player is unfortunately "{{{Protected by US patents 6,137,045 and 6,363,153}}}", with a notice that others were/are pending in application, which could hinder attempts to build a player compatible with .KOZ files. (Such is the sorry state of things until some breakthrough happens, and software patents are rendered invalid, although I believe that they cannot be applied for in the UK yet, thankfully).
 
