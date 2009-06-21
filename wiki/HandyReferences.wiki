@@ -11,10 +11,6 @@ atm_vcmux.pcap
 
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 
-http://www.ethereal.com/lists/ethereal-dev/200312/msg00538.html has an IrDA capture file! - with IrCOMM2k debug messages
-
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
 
 http://www.ethereal.com/lists/ethereal-dev/200207/msg00112.html supposedly has DOCSIS 1.1 capture files
-
-http://www.ethereal.com/lists/ethereal-dev/200005/msg00077.html has synthetic FDDI packets
