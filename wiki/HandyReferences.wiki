@@ -9,10 +9,6 @@ atm_nlpid.pcap
 atm_snap.pcap
 atm_vcmux.pcap
 
-http://www.ethereal.com/lists/ethereal-dev/200101/msg00068.html - Frame Relay over GRE (fr1.cap is frame_relay_over_gre.cap locally)
-
-http://www.ethereal.com/lists/ethereal-dev/200101/msg00100.html has another FRoGRE capture (fr3.cap)
-
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 
 http://www.ethereal.com/lists/ethereal-dev/200312/msg00538.html has an IrDA capture file! - with IrCOMM2k debug messages
