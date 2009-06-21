@@ -12,3 +12,5 @@ http://kargs.net/captures/ has BACNet captures
 http://www.ethereal.com/lists/ethereal-users/200402/msg00146.html - Nokia libpcap with ATM/SDH packets
 
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2401 might have WiMAX packets
+
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2290 has GPRS-LLC with encrypted and unencrypted packets
