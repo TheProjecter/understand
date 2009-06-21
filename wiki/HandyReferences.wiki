@@ -4,5 +4,3 @@
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
-
-http://www.ethereal.com/lists/ethereal-dev/200207/msg00112.html supposedly has DOCSIS 1.1 capture files
