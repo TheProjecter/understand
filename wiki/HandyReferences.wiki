@@ -14,3 +14,5 @@ http://www.ethereal.com/lists/ethereal-dev/200505/msg00204.html - Juniper PPPoE 
 http://www.ethereal.com/lists/ethereal-dev/200101/msg00068.html - Frame Relay over GRE (fr1.cap is frame_relay_over_gre.cap locally)
 
 http://www.ethereal.com/lists/ethereal-dev/200101/msg00100.html has another FRoGRE capture (fr3.cap)
+
+http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
