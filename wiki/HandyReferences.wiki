@@ -21,4 +21,4 @@ http://www.ethereal.com/lists/ethereal-dev/200010/msg04834.html has a TokenRing 
 
 http://www.ethereal.com/lists/ethereal-users/200403/msg00079.html has a Symantec Enterprise Firewall capture! (tcpdump.dmp)
 
-http://www.ethereal.com/lists/ethereal-dev/200312/msg00538.html has an IrDA capture file!
+http://www.ethereal.com/lists/ethereal-dev/200312/msg00538.html has an IrDA capture file! - with IrCOMM2k debug messages
