@@ -9,8 +9,6 @@ atm_nlpid.pcap
 atm_snap.pcap
 atm_vcmux.pcap
 
-http://www.ethereal.com/lists/ethereal-dev/200505/msg00204.html - Juniper PPPoE packet trace file (bin6SpIJPTsUF.bin is pppoe-juniper_dlt167.pcap locally)
-
 http://www.ethereal.com/lists/ethereal-dev/200101/msg00068.html - Frame Relay over GRE (fr1.cap is frame_relay_over_gre.cap locally)
 
 http://www.ethereal.com/lists/ethereal-dev/200101/msg00100.html has another FRoGRE capture (fr3.cap)
