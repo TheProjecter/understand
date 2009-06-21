@@ -19,8 +19,6 @@ http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun N
 
 http://www.ethereal.com/lists/ethereal-dev/200010/msg04834.html has a TokenRing capture file (tr4.cap) containing TR-MAC packets
 
-http://www.ethereal.com/lists/ethereal-users/200403/msg00079.html has a Symantec Enterprise Firewall capture! (tcpdump.dmp)
-
 http://www.ethereal.com/lists/ethereal-dev/200312/msg00538.html has an IrDA capture file! - with IrCOMM2k debug messages
 
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
