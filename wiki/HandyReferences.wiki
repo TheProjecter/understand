@@ -18,3 +18,5 @@ http://www.ethereal.com/lists/ethereal-dev/200101/msg00100.html has another FRoG
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 
 http://www.ethereal.com/lists/ethereal-dev/200010/msg04834.html has a TokenRing capture file (tr4.cap) containing TR-MAC packets
+
+http://www.ethereal.com/lists/ethereal-users/200403/msg00079.html has a Symantec Enterprise Firewall capture! (tcpdump.dmp)
