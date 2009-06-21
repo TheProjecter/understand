@@ -1,14 +1,6 @@
 #summary Resources that help you to use our stuff more effectively
 #labels References,Assistance,See_Also,Networks,File_Formats
 
-[http://www.ethereal.com/lists/ethereal-dev/200501/msg00445.html Juniper ATM Packet trace files]
-
-atm_cnlpid.pcap
-atm_ether.pcap
-atm_nlpid.pcap
-atm_snap.pcap
-atm_vcmux.pcap
-
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
