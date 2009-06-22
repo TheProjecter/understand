@@ -11,7 +11,7 @@
   * Saving [http://en.wikipedia.org/wiki/DPNSS DPNSS] packets from [http://understand.googlecode.com/files/D-1-Anonymous-Anonymous-D-OFF-27d01m2009y-00h00m00s-0a0None.trc EyeSDN trace files] into pcap-ng files produces packets with {{{WTAP_ENCAP}}} set to {{{0}}}, and the data cannot be dissected - it seems that there is no DLT value for DPNSS at present
   * Storing Linux mmapped USB packets in pcap-ng files produces files with unusable metadata (e.g. all packets are dissected as {{{URB_ISOCHRONOUS}}} regardless of type) - Reported as [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3560 bug 3560] 
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
-
+  * i<sub>2</sub>c/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}}})
 ===Mailing Lists===
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
   * [http://www.mail-archive.com/wireshark-dev@wireshark.org/ wireshark-dev]
