@@ -3,6 +3,10 @@
 ==Additional Sources of Packet Captures==
   * A number of BACnet packet captures are available [http://kargs.net/captures/ here]
 
+==Specification Documents==
+  * Internet Drafts from the [http://www.ietf.org Internet Engineering Task Force (IETF)] are available [http://www.ietf.org/ID.html here]
+  * Requests For Comments (RFC) documents from the IETF are available [http://www.ietf.org/rfc.html here]
+
 ==Temporary References==
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
