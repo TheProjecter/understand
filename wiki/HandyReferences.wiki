@@ -4,6 +4,8 @@
   * A number of BACnet packet captures are available [http://kargs.net/captures/ here]
   * The [http://pcapr.net pcapr.net] service provides an open-access capture file repository, facilities for uploading new files and a number of other tools
   * The [http://wiki.wireshark.org/SampleCaptures Sample Captures] page on the [http://wiki.wireshark.org Wireshark Wiki] is a useful source of protocol capture files
+  * A trove of obscure, unique, old, and new capture files that have been used in the development and testing of [http://www.wireshark.org Wireshark] is available in the form of the [http://www.wireshark.org/lists/ Wireshark Mailing Lists]
+  * Even more sample files are available on the old [http://www.ethereal.com/lists/ Ethereal Mailing Lists], although they may disappear in the future - archiving those files here, or on the new Wireshark Wiki might be a good idea
 
 ==Specification Documents==
   * Internet Drafts from the [http://www.ietf.org Internet Engineering Task Force (IETF)] are available [http://www.ietf.org/ID.html here]
