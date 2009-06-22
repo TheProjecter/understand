@@ -7,7 +7,7 @@
   * Run {{{sudo ./vcan create}}} to create a new {{{vcan0}}} interface, and then {{{sudo ifconfig vcan0 up}}} to bring it up
   * If it worked, the output should look like this:
 
-{{{[tyson@nagasaki can-utils]$ sudo ifconfig vcan0}}}
+{{{[tyson@nagasaki can-utils]$ sudo ifconfig vcan0}}}<br/>
 {{{vcan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00}}}<br/>
           {{{NOARP  MTU:16  Metric:1}}}<br/>
           {{{RX packets:0 errors:0 dropped:0 overruns:0 frame:0}}}<br/>
