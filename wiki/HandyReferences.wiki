@@ -23,4 +23,3 @@ https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2401 might have WiMAX packet
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2290 has GPRS-LLC with encrypted and unencrypted packets
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=1688 - FireWall-1 capture
 https://www.wireshark.org/lists/wireshark-dev/200611/msg00233.html - SNA VMStrace dump, won't open in WS though...
-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3224 has DPNSS packets
