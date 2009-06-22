@@ -1,0 +1,14 @@
+
+==Temporary References==
+http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
+http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
+http://www.ethereal.com/lists/ethereal-dev/200404/msg00437.html
+http://www.ethereal.com/lists/ethereal-users/200402/msg00146.html - Nokia libpcap with ATM/SDH packets
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2401 might have WiMAX packets
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2290 has GPRS-LLC with encrypted and unencrypted packets
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=1688 - FireWall-1 capture
+https://www.wireshark.org/lists/wireshark-dev/200611/msg00233.html - SNA VMStrace dump, won't open in WS though...
+
+http://www.ethereal.com/lists/ethereal-dev/200303/msg00006.html - HP RBOOT
+http://www.ethereal.com/lists/ethereal-dev/200308/msg00022.html - Endace ERF 1 (ATM, Ethernet, Cisco HDLC)
+http://www.ethereal.com/lists/ethereal-dev/200308/msg00399.html - Endace ERF 2 (Ethernet, ATM, POS CHDLC, POS PPP)
