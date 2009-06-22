@@ -1,16 +1,12 @@
 #summary Resources that help you to use our stuff more effectively
 #labels References,Assistance,See_Also,Networks,File_Formats
+==Additional Sources of Packet Captures==
+  * A number of BACnet packet captures are available [http://kargs.net/captures/ here]
 
+==Temporary References==
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
-
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
-
 http://www.ethereal.com/lists/ethereal-dev/200404/msg00437.html
-
-http://kargs.net/captures/ has BACNet captures
-
 http://www.ethereal.com/lists/ethereal-users/200402/msg00146.html - Nokia libpcap with ATM/SDH packets
-
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2401 might have WiMAX packets
-
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2290 has GPRS-LLC with encrypted and unencrypted packets
