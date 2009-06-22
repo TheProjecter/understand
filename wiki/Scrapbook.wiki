@@ -1,3 +1,9 @@
+==Controller-Area Network (CAN) on Linux==
+  * Assuming that you run a relatively recent Linux kernel (2.6.26 or higher?), there is a virtual CAN kernel module that can be enabled with {{{modprobe can can-raw vcan}}}
+  * Assuming that the module exists, and was loaded, you should see {{{vcan: Virtual CAN interface driver}}} in the output of {{{dmesg}}}
+  * Output from the other kernel modules should look like this:
+{{{vcan: Virtual CAN interface driver}}}<br/>{{{can: controller area network core (rev 20081130 abi 8)}}}<br/>{{{NET: Registered protocol family 29}}}<br/>{{{can: raw protocol (rev 20081130)}}}
+
 
 ==Temporary References==
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
