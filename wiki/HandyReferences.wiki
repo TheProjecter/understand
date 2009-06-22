@@ -2,6 +2,8 @@
 #labels References,Assistance,See_Also,Networks,File_Formats
 ==Additional Sources of Packet Captures==
   * A number of BACnet packet captures are available [http://kargs.net/captures/ here]
+  * The [http://pcapr.net pcapr.net] service provides an open-access capture file repository, facilities for uploading new files and a number of other tools
+  * The [http://wiki.wireshark.org/SampleCaptures Sample Captures] page on the [http://wiki.wireshark.org Wireshark Wiki] is a useful source of protocol capture files
 
 ==Specification Documents==
   * Internet Drafts from the [http://www.ietf.org Internet Engineering Task Force (IETF)] are available [http://www.ietf.org/ID.html here]
