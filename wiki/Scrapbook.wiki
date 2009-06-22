@@ -1,11 +1,17 @@
 ==Controller-Area Network (CAN) on Linux==
-  * Assuming that you run a relatively recent Linux kernel (2.6.26 or higher?), there is a virtual CAN kernel module that can be enabled with {{{modprobe can can-raw vcan}}}
+  * Assuming that you run a relatively recent Linux kernel (2.6.27 or higher?), there is a virtual CAN kernel module that can be enabled with {{{modprobe can can-raw vcan}}}
   * Assuming that the module exists, and was loaded, you should see {{{vcan: Virtual CAN interface driver}}} in the output of {{{dmesg}}}
   * Output from the other kernel modules should look like this:
 {{{vcan: Virtual CAN interface driver}}}<br/>{{{can: controller area network core (rev 20081130 abi 8)}}}<br/>{{{NET: Registered protocol family 29}}}<br/>{{{can: raw protocol (rev 20081130)}}}
+  * Run {{{svn checkout svn://svn.berlios.de/socketcan/trunk socketcan}}} to check out a set of tools for working with Socket-CAN, and then run {{{cd socketcan/can-utils && make}}} to build them
+  * Run {{{sudo ./vcan create}}} to create a new {{{vcan0}}} interface
 
 
 ==Temporary References==
+
+http://www.nabble.com/Can't-get-SocketCan-to-work-on-a-MPC5200b-board-td20467264.html
+http://www.armadeus.com/wiki/index.php?title=CAN_bus_Linux_driver
+http://openfacts.berlios.de/index-en.phtml?title=Socket-CAN
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
 http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
 http://www.ethereal.com/lists/ethereal-dev/200404/msg00437.html
