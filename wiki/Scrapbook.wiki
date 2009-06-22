@@ -4,7 +4,17 @@
   * Output from the other kernel modules should look like this:
 {{{vcan: Virtual CAN interface driver}}}<br/>{{{can: controller area network core (rev 20081130 abi 8)}}}<br/>{{{NET: Registered protocol family 29}}}<br/>{{{can: raw protocol (rev 20081130)}}}
   * Run {{{svn checkout svn://svn.berlios.de/socketcan/trunk socketcan}}} to check out a set of tools for working with Socket-CAN, and then run {{{cd socketcan/can-utils && make}}} to build them
-  * Run {{{sudo ./vcan create}}} to create a new {{{vcan0}}} interface
+  * Run {{{sudo ./vcan create}}} to create a new {{{vcan0}}} interface, and then {{{sudo ifconfig vcan0 up}}} to bring it up
+  * If it worked, the output should look like this:
+
+{{{[tyson@nagasaki can-utils]$ sudo ifconfig vcan0}}}
+{{{vcan0     Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00}}}
+{{{          NOARP  MTU:16  Metric:1}}}
+{{{          RX packets:0 errors:0 dropped:0 overruns:0 frame:0}}}
+{{{          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0}}}
+{{{          collisions:0 txqueuelen:0}}}
+{{{          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)}}}
+
 
 
 ==Temporary References==
