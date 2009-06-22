@@ -12,6 +12,7 @@
   * Internet Drafts from the [http://www.ietf.org Internet Engineering Task Force (IETF)] are available [http://www.ietf.org/ID.html here]
   * Requests For Comments (RFC) documents from the IETF are available [http://www.ietf.org/rfc.html here]
   * The [http://www.osta.org Optical Storage Technology Association (OSTA)] Universal Disk Format (UDF) specifications are available [http://osta.org/specs/index.htm here]
+  * A number of specifications covered under the [http://www.microsoft.com/interop/osp/default.mspx Microsoft Open Specification Promise] are available [http://msdn.microsoft.com/en-us/library/cc203350.aspx here]
 
 ==Temporary References==
 http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
