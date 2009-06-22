@@ -16,12 +16,5 @@
   * A header file containing a list of libpcap/tcpdump DLT values is available [http://fxr.watson.org/fxr/source/net/bpf.h here] (although it may not be up-to-date)
   * [http://taosecurity.blogspot.com/2006/01/freebsd-networking-over-firewire-you.html This blog post] contains a {{{tshark}}} text dump of an Apple IP-over-1394 packet that can be converted to a usable packet capture file with {{{text2pcap -l 138 }}}after saving it to a file
 
-==Temporary References==
-http://www.ethereal.com/lists/ethereal-users/200306/msg00256.html has a Niksun NetVCR ATM-over-T1 capture file (ATMoverT1Traffic.pcap)
-http://www.ethereal.com/lists/ethereal-users/200212/msg00040.html has 2 Shomiti Snoop capture files
-http://www.ethereal.com/lists/ethereal-dev/200404/msg00437.html
-http://www.ethereal.com/lists/ethereal-users/200402/msg00146.html - Nokia libpcap with ATM/SDH packets
-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2401 might have WiMAX packets
-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2290 has GPRS-LLC with encrypted and unencrypted packets
-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=1688 - FireWall-1 capture
-https://www.wireshark.org/lists/wireshark-dev/200611/msg00233.html - SNA VMStrace dump, won't open in WS though...
+==Protocol Stack Implementation Projects==
+  * An implementation of Media-Oriented Systems Transport (MoST) for Linux is available, [http://most4linux.sourceforge.net/ here]
