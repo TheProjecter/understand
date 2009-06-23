@@ -14,7 +14,7 @@
   * I<sup>2</sup>C/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}})
   * It appears that it is not possible currently, to export Bluetooth HCI H1 packets in Symbian OS btsnoop capture files to pcap-ng
   * It appears that Apple IP-over-1394 packets within libpcap files are "lost"/"become invisible" when converted to pcap-ng files, and cannot be accessed with Wireshark, although they are still in the file
-  * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=view&target=ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here]
+  * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://understand.googlecode.com/files/ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here]
   * It is possible to crash Wireshark whilst loading some pcap-ng files with a large number of packets, or beyond a certain (unknown) size - see [http://understand.googlecode.com/files/USB_DVB_New.ntar.bz2 here] or the bug for sample files - Reported as bug [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3565 3565]
 
 ==Mailing Lists==
