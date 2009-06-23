@@ -13,6 +13,8 @@
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
   * I<sup>2</sup>C/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}})
   * It appears that it is not possible currently, to export Bluetooth HCI H1 packets in Symbian OS btsnoop capture files to pcap-ng
+  * It appears that Apple IP-over-1394 packets within libpcap files are "lost"/"become invisible" when converted to pcap-ng files, and cannot be accessed with Wireshark, although they are still in the file
+
 ==Mailing Lists==
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
   * [http://www.mail-archive.com/wireshark-dev@wireshark.org/ wireshark-dev]
