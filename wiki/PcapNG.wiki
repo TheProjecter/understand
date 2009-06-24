@@ -19,6 +19,7 @@
 
 ==Hall of Shame==
 The Hall of Shame links to several files that currently crash implementations of pcap-ng, due to either bugs in an implementation, or issues with the structure or content of the file itself, or are not parsed correctly by current implementations. Hopefully, these problems will be resolved over time.
+  * The mentioned files at [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3565 Wireshark Bug 3565] crash several SVN revisions of Wireshark and dumpcap (from 28785 to 28836 so far)
 
 ==Mailing Lists==
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
