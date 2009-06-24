@@ -17,6 +17,9 @@
   * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://understand.googlecode.com/files/ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here]
   * It is possible to crash Wireshark whilst loading some pcap-ng files with a large number of packets, or beyond a certain (unknown) size - see [http://understand.googlecode.com/files/USB_DVB_New.ntar.bz2 here] or the bug for sample files - Reported as bug [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3565 3565]
 
+==Hall of Shame==
+The Hall of Shame links to several files that currently crash implementations of pcap-ng, due to either bugs in an implementation, or issues with the structure or content of the file itself.
+
 ==Mailing Lists==
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
   * [http://www.mail-archive.com/wireshark-dev@wireshark.org/ wireshark-dev]
