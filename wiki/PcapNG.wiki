@@ -5,6 +5,7 @@
   * As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time
   * A number of sample captures, containing several different protocols, link-layer types and format features are available on our [http://code.google.com/p/understand/downloads/list Downloads] page (tagged with "[http://code.google.com/p/understand/downloads/list?q=label:ntar ntar]" and "[http://code.google.com/p/understand/downloads/list?q=label:pcapng pcapng]")
   * Additional sample files are available at [http://wiki.wireshark.org/Development/PcapNg this page] on the Wireshark Wiki 
+  * There is a [http://tcpreplay.synfin.net/trac/ticket/23 bug] on the [http://tcpreplay.synfin.net/ TCPreplay project] bug tracker requesting support for pcap-ng, although it seems that support has not been implemented yet
 
 ==Conversion/Encapsulation Issues and Current (Implementation) Shortfalls/Bugs==
 ===Wireshark (1.3.0-SVN train)===
@@ -20,6 +21,7 @@
 ==Hall of Shame==
 The Hall of Shame links to several files that currently crash implementations of pcap-ng, due to either bugs in an implementation, or issues with the structure or content of the file itself, or are not parsed correctly by current implementations. Hopefully, these problems will be resolved over time.
   * The mentioned files at [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3565 Wireshark Bug 3565] crash several SVN revisions of Wireshark and dumpcap (from 28785 to 28836 so far)
+  * The bug in Wireshark 1.0.7 [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3524 here] mentions issues related to Interface IDs in {{{Interface Description Blocks}}} and {{{Enhanced Packet Blocks}}} - this was fixed in Wireshark 1.2.0pre2, although the information may be useful for people working with files produced by this early version of Wireshark
 
 ==Mailing Lists==
 Evolution of the pcap-ng file format is driven by several mailing lists. These are splintered between the following:
