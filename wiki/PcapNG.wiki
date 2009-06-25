@@ -1,7 +1,7 @@
 #summary Content related to the new pcap-ng packet capture file format
 #labels pcapng,ntar,Networks,File_Formats
 ==pcap-ng File Format==
-  * The pcap-ng file format was intended to supersede the previous [http://wiki.wireshark.org/Development/LibpcapFileFormat libpcap file format] in the long-term, and fixes several shortcomings and limitations in that file format
+  * The [http://wiki.wireshark.org/Development/PcapNg pcap-ng] file format was intended to supersede the previous [http://wiki.wireshark.org/Development/LibpcapFileFormat libpcap file format] in the long-term, and fixes several shortcomings and limitations in that file format
   * As of writing, the current draft specification is [http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html here], and is subject to change at any time
   * A number of sample captures, containing several different protocols, link-layer types and format features are available on our [http://code.google.com/p/understand/downloads/list Downloads] page (tagged with "[http://code.google.com/p/understand/downloads/list?q=label:ntar ntar]" and "[http://code.google.com/p/understand/downloads/list?q=label:pcapng pcapng]")
   * Additional sample files are available at [http://wiki.wireshark.org/Development/PcapNg this page] on the Wireshark Wiki 
