@@ -13,8 +13,8 @@
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
   * I<sup>2</sup>C/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}})
   * It appears that it is not possible currently, to export Bluetooth HCI H1 packets in Symbian OS btsnoop capture files to pcap-ng
-  * It appears that Apple [http://understand.googlecode.com/files/Apple1394.cap IP-over-1394] packets within libpcap files are "lost"/"become invisible" when converted to pcap-ng files, and cannot be accessed with Wireshark, although they are still in the file
-  * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://understand.googlecode.com/files/ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here]
+  * It appears that Apple [http://understand.googlecode.com/files/Apple1394.cap IP-over-1394] packets within libpcap files are "lost"/"become invisible" when converted to pcap-ng files, and cannot be accessed with Wireshark, although they are still in the file - Reported as [Bug 3620 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3620]
+  * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://understand.googlecode.com/files/ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here] - See [Bug 3620 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3620]
   * PPPdump DCE/DTE direction information is lost, after conversion to pcap-ng - reported as [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3619 Wireshark bug 3619]
 
 ==Fixed Issues==
