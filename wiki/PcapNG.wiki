@@ -16,6 +16,9 @@
 
 ==Current Issues and Bugs==
 ===Wireshark/dumpcap (1.3.0-SVN train)===
+
+Please note that significant enhancements have been made to pcap-ng handling in the latest SVN revisions of Wireshark, and some of these issues may only manifest themselves when working with older pcap-ng files. Depending on the issue at hand, a new capture file may be necessary to replace an existing one that cannot be parsed correctly.
+
   * Saving [http://en.wikipedia.org/wiki/DPNSS DPNSS] packets from [http://understand.googlecode.com/files/D-1-Anonymous-Anonymous-D-OFF-27d01m2009y-00h00m00s-0a0None.trc EyeSDN trace files] into pcap-ng files produces packets with {{{WTAP_ENCAP}}} set to {{{0}}}, and the data cannot be dissected - it seems that there is no DLT value for DPNSS at present
 
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
