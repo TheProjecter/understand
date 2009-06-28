@@ -23,8 +23,6 @@ Please note that significant enhancements have been made to pcap-ng handling in 
 
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
 
-  * I<sup>2</sup>C/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}})
-
   * It appears that it is not possible currently, to export Bluetooth HCI H1 packets in Symbian OS btsnoop capture files to pcap-ng
 
   * PPPdump DCE/DTE direction information is lost, after conversion to pcap-ng - reported as [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3619 Wireshark bug 3619]
@@ -38,6 +36,8 @@ Please note that significant enhancements have been made to pcap-ng handling in 
  * It appears that Apple [http://understand.googlecode.com/files/Apple1394.cap IP-over-1394] packets within libpcap files are "lost"/"become invisible" when converted to pcap-ng files, and cannot be accessed with Wireshark, although they are still in the file - Reported as [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3620 Bug 3620]
 
   * Raw MTP2 packets in libpcap files are also lost when converting them to pcap-ng, example file [http://understand.googlecode.com/files/ansi_tcap_over_itu_sccp_over_mtp3_over_mtp2.pcap here] - See [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3620 Bug 3620] - Fixed in SVN Revisions 28864-28866 to varying degrees between each revision
+
+  * I<sup>2</sup>C/IPMB bus and event type information is lost when packets from libpcap files are saved as pcap-ng (bus number is reset to {{{255}}}, and event type is set to {{{0x4783c623}}} ({{{unknown state event}}}) - Fixed in SVN Revisions 28864-28866 to varying degrees between each revision, does not apply retroactively to existing files
 
 ===Wireshark 1.0.7===
   * The bug in Wireshark 1.0.7 [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3524 here] mentions issues related to Interface IDs in {{{Interface Description Blocks}}} and {{{Enhanced Packet Blocks}}} - this was fixed in Wireshark 1.2.0pre2, although the information may be useful for people working with files produced by this early version of Wireshark
