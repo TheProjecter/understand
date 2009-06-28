@@ -1,3 +1,5 @@
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2451 has HPUX nettl IGSSN and ICXGBE sample frames
+https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2894 has Endace ERFII/Extension Header frames
 ==Controller-Area Network (CAN) on Linux==
   * Assuming that you run a relatively recent Linux kernel (2.6.27 or higher?), there is a virtual CAN kernel module that can be enabled with {{{modprobe can can-raw vcan}}}
   * Assuming that the module exists, and was loaded, you should see {{{vcan: Virtual CAN interface driver}}} in the output of {{{dmesg}}}
