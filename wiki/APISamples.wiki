@@ -6,4 +6,6 @@
 ==Mac OS X CoreFoundation/CFLite (C/C++)==
 ==Novell NetWare (C/C++)==
 ==Qt (C++)==
+===Use with GNUstep/GNU Objective-C++===
+  * A sample code file demonstrating using Objective-C and GNUstep APIs, alongside Qt/C++ is available [here], along with the {{{Makefile}}} and {{{.pro}}} files
 ==Symbian OS (C++)==
