@@ -1,4 +1,5 @@
 #summary Examples of code using various different APIs on various OSes
+#labels C,Objective-C,Objective-C,APIs,Sample_Code,Symbian_OS,Qt,Novell_NetWare,Mac_OS,Mac_OS_X,Carbon,Cocoa,POSIX,Cocoa,GNUstep
 
 ==ANSI C/POSIX (C)==
 ==Mac OS X Carbon (C/C++)==
@@ -7,5 +8,5 @@
 ==Novell NetWare (C/C++)==
 ==Qt (C++)==
 ===Use with GNUstep/GNU Objective-C++===
-  * A sample code file demonstrating using Objective-C and GNUstep APIs, alongside Qt/C++ is available [here], along with the {{{Makefile}}} and {{{.pro}}} files
+  * A sample code file demonstrating using Objective-C and GNUstep APIs, alongside Qt/C++ is available [http://code.google.com/p/understand/source/browse/trunk/Code_Samples/Objective-C%2B%2B/Qt/Interop_Test_1/ here], along with the {{{Makefile}}} and {{{.pro}}} files
 ==Symbian OS (C++)==
