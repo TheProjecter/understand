@@ -1,8 +1,9 @@
 #summary Examples of code using various different APIs on various OSes
 
-==Symbian OS (C++)==
-==Qt (C++)==
 ==ANSI C/POSIX (C)==
 ==Mac OS X Carbon (C/C++)==
 ==Mac OS X Cocoa (Objective-C)==
+==Mac OS X CoreFoundation/CFLite (C/C++)==
 ==Novell NetWare (C/C++)==
+==Qt (C++)==
+==Symbian OS (C++)==
