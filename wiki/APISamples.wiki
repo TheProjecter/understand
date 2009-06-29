@@ -1,6 +1,6 @@
 #summary Examples of code using various different APIs on various OSes
 
-==Symbian OS (C++)
+==Symbian OS (C++)==
 ==Qt (C++)==
 ==ANSI C/POSIX (C)==
 ==Mac OS X Carbon (C/C++)==
