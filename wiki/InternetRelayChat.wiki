@@ -2,9 +2,10 @@
 
 ==Initial Handshake Example==
 ===With NetCat-based "Server" and Pidgin===
-{{{USER Username nagasaki.home localhost :Real Name}}} - Specifies username, connection originator hostname, destination hostname and "real name"
-{{{NICK Username}}} - Specifies nickname/handle (often same as username)
-{{{QUIT :Leaving.}}} - Finish up by leaving the server with the message "Leaving." without quotes
+||*Verb and Arguments*||*Description*||
+||{{{USER Username nagasaki.home localhost :Real Name}}}||Specifies username, connection originator hostname, destination hostname and "real name"||
+||{{{NICK Username}}}||Specifies nickname/handle (often same as username)||
+||{{{QUIT :Leaving.}}}||Finish up by leaving the server with the message "Leaving." without quotes||
 
 == Microsoft Comic Chat ==
   * A copy of the client for Windows is still available, [http://mermeliz.com/cchat.htm here]
