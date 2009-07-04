@@ -2,7 +2,7 @@
 
 ==Initial Handshake Example==
 ===With NetCat-based "Server" and Pidgin===
-||*Verb and Arguments*||*Description*||
+||<b>Verb and Arguments</b>||<b>Description</b>||
 ||{{{USER Username nagasaki.home localhost :Real Name}}}||Specifies username, connection originator hostname, destination hostname and "real name"||
 ||{{{NICK Username}}}||Specifies nickname/handle (often same as username)||
 ||{{{QUIT :Leaving.}}}||Finish up by leaving the server with the message "Leaving." without quotes||
