@@ -13,6 +13,9 @@
 ||{{{QUIT :Leaving.}}}||Finish up by leaving the server with the message "Leaving." without quotes||
 
 == Microsoft Comic Chat ==
+=== Brief Background and Obtaining the Client ===
   * A copy of the client for Windows is still available, [http://mermeliz.com/cchat.htm here]
   * Some of the extensions used are documented in a series of four Internet Drafts ([http://tools.ietf.org/id/draft-pfenning-irc-extensions-00.txt 00], [http://tools.ietf.org/id/draft-pfenning-irc-extensions-01.txt 01], [http://tools.ietf.org/id/draft-pfenning-irc-extensions-02.txt 02] and [http://tools.ietf.org/id/draft-pfenning-irc-extensions-04.txt 04] - 03 was never released), at the linked URLs
   * A copy of these Internet Drafts will also be mirrored here, in case they ever disappear from the IETF website
+
+=== Version and Identification ===
