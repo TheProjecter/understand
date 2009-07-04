@@ -1,8 +1,8 @@
 #summary Content related to the MIPS-based BT HomeHub
 
-= Introduction =
+== General Overview ==
 
-Add your content here.
+The BT Home Hub contains a 32-bit, MIPS architecture, Broadcom BCM6348KPBG/BCM6348 CPU, supporting ADSL2. Running the *nix {{{file}}} command on one of the binaries extracted from the router reported "{{{ELF 32-bit MSB executable, MIPS, version 1 (SYSV)}}}". A Linux kernel is used on the device, however a closed-source, proprietary userland application ({{{linux_appl.exe}}}) and a closed-source, proprietary kernel module ({{{nmon.ko}}}) are responsible for providing the Home Hub's functionality.
 
 
 = Details =
