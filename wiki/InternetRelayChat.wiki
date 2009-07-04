@@ -1,0 +1,9 @@
+#summary Content related to the Internet Relay Chat, and various protocol extensions
+
+= Introduction =
+
+Add your content here.
+
+
+== Microsoft Comic Chat ==
+  * A copy of the client for Windows is still available, [http://mermeliz.com/cchat.htm here]
