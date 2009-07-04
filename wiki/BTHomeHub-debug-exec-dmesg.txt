@@ -1,0 +1,97 @@
+Linux version 2.6.8.1 (scottji@cplx229) (gcc version 3.3.4) #1 Wed Sep 20 17:09:06 CEST 2006
+CPU revision is: 00029107
+mpi: No Card is in the PCMCIA slot
+Determined physical RAM map:
+ memory: 01f7d000 @ 00002000 (usable)
+On node 0 totalpages: 8063
+  DMA zone: 4096 pages, LIFO batch:1
+  Normal zone: 3967 pages, LIFO batch:1
+  HighMem zone: 0 pages, LIFO batch:1
+Built 1 zonelists
+Kernel command line: root=/dev/mtdblock1 rootfstype=squashfs
+brcm mips: enabling icache and dcache...
+Primary instruction cache 16kB, physically tagged, 2-way, linesize 16 bytes.
+Primary data cache 8kB 2-way, linesize 16 bytes.
+PID hash table entries: 128 (order 7: 1024 bytes)
+Using 128.000 MHz high precision timer.
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Memory: 29456k/32244k available (1622k kernel code, 2744k reserved, 381k data, 268k init, 0k highmem)
+Calibrating delay loop... 253.44 BogoMIPS
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Checking for 'wait' instruction...  unavailable.
+NET: Registered protocol family 16
+usbcore: registered new driver usbfs
+usbcore: registered new driver hub
+Bluetooth: Core ver 2.6
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Squashfs 2.1 (released 2004/12/10) (C) 2002-2004 Phillip Lougher
+Unofficial version with LZMA compression. Some squashfs filesystems might not work!
+JFFS2 version 2.2. (C) 2001-2003 Red Hat, Inc.
+bcm963xx_serial driver v2.0
+Using noop io scheduler
+Thomson BCM963xx flash mapping for BTHub
+flash: Found 1 x16 devices at 0x0 in 16-bit bank
+ Amd/Fujitsu Extended Query Table at 0x0040
+number of CFI chips: 1
+cfi_cmdset_0002: Disabling erase-suspend-program due to code brokenness.
+flash mapping initialized
+Creating 3 MTD partitions on "flash":
+0x00040000-0x00100000 : "user"
+mtd: Giving out device 0 to user
+0x001b0000-0x00800000 : "rootfs"
+mtd: Giving out device 1 to rootfs
+0x00100010-0x001b0000 : "kernel"
+mtd: partition "kernel" doesn't start on an erase block boundary -- force read-only
+mtd: Giving out device 2 to kernel
+Bluetooth: HCI UART driver ver 2.1
+Bluetooth: HCI H4 protocol initialized
+Bluetooth: HCI BCSP protocol initialized
+brcmboard: brcm_board_init entry
+ERROR - Invalid number of MAC addresses (1007714320) is configured.
+NET: Registered protocol family 2
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 2048 bind 4096)
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+VFS: Mounted root (squashfs filesystem) readonly.
+Freeing unused kernel memory: 268k freed
+Algorithmics/MIPS FPU Emulator v1.5
+nmon: module license 'unspecified' taints kernel.
+Button: Character device registered successfully.
+pSdramPHY=0xA1FFFFF8, 0xF8F8DF1F 0xFDFA1F3F
+AdslCoreHwReset: AdslOemDataAddr = 0xA1FFE458
+ADSL PHY version is A2pBT009a2.d17e
+IPSecControl Character device registered successfully.
+NET: Registered protocol family 3
+NET: Registered protocol family 9
+NET: Registered protocol family 4
+NET: Registered protocol family 5
+NET: Registered protocol family 18
+NET: Registered protocol family 25
+krtp ver 2.8 softdsp-vad-multiline-wb (Sep 20 2006 17:28:14)
+Copyright (C) 2004 Inventel Systemes
+Written 2004 by David Libault &#60;david.libault@inventel.fr&gt;
+Written 2004 by Bruce Forgues &#60;bruce.forgues@inventel.fr&gt;
+Written 2004 by Eric Humbert  &#60;eric.humbert@inventel.fr&gt;
+usage: insmod tty_spi spi_cs=N
+CS=0 date: Sep 20 2006 time: 17:28:02, speed 1
+ohci_hcd: 2004 Feb 02 USB 1.1 'Open' Host Controller (OHCI) Driver (PCI)
+ohci_hcd: block sizes: ed 64 td 64
+PCI: Enabling device 0000:00:09.0 (0000 -> 0002)
+ohci_hcd 0000:00:09.0: PCI device 14e4:6300 (Broadcom Corporation)
+PCI: Setting latency timer of device 0000:00:09.0 to 64
+ohci_hcd 0000:00:09.0: irq 20, pci mem c025cb00
+ohci_hcd 0000:00:09.0: new USB bus registered, assigned bus number 1
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+usblp: falsely claims to have parameter proto_bias
+usbcore: registered new driver usblp
+drivers/usb/class/usblp.c: v0.13: USB Printer Device Class driver
+SCSI subsystem initialized
+Initializing USB Mass Storage driver...
+usbcore: registered new driver usb-storage
+USB Mass Storage support registered.
