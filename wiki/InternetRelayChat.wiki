@@ -1,9 +1,12 @@
 #summary Content related to the Internet Relay Chat, and various protocol extensions
 
-= Introduction =
-
-Add your content here.
-
+==Initial Handshake Example==
+===With NetCat-based "Server" and Pidgin===
+{{{USER Username nagasaki.home localhost :Real Name}}} - Specifies username, connection originator hostname, destination hostname and "real name"
+{{{NICK Username}}} - Specifies nickname/handle (often same as username)
+{{{QUIT :Leaving.}}} - Finish up by leaving the server with the message "Leaving." without quotes
 
 == Microsoft Comic Chat ==
   * A copy of the client for Windows is still available, [http://mermeliz.com/cchat.htm here]
+  * Some of the extensions used are documented in a series of four Internet Drafts ([http://tools.ietf.org/id/draft-pfenning-irc-extensions-00.txt 00], [http://tools.ietf.org/id/draft-pfenning-irc-extensions-01.txt 01], [http://tools.ietf.org/id/draft-pfenning-irc-extensions-02.txt 02] and [http://tools.ietf.org/id/draft-pfenning-irc-extensions-04.txt 04] - 03 was never released), at the linked URLs
+  * A copy of these Internet Drafts will also be mirrored here, in case they ever disappear from the IETF website
