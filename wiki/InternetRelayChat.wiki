@@ -1,5 +1,10 @@
 #summary Content related to the Internet Relay Chat, and various protocol extensions
 
+==Specifications and Implementations==
+  * The IRC protocol is documented in [http://www.faqs.org/rfcs/rfc1459.html Request for Comments (RFC) Document #1459]
+  * There are a vast number of client and server implementations of it available (too many to sanely list here), including the clients listed [http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients here], a number of non-human-clients ("robots"), and preconfigured IRC networks and services (e.g. [http://www.freenode.org FreeNode])
+  * Additional information is available at [http://en.wikipedia.org/wiki/Internet_Relay_Chat Wikipedia]
+
 ==Initial Handshake Example==
 ===With NetCat-based "Server" and Pidgin===
 ||<b>Verb and Arguments</b>||<b>Description</b>||
