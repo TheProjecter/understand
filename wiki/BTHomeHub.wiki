@@ -5,9 +5,5 @@
 The BT Home Hub contains a 32-bit, MIPS architecture, Broadcom BCM6348KPBG/BCM6348 CPU, supporting ADSL2. Running the *nix {{{file}}} command on one of the binaries extracted from the router reported "{{{ELF 32-bit MSB executable, MIPS, version 1 (SYSV)}}}". A Linux kernel is used on the device, however a closed-source, proprietary userland application ({{{linux_appl.exe}}}) and a closed-source, proprietary kernel module ({{{nmon.ko}}}) are responsible for providing the Home Hub's functionality.
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==Telnet Header for Firmware 6.1.1.R==
+<img src="http://understand.googlecode.com/svn/wiki/HubHeader.png"/>
