@@ -1,6 +1,11 @@
 #summary Various User-Agent strings and client/server protocol information hints
 
 ==HTTP/Web Services==
-==E-Mail==
+
+==MIME/E-Mail==
+||<b>String Type</b>||<b>String Content</b>||<b>Source</b>||<b>Purpose/Description</b>||
+||{{{User-Agent}}}||{{{AboutSpecial/1.1}}}||An About.com mailing-list e-mail||Seems to be a mail generation script||
+||{{{X-Mailer}}}||{{{EPOC Email Version 2.10}}}||E-mail from a Nokia N70 (Symbian OS/S60v2) mobile phone||Symbian OS/S60v2 e-mail client version/name||
+
 <wiki:comment>==Gnutella==
 ==FastTrack/KaZaA==</wiki:comment>
