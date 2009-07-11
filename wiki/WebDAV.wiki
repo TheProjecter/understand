@@ -1,5 +1,10 @@
 #summary Content related to the WebDAV (Web-based Distributed Authoring and Versioning) HTTP extensions
 
+==Interpreting the Examples==
+Colour Codes:
+||Client-Side||Server-Side||
+||<font color="green">{{{Green}}}</font>||<font color="orange">{{{Orange}}}||
+
 ==Example Exchanges==
 ===Apache 2.2.x and CaDAVer 0.23.2/libneon 0.28.3===
 The version used for these examples is {{{Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2.5.2 mod_ssl/2.2.11 OpenSSL/0.9.8g mod_perl/2.0.4 Perl/v5.10.0}}}..
