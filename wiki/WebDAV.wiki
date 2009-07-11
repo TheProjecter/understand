@@ -41,7 +41,16 @@ Connecting to the server and listing the empty {{{/}}} directory:
 {{{Host: localhost:8008}}}
 {{{User-Agent: cadaver/0.23.2 neon/0.28.3}}}
 {{{Connection: TE}}}
-TE: trailers}}}
-Depth: 0}}}
-Content-Length: 288}}}
-Content-Type: application/xml}}}
+{{{TE: trailers}}}
+{{{Depth: 0}}}
+{{{Content-Length: 288}}}
+{{{Content-Type: application/xml}}}
+<?xml version="1.0" encoding="utf-8"?>
+<propfind xmlns="DAV:"><prop>
+<getcontentlength xmlns="DAV:"/>
+<getlastmodified xmlns="DAV:"/>
+<executable xmlns="http://apache.org/dav/props/"/>
+<resourcetype xmlns="DAV:"/>
+<checked-in xmlns="DAV:"/>
+<checked-out xmlns="DAV:"/>
+</prop></propfind>
