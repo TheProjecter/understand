@@ -37,20 +37,20 @@ Connecting to the server and listing the empty {{{/}}} directory:
 </font>
 
 <font color="green">
-{{{PROPFIND / HTTP/1.1}}}
-{{{Host: localhost:8008}}}
-{{{User-Agent: cadaver/0.23.2 neon/0.28.3}}}
-{{{Connection: TE}}}
-{{{TE: trailers}}}
-{{{Depth: 0}}}
-{{{Content-Length: 288}}}
-{{{Content-Type: application/xml}}}
-<?xml version="1.0" encoding="utf-8"?>
-<propfind xmlns="DAV:"><prop>
-<getcontentlength xmlns="DAV:"/>
-<getlastmodified xmlns="DAV:"/>
-<executable xmlns="http://apache.org/dav/props/"/>
-<resourcetype xmlns="DAV:"/>
-<checked-in xmlns="DAV:"/>
-<checked-out xmlns="DAV:"/>
-</prop></propfind>
+{{{PROPFIND / HTTP/1.1}}}<br/>
+{{{Host: localhost:8008}}}<br/>
+{{{User-Agent: cadaver/0.23.2 neon/0.28.3}}}<br/>
+{{{Connection: TE}}}<br/>
+{{{TE: trailers}}}<br/>
+{{{Depth: 0}}}<br/>
+{{{Content-Length: 288}}}<br/>
+{{{Content-Type: application/xml}}}<br/>
+{{{<?xml version="1.0" encoding="utf-8"?>}}}<br/>
+{{{<propfind xmlns="DAV:"><prop>}}}<br/>
+{{{<getcontentlength xmlns="DAV:"/>}}}<br/>
+{{{<getlastmodified xmlns="DAV:"/>}}}<br/>
+{{{<executable xmlns="http://apache.org/dav/props/"/>}}}<br/>
+{{{<resourcetype xmlns="DAV:"/>}}}<br/>
+{{{<checked-in xmlns="DAV:"/>}}}<br/>
+{{{<checked-out xmlns="DAV:"/>}}}<br/>
+{{{</prop></propfind>}}}<br/>
