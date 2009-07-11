@@ -1,7 +1,7 @@
 #summary Content related to the WebDAV (Web-based Distributed Authoring and Versioning) HTTP extensions
 
 ==Interpreting the Examples==
-Colour Codes:
+*Colour Codes:*
 ||Client-Side||Server-Side||
 ||<font color="green">{{{Green}}}</font>||<font color="orange">{{{Orange}}}||
 
