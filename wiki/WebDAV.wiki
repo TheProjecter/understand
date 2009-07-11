@@ -2,7 +2,7 @@
 
 ==Interpreting the Examples==
 *Colour Codes:*
-||Client-Side||Server-Side||
+||*Client-Side*||*Server-Side*||
 ||<font color="green">{{{Green}}}</font>||<font color="orange">{{{Orange}}}||
 
 ==Example Exchanges==
