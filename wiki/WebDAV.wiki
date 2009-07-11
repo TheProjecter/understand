@@ -2,7 +2,7 @@
 
 ==Interpreting the Examples==
 *Colour Codes:*
-||*Client-Side*||*Server-Side*||
+||<b>Client-Side</b>||<b>Server-Side</b>||
 ||<font color="green">{{{Green}}}</font>||<font color="orange">{{{Orange}}}||
 
 ==Example Exchanges==
@@ -20,4 +20,18 @@ Connecting to the server and listing the empty {{{/}}} directory:
 {{{Keep-Alive: }}}<br/>
 {{{Connection: TE, Keep-Alive}}}<br/>
 {{{TE: trailers}}}<br/>
+</font>
+
+<font color="orange">
+{{{HTTP/1.1 200 OK}}}<br/>
+{{{Date: Sat, 11 Jul 2009 12:49:22 GMT}}}<br/>
+{{{Server: Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2.5.2 mod_ssl/2.2.11 OpenSSL/0.9.8g mod_perl/2.0.4 Perl/v5.10.0}}}<br/>
+{{{DAV: 1,2}}}<br/>
+{{{DAV: <http://apache.org/dav/propset/fs/1>}}}<br/>
+{{{MS-Author-Via: DAV}}}<br/>
+{{{Allow: OPTIONS,GET,HEAD,POST,DELETE,TRACE,PROPFIND,PROPPATCH,COPY,MOVE,LOCK,UNLOCK}}}<br/>
+{{{Content-Length: 0}}}<br/>
+{{{Keep-Alive: timeout=15, max=100}}}<br/>
+{{{Connection: Keep-Alive}}}<br/>
+{{{Content-Type: httpd/unix-directory}}}
 </font>
