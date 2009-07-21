@@ -12,5 +12,9 @@ Server used: {{{Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2
 Client 1: {{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
 
 ==Initial HTTP Stream from Client 1==
-Sent from Client:
-<img src="http://understand.googlecode.com/svn/wiki/OEOutboundFlow1.png"/>
+Sent by Client:
+<img src="http://understand.googlecode.com/svn/wiki/OEOutboundFlow1.png"/><br/>
+Received from Server:
+<img src="http://understand.googlecode.com/svn/wiki/OEInboundFlow1.png"/><br/>
+Sent by Client:
+<img src="http://understand.googlecode.com/svn/wiki/OEOutboundFlow2.png"/><br/>
