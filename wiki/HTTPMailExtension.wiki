@@ -1,11 +1,41 @@
-#summary One-sentence summary of this page.
+#summary Bolting HTTPMail "support" onto SVN, piece by piece...
+
 ==Detecting the Presence of the HTTPMail Extensions==
-According to [MS-XWDMAIL], a server is supposed to send an Allow-Extension HTTP header containing the value urn:schemas:httpmail with the output of the OPTIONS verb. 
+According to {{{[MS-XWDMAIL]}}}, a server is supposed to send an Allow-Extension HTTP header containing the value urn:schemas:httpmail with the output of the OPTIONS verb. 
 
 ==Potential Non-Code Intrusive Hacks/Workarounds==
 Add {{{Header append Allow-Extension urn:schemas:httpmail}}} or {{{Header add Allow-Extension urn:schemas:httpmail}}} to permanently switch on the HTTPMail extension notice, at the cost of potentially violating the spec or upsetting clients.
  
 ==A Server Without the Extensions==
-Server used: {{{Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2.5.2 mod_ssl/2.2.11 OpenSSL/0.9.8g SVN/1.5.4 mod_perl/2.0.4 Perl/v5.10.0}}} operating on TCP port 8008, serving WebDAV with SVN extensions
+Server used: {{{Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2.5.2 mod_ssl/2.2.11 OpenSSL/0.9.8g SVN/1.5.4 mod_perl/2.0.4 Perl/v5.10.0}}} operating on TCP port 8008, serving WebDAV with SVN extensions - HTTP Authentication is enabled, using the username "Administrator" and no password
 
-Client 1: 
+Client 1: {{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
+
+==Initial HTTP Stream from Client 1==
+
+{{{PROPFIND / HTTP/1.1}}}
+{{{Depth: 0}}}
+{{{Content-Type: text/xml}}}
+{{{Brief: t}}}
+{{{User-Agent: Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
+{{{Host: 10.0.2.2:8008}}}
+{{{Content-Length: 357}}}
+{{{Connection: Keep-Alive}}}
+{{{Cache-Control: no-cache}}}
+
+{{{<?xml version="1.0"?>}}}
+{{{<D:propfind xmlns:D="DAV:" xmlns:h="http://schemas.microsoft.com/hotmail/" xmlns:hm="urn:schemas:httpmail:">}}}
+{{{	<D:prop>}}}
+{{{		<h:adbar/>}}}
+{{{		<hm:contacts/>}}}
+{{{		<hm:inbox/>}}}
+{{{		<hm:outbox/>}}}
+{{{		<hm:sendmsg/>}}}
+{{{		<hm:sentitems/>}}}
+{{{		<hm:deleteditems/>}}}
+{{{		<hm:drafts/>}}}
+{{{		<hm:msgfolderroot/>}}}
+{{{		<h:maxpoll/>}}}
+{{{		<h:sig/>}}}
+{{{	</D:prop>}}}
+{{{</D:propfind>}}}
