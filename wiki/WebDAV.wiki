@@ -6,6 +6,9 @@
 ||<font color="green">{{{Green}}}</font>||<font color="orange">{{{Orange}}}||
 
 ==Example Exchanges==
+==Apache 2.2.x and Nokia S60 5th Edition Remote Storage==
+The {{{User-Agent}}} string for the Remote Client implementation is {{{S60 Remote Storage WebDav client}}}. The Client expects that the server implementation supports the {{{LOCK}}} and {{{UNLOCK}}} HTTP verbs, which are always available on "plain" Apache 2.2 WebDAV volumes even without authentication, but not on SVN WebDAV volumes (use of HTTP Authentication and the {{{mod_dav_lock}}} Apache module are mandatory in this case).
+
 ===Apache 2.2.x and CaDAVer 0.23.2/libneon 0.28.3===
 The version used for these examples is {{{Apache/2.2.11 (Fedora) DAV/2 PHP/5.2.9 mod_python/3.3.1 Python/2.5.2 mod_ssl/2.2.11 OpenSSL/0.9.8g mod_perl/2.0.4 Perl/v5.10.0}}}..
 
