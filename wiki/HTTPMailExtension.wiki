@@ -13,29 +13,29 @@ Client 1: {{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
 
 ==Initial HTTP Stream from Client 1==
 
-{{{PROPFIND / HTTP/1.1}}}
-{{{Depth: 0}}}
-{{{Content-Type: text/xml}}}
-{{{Brief: t}}}
-{{{User-Agent: Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
-{{{Host: 10.0.2.2:8008}}}
-{{{Content-Length: 357}}}
-{{{Connection: Keep-Alive}}}
-{{{Cache-Control: no-cache}}}
+{{{PROPFIND / HTTP/1.1}}}<br/>
+{{{Depth: 0}}}<br/>
+{{{Content-Type: text/xml}}}<br/>
+{{{Brief: t}}}<br/>
+{{{User-Agent: Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}<br/>
+{{{Host: 10.0.2.2:8008}}}<br/>
+{{{Content-Length: 357}}}<br/>
+{{{Connection: Keep-Alive}}}<br/>
+{{{Cache-Control: no-cache}}}<br/><br/>
 
-{{{<?xml version="1.0"?>}}}
-{{{<D:propfind xmlns:D="DAV:" xmlns:h="http://schemas.microsoft.com/hotmail/" xmlns:hm="urn:schemas:httpmail:">}}}
-{{{	<D:prop>}}}
-{{{		<h:adbar/>}}}
-{{{		<hm:contacts/>}}}
-{{{		<hm:inbox/>}}}
-{{{		<hm:outbox/>}}}
-{{{		<hm:sendmsg/>}}}
-{{{		<hm:sentitems/>}}}
-{{{		<hm:deleteditems/>}}}
-{{{		<hm:drafts/>}}}
-{{{		<hm:msgfolderroot/>}}}
-{{{		<h:maxpoll/>}}}
-{{{		<h:sig/>}}}
-{{{	</D:prop>}}}
-{{{</D:propfind>}}}
+{{{<?xml version="1.0"?>}}}<br/>
+{{{<D:propfind xmlns:D="DAV:" xmlns:h="http://schemas.microsoft.com/hotmail/" xmlns:hm="urn:schemas:httpmail:">}}}<br/>
+{{{	<D:prop>}}}<br/>
+{{{		<h:adbar/>}}}<br/>
+{{{		<hm:contacts/>}}}<br/>
+{{{		<hm:inbox/>}}}<br/>
+{{{		<hm:outbox/>}}}<br/>
+{{{		<hm:sendmsg/>}}}<br/>
+{{{		<hm:sentitems/>}}}<br/>
+{{{		<hm:deleteditems/>}}}<br/>
+{{{		<hm:drafts/>}}}<br/>
+{{{		<hm:msgfolderroot/>}}}<br/>
+{{{		<h:maxpoll/>}}}<br/>
+{{{		<h:sig/>}}}<br/>
+{{{	</D:prop>}}}<br/>
+{{{</D:propfind>}}}<br/>
