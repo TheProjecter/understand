@@ -10,5 +10,6 @@
 ||{{{User-Agent}}}||{{{SVN/1.5.4 (r33841) neon/0.28.3}}}||apache {{{access_log}}}||Subversion (SVN) Client 1.5.4/SVN revision 3384, with libneon 0.28.3||
 ||{{{User-Agent}}}||{{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}||Apache {{{access_log}}}||Outlook Express 6.0 HTTPMail on Windows 2000|||
 ||{{{User-Agent}}}||{{{cadaver/0.23.2 neon/0.28.3}}}||apache {{{access_log}}}||CaDAVer WebDAV client on Linux||
+||{{{User-Agent}}}||{{{Microsoft Data Access Internet Publishing Provider DAV}}}||apache {{{access_log}}}||Microsoft Windows Web Folders (WebDAV) Client||
 <wiki:comment>==Gnutella==
 ==FastTrack/KaZaA==</wiki:comment>
