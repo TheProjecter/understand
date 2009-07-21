@@ -18,3 +18,5 @@ Received from Server:
 <img src="http://understand.googlecode.com/svn/wiki/OEInboundFlow1.png"/><br/>
 Sent by Client:
 <img src="http://understand.googlecode.com/svn/wiki/OEOutboundFlow2.png"/><br/>
+Received from Server:
+<img src="http://understand.googlecode.com/svn/wiki/OEInboundFlow3.png"/><br/>
