@@ -13,3 +13,4 @@ Client 1: {{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}
 
 ==Initial HTTP Stream from Client 1==
 Sent from Client:
+<img src="http://understand.googlecode.com/svn/wiki/OEOutboundFlow1.png"/>
