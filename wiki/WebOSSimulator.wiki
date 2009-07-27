@@ -20,4 +20,10 @@ As copied from a Fedora 10 installation, the following additional shared librari
  * {{{libtasn1.so.3}}} ({{{/usr/lib/libtasn1.so.3.0.16}}})
  * {{{libkrb5support.so.0}}} ({{{/usr/lib/libkrb5support.so.0.1}}})
  * {{{libkeyutils.so.1}}} ({{{/lib/libkeyutils-1.2.so}}})
- 
+ * {{{libselinux.so.1}}} ({{{lib/libselinux.so.1}}})
+
+===Current Outcome===
+At present, after copying the dependencies, the following error message is produced whilst trying to run the {{{cadaver}}} binary:
+{{{./cadaver: /lib/libc.so.6: version `GLIBC_2.8' not found (required by /lib/libgnutls.so.26)}}}<br/>
+{{{./cadaver: /lib/libc.so.6: version `GLIBC_2.7' not found (required by /lib/libkrb5support.so.0)}}}<br/>
+{{{./cadaver: /lib/libc.so.6: version `GLIBC_2.8' not found (required by /lib/libselinux.so.1)}}}
