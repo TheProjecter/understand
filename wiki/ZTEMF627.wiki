@@ -9,7 +9,7 @@ Add your content here.
 == AT Commands ==
 The MF627 utilises a number of non-standard, proprietary AT commands, in additional to documented standard AT commands to perform certain functions. These are listed in the table below, in no specific order, along with an attempt to provide examples and descriptions:
 ||<b>AT Command</b>||<b>Example Usage</b>||<b>Expected Result</b>||<b>Description</b>||
-||{{{AT+CIMI}}}||{{{AT+CIMI}}}||Returns a result similar to:<br>{{{234201201366409}}}<br/><br/>{{{OK}}}||Returns the [http://en.wikipedia.org/wiki/International_Mobile_Subscriber_Identity International Mobile Subscriber Identity] (IMSI), maybe correlating with ITU E.212.||
+||{{{AT+CIMI}}}||{{{AT+CIMI}}}||Returns a result similar to:<br>{{{234201201366409}}}<br/><br/>{{{OK}}}||Returns the [http://en.wikipedia.org/wiki/International_Mobile_Subscriber_Identity International Mobile Subscriber Identity] (IMSI), maybe correlating with ITU E.212.<br/>Read this as {{{Country ID}}}, {{{Operator ID}}} and {{{Opaque 10-Digit ID}}}.<br/> In the case of the example, this is {{{Country ID}}}:{{{234}}} (United Kingdom), {{{Operator ID}}}: {{{20}}} (Hutchison 3G UK, Ltd.), and the {{{Opaque 10-Digit ID}}}.||
 ||{{{AT+CSQ}}}||{{{AT+CSQ}}}||Returns a result similar to:<br/> {{{+CSQ: 12,99}}}<br/><br/>{{{OK}}}||...||
 ||{{{AT+ZPAS?}}}||
 ||{{{AT+ZDON?}}}||
