@@ -12,7 +12,7 @@ The MF627 utilises a number of non-standard, proprietary AT commands, in additio
 ||{{{AT+CIMI}}}||{{{AT+CIMI}}}||Returns a result similar to:<br>{{{234201201366409}}}<br/><br/>{{{OK}}}||Returns the [http://en.wikipedia.org/wiki/International_Mobile_Subscriber_Identity International Mobile Subscriber Identity] (IMSI), maybe correlating with ITU E.212.<br/>Read this as {{{Country ID}}}, {{{Operator ID}}} and {{{Opaque 10-Digit ID}}}.<br/> In the case of the example, this is {{{Country ID}}}: {{{234}}} (United Kingdom), {{{Operator ID}}}: {{{20}}} (Hutchison 3G UK, Ltd.), and the {{{Opaque 10-Digit ID}}}.||
 ||{{{AT+CSQ}}}||{{{AT+CSQ}}}||Returns a result similar to:<br/> {{{+CSQ: 12,99}}}<br/><br/>{{{OK}}}||...||
 ||{{{AT+ZPAS?}}}||{{{AT+ZPAS?}}}||Returns a result similar to one of the following, depending on network and baseband state: <br/>{{{+ZPAS: "HSDPA","CS_PS"}}}<br/><br/>{{{OK}}}||
-||{{{AT+ZDON?}}}||
+||{{{AT+ZDON?}}}||...||{{{+ZDON: "3",234,20,"ROAM_OFF"}}}
 
 Some additional information of interest is available [http://www.anotherurl.com/library/at_test.htm here].
 
