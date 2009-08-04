@@ -7,7 +7,8 @@ Add your content here.
 == Linux (x86) Dialler ==
 
 == AT Commands ==
-The MF627 utilises a number of non-standard, proprietary AT commands to perform certain functions. These are listed in the table below, in no specific order, along with an attempt to provide examples and descriptions:
+The MF627 utilises a number of non-standard, proprietary AT commands, in additional to documented standard AT commands to perform certain functions. These are listed in the table below, in no specific order, along with an attempt to provide examples and descriptions:
 ||<b>AT Command</b>||<b>Example Usage</b>||<b>Expected Result</b>||<b>Description</b>||
 
 == USB ==
+  * Reported in {{{lspci}}} as {{{Bus 002 Device 105: ID 19d2:0031 ONDA Communication S.p.A.}}}
