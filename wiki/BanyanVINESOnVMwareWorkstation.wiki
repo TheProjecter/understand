@@ -33,7 +33,7 @@ The Install Images are used to bootstrap the installation process.
 5. Switch the floppy image to {{{85REL1.FIL}}} (Release Diskette #1) and then press Enter, and then when prompted, switch to {{{85REL2.FIL}}}
 and finally {{{85REL3.FIL}}} when prompted. Wait for the installation to complete, until it asks about the Kernel configuration. 
 Choose the default option (D) and hit enter, the kernel will be assembled from the modules on {{{85REL3.FIL}}} and then copied to {{{/unix}}} on the hard disk image.
-If you want, you can create an empty VMware floppy image, and switch the virtual floppy drive to it at this point and answer "Y" to save a copy of the kernel to the floppy image (it becomes a CPIO archive that you can manipulate with *nix/Windows archiving tools).
+If you want, you can create an empty VMware floppy image, and switch the virtual floppy drive to it at this point and answer "Y" to save a copy of the kernel to the floppy image (it becomes a CPIO archive that you can manipulate with UNIX/Windows archiving tools).
 Otherwise, say "N" and hit enter, Disconnect the floppy image, and then wait for VINES to reboot.
 
 6. If the virtual machine didn't crash or hang at some stage and installation needed to be restarted, it should start booting from the virtual hard disk and VINES should start checking the hard disk image. If it hangs and kernel panics, then something is wrong.
