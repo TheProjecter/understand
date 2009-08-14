@@ -10,7 +10,7 @@
 ==MIME/E-Mail==
 ||<b>String Type</b>||<b>String Content</b>||<b>Source</b>||<b>Purpose/Description</b>||
 ||{{{User-Agent}}}||{{{AboutSpecial/1.1}}}||An About.com mailing-list e-mail||Seems to be a mail generation script||
-||{{{X-Mailer}}}||{{{EPOC Email Version 2.10}}}||E-mail from a Nokia's N70 (Symbian OS 8.x/S60v2) and N73 (Symbian OS 9.x/S60v3) mobile phones||Symbian OS/S60v2 e-mail client version/name||
+||{{{X-Mailer}}}||{{{EPOC Email Version 2.10}}}||E-mails from Nokia's N70 (Symbian OS 8.x/S60v2) and N73 (Symbian OS 9.x/S60v3) mobile phones||Symbian OS/S60v2 e-mail client version/name||
 ||{{{X-Mailer}}}||{{{iPhone Mail (5H11)}}}||E-mail from an Apple iPhone mobile phone||iPhone Mail client name and build||
 
 
