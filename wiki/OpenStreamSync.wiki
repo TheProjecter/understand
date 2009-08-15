@@ -1,0 +1,55 @@
+<!--Discussion and collaboration on the tentative OpenStream specification-->
+
+=Introduction =
+OpenStream may potentially be implemented either as an entirely new specification, or as a set of extensions and supporting amendment documents to the [http://activitystrea.ms ActivityStrea.ms] [http://martin.atkins.me.uk/specs/activitystreams/activityschema Atom Activity Schema specification] (AAS). 
+
+It aims to supplement AAS, by providing support for a number of features that are currently specific to proprietary and Open Source aggregation systems and services, or missing from the base specification.
+
+=Missing/Useful Features=
+
+===FriendFeed-Specific Features===
+* Mapping of Likes to either [http://martin.atkins.me.uk/specs/activitystreams/activityschema#save Save], [http://martin.atkins.me.uk/specs/activitystreams/activityschema#share Share], [http://martin.atkins.me.uk/specs/activitystreams/activityschema#favorite Mark as Favorite] or [http://martin.atkins.me.uk/specs/activitystreams/activityschema#anchor5 Tag] elements in Activity Schema Specification
+* Mapping of Groups/Rooms to [http://martin.atkins.me.uk/specs/activitystreams/activityschema#group Group] elements, and extension to support privacy functionality (Private - "Only the people you invite can view and post to the feed"/Standard - "You post messages, anyone can comment"/Public - "Anyone can post messages to and comment on the feed")
+* Mapping of Group/Room avatars to the "avatar" property
+* Extension to support Hidden items
+* Imaginary Friends functionality is unsupported - an extension is necessary
+* Private/semi-private feeds are unsupported - an extension is necessary
+* Support for FriendFeed short/long GUIDs for mapping content, room, file and user objects or OpenFF equivalents
+* Support for GeoRSS (<code><nowiki>xmlns:georss="http://www.georss.org/georss"</nowiki></code> and <code><nowiki>xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"</nowiki></code>) should be maintained, as FriendFeed currently provides this in their hybrid Atom/RSS feeds, although it is seemingly unused at present
+* It may be interesting to map some GeoRSS attributes to the [http://martin.atkins.me.uk/specs/activitystreams/activityschema#anchor17 Location]/[http://martin.atkins.me.uk/specs/activitystreams/activityschema#anchor15 Place] etc. attributes in AAS, or maintain a hybrid approach
+* Support for MediaRSS (<code><nowiki>xmlns:media="http://search.yahoo.com/mrss/"</nowiki></code>) should be maintained, although portions could be mapped to AAS elements and attributes
+
+==Unifying/Supporting Proprietary Metadata?==
+===Plaxo Pulse RSS Extensions===
+* Plaxo Pulse is a lifestreaming/content aggregation service provided by [http://www.plaxo.com Plaxo, Inc.] 
+* Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
+* The <code><nowiki>plaxoPulse="http://www.plaxo.com/"</nowiki></code> XML namespace denotes Pulse-specific metadata and content 
+
+An example feed item (an imported Twitter post):<br/>
+
+<code><nowiki><item></nowiki></code>
+:
+:    <code><nowiki><guid isPermaLink="false">http://www.plaxo.com/events/show/202064487892</guid> <pubDate>Thu, 13 Aug 2009 00:54:10 +0100</pubDate></nowiki></code>
+:   <code><nowiki><title>Tyson Key posted on Twitter</title></nowiki></code>
+:    <code><nowiki><link>http://www.plaxo.com/events/show/202064487892</link></nowiki></code>
+:    <code><nowiki><description><![CDATA[@<a href="http://twitter.com/symbian_markw" target="_blank">symbian_markw</a> It's all about the architecture. 'Nuff said...<p><a href="http://twitter.com/vmlemon/statuses/3275771117" target="_blank">more &raquo;</a></p>]]></description></nowiki></code>
+:    <code><nowiki><author><![CDATA[Tyson Key]]></author></nowiki></code>
+:
+:    <code><nowiki><plaxoPulse:pubDateUnix>1250121250</plaxoPulse:pubDateUnix></nowiki></code>
+:    <code><nowiki><plaxoPulse:lastModified>2009-08-12 16:54:10</plaxoPulse:lastModified></nowiki></code>
+:    <code><nowiki><plaxoPulse:authorProfile>http://www.plaxo.com/profile/show/201864723191?pk=b7694d3b3b9d9fa6de40cd0d462d4d1607f4069d</plaxoPulse:authorProfile></nowiki></code> 
+:<code><nowiki><plaxoPulse:feedIcon>Twitter.gif</plaxoPulse:feedIcon></nowiki></code>
+::    <code><nowiki><plaxoPulse:authorPhoto></plaxoPulse:authorPhoto></nowiki></code>
+::    <code><nowiki><plaxoPulse:numComments>0</plaxoPulse:numComments></nowiki></code>
+::    <code><nowiki><plaxoPulse:numViews>0</plaxoPulse:numViews></nowiki></code>
+:
+::    <code><nowiki></item></nowiki> </code>
+
+
+* It may be interesting to support the <code>numViews</code> (object view count), <code>numComments</code> (object comment count) and <code>feedIcon</code> (feed favicon) attributes in the OpenStream specification. The <code>feedIcon</code> attribute may also be a worthy method of supporting [http://www.friendfeed.com FriendFeed] service icon metadata. 
+
+===Jaiku RSS Extensions===
+* [http://www.jaiku.com Jaiku] is a microblogging service provided by [http://www.google.com Google, Inc.]
+
+===Wakoopa RSS Extensions===
+[http://www.wakoopa.com Wakoopa] is a [http://last.fm last.fm]-style social network and logging system for software.
