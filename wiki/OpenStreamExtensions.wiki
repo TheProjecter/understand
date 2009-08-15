@@ -6,9 +6,9 @@ systems and services, or missing from the base specification.
 
 =Missing/Useful Features=
 
-===FriendFeed-Specific Features==
+===FriendFeed-Specific Features===
 
-==Unifying/Supporting Proprietary Metadata?===
+==Unifying/Supporting Proprietary Metadata?==
 ===Plaxo Pulse RSS Extensions===
   * Plaxo Pulse is a lifestreaming/content aggregation service provided by [http://www.plaxo.com Plaxo, Inc.] 
   * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
