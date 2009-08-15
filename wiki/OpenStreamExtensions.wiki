@@ -1,16 +1,16 @@
 #summary Discussion and collaboration on the tentative OpenStream specification
 
 == Introduction ==
-
-Add your content here.
-
+OpenFeed may potentially be implemented either as an entirely new specification, or as a set of extensions and supporting amendment documents to the [http://activitystrea.ms ActivityStrea.ms] [http://martin.atkins.me.uk/specs/activitystreams/activityschema Atom Activity Schema specification]. It aims to supplement it, by providing support for a number of features that are currently specific to proprietary and Open Source aggregation
+systems and services.
 
 ==Missing/Useful Features==
 
 ==Unifying/Supporting Proprietary Metadata?===
 ===Plaxo Pulse RSS Extensions===
-  * Plaxo Pulse is a lifestreaming/content aggregation service provided by Plaxo, Inc. 
+  * Plaxo Pulse is a lifestreaming/content aggregation service provided by [http://www.plaxo.com Plaxo, Inc.] 
   * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
+  * The {{{plaxoPulse="http://www.plaxo.com/"}}} XML namespace denotes Pulse-specific metadata and content 
 
 An example feed item (an imported Twitter post):<br/>
 {{{<item>}}}<br/>
@@ -32,6 +32,7 @@ An example feed item (an imported Twitter post):<br/>
         
       {{{</item>}}}
 
+  * It may be interesting to support the {{{numViews}}} (object view count), {{{numComments}}} (object comment count) and {{{feedIcon}}} (feed favicon) attributes in the OpenStream specification. The {{{feedIcon}}} attribute may also be a worthy method of supporting [http://www.friendfeed.com FriendFeed] service icon metadata. 
 
 ===Jaiku RSS Extensions===
   * Jaiku is a microblogging service provided by Google, Inc. 
