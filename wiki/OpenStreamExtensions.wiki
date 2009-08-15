@@ -25,7 +25,7 @@ An example feed item (an imported Twitter post):
     {{{<plaxoPulse:lastModified>2009-08-12 16:54:10</plaxoPulse:lastModified>}}}<br/>
     {{{<plaxoPulse:authorProfile>http://www.plaxo.com/profile/show/201864723191?pk=b7694d3b3b9d9fa6de40cd0d462d4d1607f4069d</plaxoPulse:authorProfile>}}}
     {{{<plaxoPulse:feedIcon>Twitter.gif</plaxoPulse:feedIcon>}}}<br/>
-    {{{<plaxoPulse:authorPhoto></plaxoPulse:authorPhoto><br/>
+    {{{<plaxoPulse:authorPhoto></plaxoPulse:authorPhoto>}}}<br/>
     {{{<plaxoPulse:numComments>0</plaxoPulse:numComments>}}}<br/>
     {{{<plaxoPulse:numViews>0</plaxoPulse:numViews>}}}<br/><br/>
     
