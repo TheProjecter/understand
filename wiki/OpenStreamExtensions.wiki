@@ -6,7 +6,7 @@ systems and services, or missing from the base specification.
 
 =Missing/Useful Features=
 
-===FriendFeed-Specific Features===
+===!FriendFeed-Specific Features===
 
 ==Unifying/Supporting Proprietary Metadata?==
 ===Plaxo Pulse RSS Extensions===
