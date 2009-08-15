@@ -12,21 +12,22 @@ Add your content here.
   * Plaxo Pulse is a lifestreaming/content aggregation service provided by Plaxo, Inc. 
   * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
 
-{{{<item>}}}
+An example feed item (an imported Twitter post):
+{{{<item>}}}<br/>
     {{{<guid isPermaLink="false">http://www.plaxo.com/events/show/202064487892</guid>}}}
-    {{{<pubDate>Thu, 13 Aug 2009 00:54:10 +0100</pubDate>}}}
-    {{{<title>Tyson Key posted on Twitter</title>}}}
-    {{{<link>http://www.plaxo.com/events/show/202064487892</link>}}}
-    {{{<description><![CDATA[@<a href="http://twitter.com/symbian_markw" target="_blank">symbian_markw</a> It's all about the architecture. 'Nuff said...<p><a href="http://twitter.com/vmlemon/statuses/3275771117" target="_blank">more &raquo;</a></p>]]></description>}}}
-    {{{<author><![CDATA[Tyson Key]]></author>}}}
+    {{{<pubDate>Thu, 13 Aug 2009 00:54:10 +0100</pubDate>}}}<br/>
+    {{{<title>Tyson Key posted on Twitter</title>}}}<br/>
+    {{{<link>http://www.plaxo.com/events/show/202064487892</link>}}}<br/>
+    {{{<description><![CDATA[@<a href="http://twitter.com/symbian_markw" target="_blank">symbian_markw</a> It's all about the architecture. 'Nuff said...<p><a href="http://twitter.com/vmlemon/statuses/3275771117" target="_blank">more &raquo;</a></p>]]></description>}}}<br/>
+    {{{<author><![CDATA[Tyson Key]]></author>}}}<br/><br/>
     
-    {{{<plaxoPulse:pubDateUnix>1250121250</plaxoPulse:pubDateUnix>}}}
-    {{{<plaxoPulse:lastModified>2009-08-12 16:54:10</plaxoPulse:lastModified>}}}
+    {{{<plaxoPulse:pubDateUnix>1250121250</plaxoPulse:pubDateUnix>}}}<br/>
+    {{{<plaxoPulse:lastModified>2009-08-12 16:54:10</plaxoPulse:lastModified>}}}<br/>
     {{{<plaxoPulse:authorProfile>http://www.plaxo.com/profile/show/201864723191?pk=b7694d3b3b9d9fa6de40cd0d462d4d1607f4069d</plaxoPulse:authorProfile>}}}
-    {{{<plaxoPulse:feedIcon>Twitter.gif</plaxoPulse:feedIcon>}}}
-    {{{<plaxoPulse:authorPhoto></plaxoPulse:authorPhoto>
-    {{{<plaxoPulse:numComments>0</plaxoPulse:numComments>}}}
-    {{{<plaxoPulse:numViews>0</plaxoPulse:numViews>}}}
+    {{{<plaxoPulse:feedIcon>Twitter.gif</plaxoPulse:feedIcon>}}}<br/>
+    {{{<plaxoPulse:authorPhoto></plaxoPulse:authorPhoto><br/>
+    {{{<plaxoPulse:numComments>0</plaxoPulse:numComments>}}}<br/>
+    {{{<plaxoPulse:numViews>0</plaxoPulse:numViews>}}}<br/><br/>
     
         
       {{{</item>}}}
