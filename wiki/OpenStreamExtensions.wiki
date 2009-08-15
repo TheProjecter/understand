@@ -1,10 +1,12 @@
 #summary Discussion and collaboration on the tentative OpenStream specification
 
-== Introduction ==
+=Introduction =
 OpenFeed may potentially be implemented either as an entirely new specification, or as a set of extensions and supporting amendment documents to the [http://activitystrea.ms ActivityStrea.ms] [http://martin.atkins.me.uk/specs/activitystreams/activityschema Atom Activity Schema specification]. It aims to supplement it, by providing support for a number of features that are currently specific to proprietary and Open Source aggregation
-systems and services.
+systems and services, or missing from the base specification.
 
-==Missing/Useful Features==
+=Missing/Useful Features=
+
+===FriendFeed-Specific Features==
 
 ==Unifying/Supporting Proprietary Metadata?===
 ===Plaxo Pulse RSS Extensions===
