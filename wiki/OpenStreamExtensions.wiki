@@ -12,7 +12,7 @@ Add your content here.
   * Plaxo Pulse is a lifestreaming/content aggregation service provided by Plaxo, Inc. 
   * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
 
-An example feed item (an imported Twitter post):
+An example feed item (an imported Twitter post):<br/>
 {{{<item>}}}<br/>
     {{{<guid isPermaLink="false">http://www.plaxo.com/events/show/202064487892</guid>}}}
     {{{<pubDate>Thu, 13 Aug 2009 00:54:10 +0100</pubDate>}}}<br/>
