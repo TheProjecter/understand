@@ -9,5 +9,10 @@ Add your content here.
 
 ==Unifying/Supporting Proprietary Metadata?===
 ===Plaxo Pulse RSS Extensions===
+  * Plaxo Pulse is a lifestreaming/content aggregation service provided by Plaxo, Inc. 
+  * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
+
 ===Jaiku RSS Extensions===
+  * Jaiku is a microblogging service provided by Google, Inc. 
+
 ===Wakoopa RSS Extensions===
