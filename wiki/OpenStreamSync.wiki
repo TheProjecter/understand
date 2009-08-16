@@ -18,8 +18,18 @@ It aims to supplement AAS, by providing support for a number of features that ar
 * Support for GeoRSS (<code><nowiki>xmlns:georss="http://www.georss.org/georss"</nowiki></code> and <code><nowiki>xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"</nowiki></code>) should be maintained, as FriendFeed currently provides this in their hybrid Atom/RSS feeds, although it is seemingly unused at present
 * It may be interesting to map some GeoRSS attributes to the [http://martin.atkins.me.uk/specs/activitystreams/activityschema#anchor17 Location]/[http://martin.atkins.me.uk/specs/activitystreams/activityschema#anchor15 Place] etc. attributes in AAS, or maintain a hybrid approach
 * Support for MediaRSS (<code><nowiki>xmlns:media="http://search.yahoo.com/mrss/"</nowiki></code>) should be maintained, although portions could be mapped to AAS elements and attributes
+* Support for Direct Messages/multi-destination posts (generated on-the-fly, based upon privacy settings?)
 
 ==Unifying/Supporting Proprietary Metadata?==
+
+===FriendFeed APIv2 XML===
+* Example XML feeds in the FriendFeed XML (FFML?) format are available [http://friendfeed-api.com/v2/feed/bret?format=xml here], and [http://paster.dazjorz.com/?p=4658 here]
+* Supported features include <code><nowiki><like></nowiki></code>, <code><nowiki><via></nowiki></code>, <code><nowiki><entry></nowiki></code>, and <code><nowiki><comment></nowiki></code> tags
+* FriendFeed utilises a number of Object ID formats, most of which don't appear to have been given publicised names. These take a number of forms, including long-form GUIDs for most legacy content (e.g. (<code><nowiki>/e/71f0c4d2-2918-44cc-a2df-6f486e96e37c</nowiki></code>), new-style "Short Hashes" (e.g. <code><nowiki>ae4937ac</nowiki></code>, and "Long"/"Opaque" Hashes/IDs in a style similar to <code><nowiki>e/ae4937ac7756d6c5970b0edd67cfd5b5</nowiki></code>
+* As currently implemented in FriendFeed, Opaque Object (Entry) IDs are also valid URIs, that redirect to a URL containing a Short Hash, and a hyphenated extract of an Entry's title (e.g. <code><nowiki>http://friendfeed.com/bret/ae4937ac/bret-we-need-handyman-live-in-los-gatos-anyone</nowiki></code>)
+* The <code><nowiki><like></nowiki></code> tag may potentially align with one of the features mentioned earlier, although extensions may be necessary to support FriendFeed-specific (meta-)metadata
+* Directed/Multi-Destination Posts are handled with <code><nowiki><to></nowiki></code> elements, which contain additional elements and metadata that should be considered
+
 ===Plaxo Pulse RSS Extensions===
 * Plaxo Pulse is a lifestreaming/content aggregation service provided by [http://www.plaxo.com Plaxo, Inc.] 
 * Examples of Pulse RSS feeds are available [http://www.plaxo.com/rss/events?ticket=47-1260279-8s8akmy38mtm4aq1sxyl here] and [http://www.plaxo.com/rss/events?filter=me&ticket=47-1260279-s7e180y9nakrfjbrkmr5 here].
@@ -46,7 +56,7 @@ An example feed item (an imported Twitter post):<br/>
 ::    <code><nowiki></item></nowiki> </code>
 
 
-* It may be interesting to support the <code>numViews</code> (object view count), <code>numComments</code> (object comment count) and <code>feedIcon</code> (feed favicon) attributes in the OpenStream specification. The <code>feedIcon</code> attribute may also be a worthy method of supporting [http://www.friendfeed.com FriendFeed] service icon metadata. 
+* It may be interesting to support the <code>numViews</code> (object view count), <code>numComments</code> (object comment count) and <code>feedIcon</code> (feed favicon) attributes in the OpenStream specification. The <code>feedIcon</code> attribute may also be a worthy method of supporting [http://www.friendfeed.com FriendFeed] service icon metadata.
 
 ===Jaiku RSS Extensions===
 * [http://www.jaiku.com Jaiku] is a microblogging service provided by [http://www.google.com Google, Inc.]
