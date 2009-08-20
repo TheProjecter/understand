@@ -1,6 +1,6 @@
 #summary Discussion and collaboration on the tentative OpenStream specification
 
-Note: This content is now currently being maintained at [http://thekev.in/wiki/index.php/OpenStream_Specification this location]. Updates may be synchronised to this wiki, and reformatted in the future.
+Note: This content is now currently being maintained at [http://openff.org/wiki/index.php/OpenStream_Specification this location]. Updates may be synchronised to this wiki, and reformatted in the future.
 
 =Introduction =
 !OpenStream may potentially be implemented either as an entirely new specification, or as a set of extensions and supporting amendment documents to the [http://activitystrea.ms ActivityStrea.ms] [http://martin.atkins.me.uk/specs/activitystreams/activityschema Atom Activity Schema specification]. It aims to supplement it, by providing support for a number of features that are currently specific to proprietary and Open Source aggregation
