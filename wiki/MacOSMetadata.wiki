@@ -1,0 +1,4 @@
+#summary One-sentence summary of this page.
+
+==A Mac OS 7.0.1 Alias==
+http://understand.googlecode.com/files/MacOS701AliasFixed.png
