@@ -8,7 +8,7 @@
   * There is a [http://tcpreplay.synfin.net/trac/ticket/23 bug] on the [http://tcpreplay.synfin.net/ TCPreplay project] bug tracker requesting support for pcap-ng, although it seems that support has not been implemented yet
 
 ==Applications That Should Support pcap-ng, But Don't==  
-  * [http://www.aircrack-ng.org Aircrack-NG] doesn't appear to have any bugs/requests filed against it for pcap-ng support
+  * [http://www.aircrack-ng.org AirCrack-NG] doesn't appear to have any bugs/requests filed against it for pcap-ng support
   * Microsoft Network Monitor (any version) doesn't support pcap-ng files, and it probably won't. (Come on! You can even add proprietary extensions if you must, as long as they don't break other applications).
   * The Linux BlueZ {{{hcidump}}} utility supports it's own custom file format, and a {{{btsnoop}}} file format, but not pcap-ng
   * The {{{pppdump}}} utility records packets in a custom file format, and it seems that these currently don't convert fully to pcap-ng - we'd like that fixing
