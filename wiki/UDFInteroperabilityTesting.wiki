@@ -88,3 +88,7 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 
 =Example Volumes=
   * A couple of "Live" examples of volumes created or utilised/shared by the implementations listed above are available [http://understand.googlecode.com/files/UDF_Sample_Volumes_1.tar.bz2 here]
+  * A version of the "Live" examples is available with additional Mac OS X 10.5.6-specific metadata [http://understand.googlecode.com/files/UDF_Sample_Volumes_2.zip here]
+  * A (partial) example of a UDF volume created by a Philips standalone DVD+RW recorder is available [http://understand.googlecode.com/files/Philips_DVD%2BRW_UDF_Initial_Structure_Dump_1.img.bz2 here]
+  * A (partial) example of a UDF volume created using the Mac OS X 10.5.6 Disc Recording framework on a DVD+RW disc is available [http://understand.googlecode.com/files/Mac_OS_X_10.5.6_DVD_test_1.img.bz2 here]
+  * An empty UDF 2.01 disk image (created on Mac OS X 10.5.6) is available [http://understand.googlecode.com/files/UDFMacOSX.img.zip here]
