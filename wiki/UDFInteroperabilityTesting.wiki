@@ -76,7 +76,7 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 ||{{{*Philips DVD Video}}}}||
 ||{{{*UDF Mac VolumeInfo}}}||
 ||{{{*UDF Mac FinderInfo}}}||
-||{{{UDF Mac ResourceFork}}||
+||{{{*UDF Mac ResourceFork}}||
 ||{{{*Apple Mac OS X DiscRec}}}||
 
 <br/>
