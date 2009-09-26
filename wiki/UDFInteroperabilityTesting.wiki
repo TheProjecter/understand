@@ -6,8 +6,8 @@ Identifies itself as: {{{*Linux mkudffs}}}, {{{*Linux UDFFS}}}
 
 
 ===Additional Information===
-Unknown "{{{LinuxUDF}}}" string - is it a volume name?
-A "{{{lost+found}}}" directory is created when a volume is initialised with {{{mkudffs}}}
+Unknown "{{{LinuxUDF}}}" string - is it a volume name?<br/>
+A "{{{lost+found}}}" directory is created when a volume is initialised with {{{mkudffs}}}.
 It doesn't seem to be possible to add Extended Attributes with either {{{setfattr}}} or {{{attr}}}.
 
 ===Version Information Strings===
