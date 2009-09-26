@@ -64,8 +64,13 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 ----
 <br/>
 ==Apple Mac OS X 10.5.6==
+==Metadata==
+
 ===Disc Recording Framework Variant==
-||{{{*Apple Mac OS X DiscRec}}}||
+Identifies itself as: {{{*Apple Mac OS X DiscRec}}}
+||{{{*UDF Mac VolumeInfo}}}||
+||{{{*UDF Mac FinderInfo}}}||
+||{{{*UDF Mac ResourceFork}}}||
 
 =Misc Data Structures=
 
@@ -77,10 +82,6 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 ||{{{OSTA Compressed Unicode}}}||
 ||{{{*OSTA UDF Compliant}}}||
 ||{{{*Philips DVD Video}}}||
-||{{{*UDF Mac VolumeInfo}}}||
-||{{{*UDF Mac FinderInfo}}}||
-||{{{*UDF Mac ResourceFork}}}||
-
 
 <br/>
 ----
