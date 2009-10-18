@@ -10,7 +10,7 @@ The Install Images are used to bootstrap the installation process.
 2. Start VMware Workstation and create a new virtual machine with the following settings:<br/>
 	{{{Memory: 88MB}}} (96MB is the maximum, due to System V limitations)<br/>
 	{{{Processors: 1}}}<br/>
-	{{{Display: Auto Detect<br/>
+	{{{Display: Auto Detect}}}<br/>
 	
 	The Hard Disk MUST be 0.4GB or less, and MUST be IDE for this to work. You can choose to "{{{Allocate all disk space now}}}" (I didn't), and unselect "{{{Split disk into 2GB files}}}" as it is not required.
 	Name the disk image something like "{{{VINES.vmdk}}}" or something else you can remember
