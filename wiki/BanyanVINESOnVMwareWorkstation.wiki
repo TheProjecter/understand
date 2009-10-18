@@ -27,8 +27,8 @@ The Install Images are used to bootstrap the installation process.
 4. Now the disk image should start to boot and you should arrive at "{{{BANYAN NETWORKING SOLUTION}}}" and then additional data will be loaded from the floppy image. When prompted, switch the floppy image to {{{85INST2.FIL}}} and then press Enter.
 
 	At the menu, just press 1 and hit Enter. At the next menu, say no (press the N key and then hit enter).
-	Answer "Y" to "{{{Would you like to install Enterprise Backup/Restore (EBR)?}}}", and "Y" again to "{{{Install OS/2 client files?}}}"
-	When asked to override the default file system sizes, just answer "N" and wait for the Banyan S5 and S10 file systems to be created.
+	Answer "{{{Y}}}" to "{{{Would you like to install Enterprise Backup/Restore (EBR)?}}}", and "Y" again to "{{{Install OS/2 client files?}}}"
+	When asked to override the default file system sizes, just answer "{{{N}}}" and wait for the Banyan S5 and S10 file systems to be created.
 
 5. Switch the floppy image to {{{85REL1.FIL}}} (Release Diskette #1) and then press Enter, and then when prompted, switch to {{{85REL2.FIL}}}
 and finally {{{85REL3.FIL}}} when prompted. Wait for the installation to complete, until it asks about the Kernel configuration. 
