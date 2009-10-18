@@ -1,6 +1,6 @@
 #summary HOWTO: Installing Banyan VINES 8.5 in VMware Workstation
 
-1. Download the archive containing the Disk Images from http://house404.co.uk/files/VINES_8.5.zip and unzip the archive. 
+1. Download the archive containing the Disk Images from http://house404.co.uk/VINES_8.5.zip and unzip the archive. 
 You should now have 5 files ({{{85INST1.FIL}}} and {{{85INST2.FIL}}} (Install Images) and the Release Images ({{{85REL1.FIL}}}, {{{85REL2.FIL}}} and {{{85REL3.FIL}}}). 
 
 The Release Images contain the bulk of the VINES operating system itself (mostly concentrated in {{{85REL3.FIL}}}).
