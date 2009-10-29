@@ -12,6 +12,7 @@ In theory, the S60v3 version may work on S60v5/[http://blog.symbian.org/2009/04/
 It is possible to install this version on either a handset's internal Flash memory, or on an external Flash memory card (e.g. RS-MMC or MicroSD), a number of directories and files are installed or otherwise created, and a number of files are also downloaded from an undetermined HTTP server.
 
 == Symbian OS/S60v3 version==
+===Background/Theory===
 Now that the [http://www.symbian.org Symbian Foundation] have released the EKA2 source code, along with a QEMU-based ARM native code emulator and baseport (Syborg), we can theoretically run the Player outside of a mobile phone for the first time. In addition, support for audio playback was recently implemented.
 
 The availability of the new source code means that it is possible to disable/reduce the functionality of the Platform Security model and Trusted Computing Base, in order to grant all Capabilities to all processes at runtime, although this is of little use at present. We can also theoretically modify ETel to return a spoofed IMEI or telephone number to the application.
