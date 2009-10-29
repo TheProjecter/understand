@@ -17,6 +17,6 @@ Now that the [http://www.symbian.org Symbian Foundation] have released the EKA2 
 
 The availability of the new source code means that it is possible to disable/reduce the functionality of the Platform Security model and Trusted Computing Base, in order to grant all Capabilities to all processes at runtime, although this is of little use at present. We can also theoretically modify ETel to return a spoofed IMEI or telephone number to the application.
 
-However, ETel source code has not been published yet, the Software Installation package has not been published yet (although tools are available to decompose {{{.SIS}}} files to their constituent files), a UI layer is not available at present (although TextShell/EShell is), and the MultiMedia Framework is also absent. In the interim, it is still possible to determine which DLLs are necessary.
+However, ETel source code has not been published yet, the Software Installation package has not been published yet (although tools are available to decompose {{{.SIS}}} files to their constituent files), a UI layer is not available at present (although !TextShell/{{{EShell}}} is), and the !MultiMedia Framework is also absent. In the interim, it is still possible to determine which DLLs are necessary.
 
 == Java/J2ME version==
