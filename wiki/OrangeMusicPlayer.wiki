@@ -3,7 +3,7 @@
 
 == Introduction ==
 
-Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS (ARM - S60v2, [http://orange.kozmusic.com/installs/n_n80/1208/MusicPlayer.SISX S60v3] and UIQ), Windows Mobile (ARM), and a Java version (<a href="http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jar">{{{.JAR}}}</a>/<a href="http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jad">{{{.JAD}}}</a>) intended primarily for Motorola phones). 
+Orange Music Player is currently available for download [http://orange.kozmusic.com/ here], and versions for several platforms exist (Symbian OS (ARM - S60v2, [http://orange.kozmusic.com/installs/n_n80/1208/MusicPlayer.SISX S60v3] and UIQ), Windows Mobile (ARM), and a Java version (<a href="http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jar">{{{.JAR}}}</a>/<a href="http://orange.kozmusic.com/installs/j2me/65582/JukeBox.jad">{{{.JAD}}}</a>) intended primarily for Motorola phones. 
 
 In theory, the S60v3 version may work on S60v5/[http://blog.symbian.org/2009/04/30/reviewing-the-release-plan/ Symbian^2]-based devices, as they are also based upon Symbian OS 9.x versions, and share substantial amounts of source code and infrastructure.
 
