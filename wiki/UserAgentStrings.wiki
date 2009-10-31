@@ -6,6 +6,7 @@
 ||{{{User-Agent}}}||{{{cadaver/0.23.2 neon/0.28.3}}}||Apache {{{access_log}}}||CaDAVer WebDAV client on Linux||
 ||{{{User-Agent}}}||{{{Microsoft Data Access Internet Publishing Provider DAV}}}||Apache {{{access_log}}}||Microsoft Windows Web Folders (WebDAV) Client||
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (compatible; FriendFeedBot/0.1; +Http://friendfeed.com/about/bot)}}}||Apache {{{access_log}}}||FriendFeed RSS/Atom feed crawler/ingestion system||
+||{{{User-Agent}}}||{{{BREW-Applet/0x0101104D (BREW/4.0.4.12; DeviceId:  100001; Lang: en)}}}||Apache {{{access_log}}}
 
 ==MIME/E-Mail==
 ||<b>String Type</b>||<b>String Content</b>||<b>Source</b>||<b>Purpose/Description</b>||
