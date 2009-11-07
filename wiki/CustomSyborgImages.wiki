@@ -5,7 +5,7 @@
 This article assumes that you have successfully configured the Symbian Kernel Kit components and toolchain on a system running Windows XP, including ARM RealView Compilation Tools (RVCT) 4.0, and Symbian's patched Mercurial version of QEMU.
 
 
-==EUserHL==
+==EUserHL on Host-Bound Storage (Drive {{{S:\}}})==
 
 === {{{EUserHL}}} Package Installation and {{{PATH}}} Testing===
   * Download the {{{EUserHL.zip}}} archive from [http://developer.symbian.org/wiki/index.php/File:EUserHL.zip here], and extract it using your favourite ZIP archive management tool
@@ -25,3 +25,5 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
   * Move {{{C:\Symbian\ExtractedFiles\EUserHL\backup_registration.xml}}} to {{{C:\svphostfs\private\10202D56\import\packages\2001B440}}}
 
 At this stage, we can attempt to run an example binary
+
+=== Running an Example Binary ===
