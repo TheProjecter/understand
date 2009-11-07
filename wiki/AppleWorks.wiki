@@ -7,6 +7,7 @@ Add your content here.
 
 ==File Type and Creator Codes==
 Common Mac OS X UTI: {{{com.apple.appleworks.document}}}
+Common Windows/DOS-style file name suffix: {{{.cwk}}}
 
 ==Classic Mac OS Type/Creator FourCC Codes== 
 ||Creator||Type||Description||
