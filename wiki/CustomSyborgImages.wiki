@@ -17,3 +17,4 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
   * Copy {{{C:\Symbian\EUserHL.sis}}} into the new {{{ExtractedFiles}}} directory
   * Open a {{{cmd.exe}}} (or another shell of choice) session, and switch to the {{{C:\Symbian\ExtractedFiles}}} directory
   * Run {{{dumpsis EUserHL.sis}}} to extract the contents of the {{{.SIS}}} file to a {{{EUserHL}}} directory containing 3 files ({{{file0}}}, {{{file1}}} and {{{EUserHL.pkg}}})
+  * Rename {{{file0}}} to {{{euserhl.dll}}}, and {{{file1}}} to {{{backup_registration.xml}}}
