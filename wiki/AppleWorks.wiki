@@ -15,3 +15,4 @@ Common Windows/DOS-style file name suffix: {{{.cwk}}}
 ||{{{BOBO}}}||{{{CWSS}}}||AppleWorks/!ClarisWorks Spreadsheet Document||
 ||{{{BOBO}}}||{{{CWDB}}}||AppleWorks/!ClarisWorks Database Document||
 ||{{{BOBO}}}||{{{CWPT}}}||AppleWorks/!ClarisWorks Painting Document||
+||{{{BOBO}}}||{{{CWPR}}}||AppleWorks/!ClarisWorks Presentation Document||
