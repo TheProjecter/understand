@@ -1,5 +1,4 @@
 #summary Discussion and collaboration on the tentative OpenStream specification
-
 Note: This content is now currently being maintained at [http://openff.org/wiki/index.php/OpenStream_Specification this location]. Updates may be synchronised to this wiki, and reformatted in the future.
 
 =Introduction =
