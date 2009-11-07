@@ -5,7 +5,7 @@
 ||{{{User-Agent}}}||{{{Outlook-Express/6.0 (MSIE 6.0; Windows NT 5.0; TmstmpExt)}}}||Outlook Express 6.0 HTTPMail on Windows 2000||
 ||{{{User-Agent}}}||{{{cadaver/0.23.2 neon/0.28.3}}}||CaDAVer WebDAV client on Linux||
 ||{{{User-Agent}}}||{{{Microsoft Data Access Internet Publishing Provider DAV}}}||Microsoft Windows Web Folders (WebDAV) Client||
-||{{{User-Agent}}}||{{{Mozilla/5.0 (compatible; FriendFeedBot/0.1; +Http://friendfeed.com/about/bot)}}}||FriendFeed RSS/Atom feed crawler/ingestion system||
+||{{{User-Agent}}}||{{{Mozilla/5.0 (compatible; FriendFeedBot/0.1; +Http://friendfeed.com/about/bot)}}}||[http://friendfeed.com FriendFeed] RSS/Atom feed crawler/ingestion system||
 ||{{{User-Agent}}}||{{{BREW-Applet/0x0101104D (BREW/4.0.4.12; DeviceId:  100001; Lang: en)}}}||QualComm BREW HTTP Applet Example||
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (webOS/1.0; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0}}}||Palm Pre/WebOS WebKit-based browser||
 
