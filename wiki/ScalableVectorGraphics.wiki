@@ -1,4 +1,5 @@
 #summary Content related to the Scalable Vector Graphics (SVG) file format
+#labels Deprecated
 
 = Introduction =
 
