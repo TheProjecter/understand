@@ -7,7 +7,7 @@
 = Variants and Forks =
   * [http://code.google.com/p/qemu-omap3 QEMU-OMAP3] concentrates on adding support for OMAP3 chipsets from Texas Instruments based upon the ARM architecture
   * The [http://developer.android.com/guide/developing/tools/emulator.html Android Emulator] also emulates the ARM architecture and a custom chipset design (GoldFish)
-  * Although it is not available "in-the-wild", a version of QEMU supporting [http://www.symbian.org Symbian OS] (tentatively named "Syborg") supposedly exists
+  * Most of the patches necessary to run [http://www.symbian.org Symbian OS] on QEMU have been accepted upstream by the QEMU developers, and the Syborg baseport is available [http://developer.symbian.org/oss/FCL/interim/QEMU here], along with additional patches to support Python-based hardware devices, and the use of a host directory as a guest drive
 
 = Operating Systems =
 
