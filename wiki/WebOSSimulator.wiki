@@ -1,7 +1,7 @@
 #summary Exploring and hacking Palm's x86-based simulator build of WebOS
 
 ==Getting CaDAVer Running==
-The "easiest" (subjective) way to run CaDAVer is to copy the {{{/usr/bin/cadaver}}} executable, and the listed shared objects to a directory available to a local HTTP server (e.g. Apache), and then use BusyBox's internal {{{wget}}} command under {{{novaterm}}} to download them.
+The "easiest" (subjective) way to run CaDAVer is to copy the {{{/usr/bin/cadaver}}} executable, and the listed shared objects to a directory available to a local HTTP server (e.g. Apache), and then use !BusyBox's internal {{{wget}}} command under {{{novaterm}}} to download them.
 
 Within the WebOS !VirtualBox virtual machine, the host system's IPv4 address is {{{10.0.2.2}}}, and the guest's is {{{10.0.2.15}}}, although traffic intended for the host only, masquerades as traffic from {{{127.0.0.1}}} and is visible on the loopback interface.
 
