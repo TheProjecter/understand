@@ -31,4 +31,4 @@ At this stage, we can attempt to run an example binary
 === Running an Example Binary ===
   * Copy the {{{euserhl_walkthrough.exe}}} binary from {{{C:\Symbian\epoc32\release\armv5\urel}}} to {{{C:\svphostfs\sys\bin}}}
   * Run {{{arm-none-symbianelf-qemu-system -M \sf\adaptation\qemu\baseport\syborg\syborg.dtb -kernel \epoc32\rom\syborg.img}}} to start the QEMU-based emulator, assuming that the ROM image and {{{.DTB}}} files are in the specified locations
-  * At present, it appears that the {{{euserhl_walkthrough.exe}}} binary fails out with a {{{Not found}}} when executed
+  * At present, it appears that the {{{euserhl_walkthrough.exe}}} binary fails out with a {{{Not found}}} error when executed
