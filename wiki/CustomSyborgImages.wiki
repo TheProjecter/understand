@@ -2,7 +2,11 @@
 
 = Introduction =
 
-Add your content here.
+This article assumes that you have successfully configured the Symbian Kernel Kit components and toolchain on a system running Windows XP, including ARM RealView Compilation Tools (RVCT) 4.0, and Symbian's patched Mercurial version of QEMU.
 
 
 ==EUserHL==
+
+=== Preparation ===
+  * Download the EUserHL archive from [http://developer.symbian.org/wiki/index.php/File:EUserHL.zip here], and extract it using your favourite ZIP archive management tool
+  * 
