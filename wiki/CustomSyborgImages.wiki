@@ -19,3 +19,5 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
   * Run {{{dumpsis EUserHL.sis}}} to extract the contents of the {{{.SIS}}} file to a {{{EUserHL}}} directory containing 3 files ({{{file0}}}, {{{file1}}} and {{{EUserHL.pkg}}})
   * Rename {{{file0}}} to {{{euserhl.dll}}}, and {{{file1}}} to {{{backup_registration.xml}}}
   * Theoretically, given that the {{{.PKG}}} file suggests that these files are (Symbian Platform) drive letter-agnostic, we should be able to move them to specified subdirectories in {{{C:\svphostfs\}}}, and have them function within QEMU
+  * Create a nested set of directories at {{{C:\svphostfs\private\10202D56\import\packages\2001B440}}}
+  * Create another nested set of directories at {{{C:\svphostfs\sys\bin}}}
