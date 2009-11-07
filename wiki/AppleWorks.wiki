@@ -9,4 +9,5 @@ Add your content here.
 Common Mac OS X UTI: {{{com.apple.appleworks.document}}}
 
 ==Classic Mac OS Type/Creator FourCC Codes== 
-||BOBO||CWWP||
+||Creator||Type||Description||
+||BOBO||CWWP||AppleWorks/ClarisWorks Word Processing Document||
