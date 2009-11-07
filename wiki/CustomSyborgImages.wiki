@@ -8,5 +8,5 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
 ==EUserHL==
 
 === Preparation ===
-  * Download the EUserHL archive from [http://developer.symbian.org/wiki/index.php/File:EUserHL.zip here], and extract it using your favourite ZIP archive management tool
-  * 
+  * Download the {{{EUserHL.zip}}} archive from [http://developer.symbian.org/wiki/index.php/File:EUserHL.zip here], and extract it using your favourite ZIP archive management tool
+  * Run the extracted {{{EUserHL.exe}}} executable to begin the process of copying a number of files to {{{C:\Symbian}}} (example code, header files, a set of {{{.SIS}}} files, a number of ARM {{{UREL}}}/{{{UDEB}}} DLLs and executables, and a number of Windows x86 {{{WINSCW}}} DLLs and executables for use in the old Windows-based simulator)
