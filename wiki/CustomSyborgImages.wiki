@@ -12,7 +12,7 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
   * Run the extracted {{{EUserHL.exe}}} executable to begin the process of copying a number of files to {{{C:\Symbian}}} (example code, header files, a set of {{{.SIS}}} files, a number of ARM {{{UREL}}}/{{{UDEB}}} DLLs and executables, and a number of Windows x86 {{{WINSCW}}} DLLs and executables for use in the old Windows-based simulator)
   * Ensure that the {{{C:\epoc32\tools}}} directory is present in the {{{PATH}}} environment variable, so that the {{{dumpsis}}} utility can be used
 
-=== Extracting and Examining the Payload===
+=== Extracting and Examining the Payload ===
   * Create a new, empty directory at {{{C:\Symbian\ExtractedFiles}}} to store any temporary files used during this process
   * Copy {{{C:\Symbian\EUserHL.sis}}} into the new {{{ExtractedFiles}}} directory
   * Open a {{{cmd.exe}}} (or another shell of choice) session, and switch to the {{{C:\Symbian\ExtractedFiles}}} directory
@@ -20,4 +20,8 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
   * Rename {{{file0}}} to {{{euserhl.dll}}}, and {{{file1}}} to {{{backup_registration.xml}}}
   * Theoretically, given that the {{{.PKG}}} file suggests that these files are (Symbian Platform) drive letter-agnostic, we should be able to move them to specified subdirectories in {{{C:\svphostfs\}}}, and have them function within QEMU
   * Create a nested set of directories at {{{C:\svphostfs\private\10202D56\import\packages\2001B440}}}
-  * Create another nested set of directories at {{{C:\svphostfs\sys\bin}}}
+  * Create another nested set of directories at {{{C:\svphostfs\sys\bin}}}, if they don't exist already
+  * Move {{{C:\Symbian\ExtractedFiles\EUserHL\euserhl.dll}}} to {{{C:\svphostfs\sys\bin}}}
+  * Move {{{C:\Symbian\ExtractedFiles\EUserHL\backup_registration.xml}}} to {{{C:\svphostfs\private\10202D56\import\packages\2001B440}}}
+
+At this stage, we can attempt to run an example binary
