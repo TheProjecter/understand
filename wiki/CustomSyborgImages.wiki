@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Content related to building Symbian OS images for QEMU
 
 = Introduction =
 ==Preamble==
