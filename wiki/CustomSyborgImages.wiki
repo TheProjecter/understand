@@ -6,6 +6,8 @@ This article assumes that you have successfully configured the Symbian Kernel Ki
 
 *NOTE* - In order to run the Mercurial version of the QEMU-based emulator, as supplied in a Symbian Kernel Kit in binary form, it is imperative that the [http://www.microsoft.com/downloadS/details.aspx?familyid=9B2DA534-3E03-4391-8A4D-074B9F2BC1BF&displaylang=en Microsoft Visual Studio C++ 2008 Redistributable Package] be installed, as a {{{"The application failed to initialize properly (0xc0150002). Click on OK to terminate the application."}}} error dialogue will be produced, otherwise.
 
+==Useful Tips==
+  * When running QEMU, it may be necessary to specify that serial port debugging output gets dumped to a file, using an argument similar to: {{{-serial file:"SOSDUMP.TXT"}}}
 
 ==EUserHL on Host-Bound Storage (Drive {{{S:\}}})==
 
