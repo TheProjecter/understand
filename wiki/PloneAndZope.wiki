@@ -12,4 +12,6 @@
  * Unmount the {{{py24_pysvn_svn144-1.5.2-872-i386}}} volume 
 
 ===Attempting to Install PloneSVNView itself===
- *
+ * Extract the contents of {{{PloneSVNView-0.5.tar.gz}}}
+ * Move the {{{PloneSVNView}}} directory to {{{/Applications/Plone/zinstance/products}}}, and dispose of the {{{PloneSVNView-0.5.tar.gz}}} archive
+ * Carefully restart your Zope/Plone instance in the usual manner (by hitting the {{{Restart}}} button at the {{{Control_Panel}}} Zope Management Interface page, or hitting {{{Stop}}} and then {{{Start}}} after waiting a few moments, in the PloneController GUI application)
