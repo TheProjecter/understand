@@ -3,3 +3,8 @@
 ==PloneSVNView and Plone (latest) on Mac OS X==
  * Grab http://quest.windwards.net/quest/hacking/plonesvnview/PloneSVNView-0.5.tar.gz
  * Grab http://pysvn.tigris.org/files/documents/1233/38910/py24_pysvn_svn144-1.5.2-872-i386.dmg
+ * Mount py24_pysvn_svn144-1.5.2-872-i386.dmg and copy 
+/Volumes/py24_pysvn_svn144-1.5.2-872-i386/py24_pysvn_svn144-1.5.2-872-i386.pkg/Contents/Archive.pax.gz to $HOME/PSVN-24/file.pax.gz
+ * Switch to $HOME/PSVN-24 and move the pysvn directory to /Applications/Plone/Python-2.4/lib/python2.4
+ * Dispose of the $HOME/PSVN-24 directory along with it's contents
+ * Unmount the py24_pysvn_svn144-1.5.2-872-i386 volume 
