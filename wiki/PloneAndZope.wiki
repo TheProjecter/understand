@@ -1,10 +1,16 @@
 #summary Various notes related to Zope and Plone
 
 ==PloneSVNView and Plone (latest) on Mac OS X==
+ * Install Plone (of course!) using the handy DMG at 
+ * Grab http://pysvn.tigris.org/files/documents/1233/38910/py24_pysvn_svn144-1.5.2-872-i386.dmg, or look for another compatible version [http://pysvn.tigris.org/servlets/ProjectDocumentList?folderID=5841&expandFolder=5841&folderID=0 here] if that doesn't work
  * Grab http://quest.windwards.net/quest/hacking/plonesvnview/PloneSVNView-0.5.tar.gz
- * Grab http://pysvn.tigris.org/files/documents/1233/38910/py24_pysvn_svn144-1.5.2-872-i386.dmg
+
+===Attempting to Install PySVN for PloneSVNView===
  * Mount py24_pysvn_svn144-1.5.2-872-i386.dmg and copy 
 /Volumes/py24_pysvn_svn144-1.5.2-872-i386/py24_pysvn_svn144-1.5.2-872-i386.pkg/Contents/Archive.pax.gz to $HOME/PSVN-24/file.pax.gz
  * Switch to $HOME/PSVN-24 and move the pysvn directory to /Applications/Plone/Python-2.4/lib/python2.4
  * Dispose of the $HOME/PSVN-24 directory along with it's contents
  * Unmount the py24_pysvn_svn144-1.5.2-872-i386 volume 
+
+===Attempting to Install PloneSVNView itself===
+ *
