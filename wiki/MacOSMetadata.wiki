@@ -1,6 +1,8 @@
 #summary One-sentence summary of this page.
 
 ==Mac OS X Archival Experiment==
+It seems that not all metadata is archived by every archiving tool available for Mac OS X, and tools that claim to be able to archive a piece of metadata may not do so with full fidelity.
+
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
 ==Mac OS 7.0.1 User, Group, and Member files==
