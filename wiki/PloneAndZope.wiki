@@ -2,7 +2,7 @@
 
 ==Resolving the {{{Malformed MIME type (BROKEN)}}} AROfficeTransforms 0.9.4 installation error==
 
-===TraceBack===
+===[http://pastebin.com/f60b24b4d TraceBack]===
 {{{Traceback (innermost last):}}}<br/>
 {{{  Module ZPublisher.Publish, line 119, in publish}}}<br/>
 {{{  Module ZPublisher.mapply, line 88, in mapply}}}<br/>
