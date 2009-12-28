@@ -7,7 +7,7 @@ It seems that not all metadata is archived by every archiving tool available for
   * Create a new directory that contains a set of UNIX-specific, special file types: a FIFO/named pipe file, a block special file, 
 
 ===Caveats===
-  * The version of XAR shipped with Mac OS X 10.5.x contains a [http://code.google.com/p/xar/issues/detail?id=49 bug] that causes ACLs to be stripped away when archived - although they're still present in the file system itself
+  * The version of XAR (1.4) shipped with Mac OS X 10.5.x contains a [http://code.google.com/p/xar/issues/detail?id=49 bug] that causes ACLs to be stripped away when archived - although they're still present in the file system itself
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
