@@ -47,7 +47,7 @@ It seems that not all metadata is archived by every archiving tool available for
 0070   43 61 74 65 67 6F 72 79 00 00 00 00                Category....
 
 }}}
-  * When the {{{Category}}} property is set, and no other properties are modified, the {{{:SUMMARYINFORMATION:$DATA:}}} extended attribute is unchanged from it's initial state
+  * When the {{{Category}}} property is set, and no other properties are modified, the {{{:SUMMARYINFORMATION:$DATA:}}} and {{{:{4C8CC155-6C1E-11D1-8E41-00C04FB9386D}:$DATA:}}} extended attributes are unchanged from their initial state
 
 === Cygwin File Attributes (NTEA)===
   * When the {{{CYGWIN}}} environment variable contains {{{ntea}}}, POSIX file permissions will be stored in NTFS Streams
