@@ -13,9 +13,12 @@ It seems that not all metadata is archived by every archiving tool available for
   # a socket file (or a hard link to one)
   * Create a Finder {{{Burn Folder}}}, a Finder {{{Smart Folder}}}, an {{{Alias}}}, a file with the Finder {{{Locked}}} ({{{UserImmutable}}}) attribute, a file with the Stationary Pad attribute, a File with a Finder {{{Label}}} (one of {{{Red}}}, {{{Orange}}}, {{{Yellow}}}, {{{Green}}}, {{{Blue}}}, {{{Purple}}} or {{{Grey}}}), a file with a Mac OS X-style {{{Finder Comment}}}, a file and/or directory with a custom icon, a Quarantined file
 
-===Caveats===
+===Caveats and Historical Issues===
+Note: Some of these problems have been fixed in later versions, or have been worked around in some manner. 
+ 
   * The version of XAR (1.4) shipped with Mac OS X 10.5.x contains a [http://code.google.com/p/xar/issues/detail?id=49 bug] that causes ACLs to be stripped away when archived - although they're still present in the file system itself
   * In addition XAR 1.4 doesn't seem to care about Finder Creation timestamps, or Finder Comments (exposed as a {{{com.apple.metadata:kMDItemFinderComment}}} extended attribute)
+
   * XAR 1.5.2 seems to have problems with archiving and restoring files containing extended attributes based upon Samba NTFS Streams, thanks to an XML generation and parsing issue that has been [http://code.google.com/p/xar/issues/detail?id=70 reported] to the developers
 
 ==NTFS Streams and MS-DOS/Windows Flags on HFS+ (via Samba)==
