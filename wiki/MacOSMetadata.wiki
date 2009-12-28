@@ -19,8 +19,21 @@ It seems that not all metadata is archived by every archiving tool available for
 
 ==NTFS Streams and MS-DOS/Windows Flags on HFS+ (via Samba)==
   * When a file is created using a Windows XP (and 2000?) system, no NTFS attributes are added, and Samba pretends that the {{{Archive}}} bit is set - although this is never set on the physical host file system, and attempts to clear it are silently ignored
-  * When the Windows Explorer {{{Summary}}} tab is viewed for the first time, two NTFS Streams are initialised, which correspond to the following HFS+ extended attributes:
-{{{:SUMMARYINFORMATION:$DATA}}} and {{{:{4C8CC155-6C1E-11D1-8E41-00C04FB9386D}:$DATA}}}
+  * When the Windows Explorer {{{Summary}}} tab is viewed for the first time, two NTFS Streams are initialised, which correspond to the following HFS+ extended attributes:{{{:SUMMARYINFORMATION:$DATA}}} and {{{:{4C8CC155-6C1E-11D1-8E41-00C04FB9386D}:$DATA}}}
+  * Running {{{xattr -l New\ Text\ Document.txt}}} reveals that the attributes contain data similar to:
+{{{
+:SUMMARYINFORMATION:$DATA:
+0000   FE FF 00 00 05 01 02 00 00 00 00 00 00 00 00 00    ................
+0010   00 00 00 00 00 00 00 00 01 00 00 00 E0 85 9F F2    ................
+0020   F9 4F 68 10 AB 91 08 00 2B 27 B3 D9 30 00 00 00    .Oh.....+'..0...
+0030   28 00 00 00 02 00 00 00 01 00 00 00 18 00 00 00    (...............
+0040   00 00 00 80 20 00 00 00 02 00 00 00 E4 04 00 00    .... ...........
+0050   13 00 00 00 09 08 00 00                            ........
+
+:{4C8CC155-6C1E-11D1-8E41-00C04FB9386D}:$DATA:
+0000   00                                                 .
+
+}}}
 
 
 ==A Mac OS 7.0.1 Alias==
