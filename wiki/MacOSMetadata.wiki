@@ -132,10 +132,8 @@ Old-style plist parser error:
   * Still, we can attempt to inject the new {{{plist}}} into the necessary extended attribute, like so: {{{xattr -w "com.apple.metadata:kMDItemFinderComment" `cat HexedComment.plist` NoComment}}}
   * However, it seems that we hit a limitation as far as injecting binary data with {{{cat}}} goes, so that the attribute data gets mangled at write time
   * In addition, it seems that the shell is also attempting to execute the data inside the {{{plist}}} file, and failing with: {{{No such file: Comment}}}
-  * {{{xattr -l}}} reveals that said data has been managled: 
-{{{com.apple.metadata:kMDItemFinderComment: bplist00_Fake}}}
-  * A similar result also occurs when attempting to inject a {{{.ZIP}}} archive:
-{{{JunkData: PK}}}
+  * {{{xattr -l}}} reveals that said data has been mangled:  {{{com.apple.metadata:kMDItemFinderComment: bplist00_Fake}}}
+  * A similar result also occurs when attempting to inject a {{{.ZIP}}} archive: {{{JunkData: PK}}}
 
 ==Mac OS X Finder Colour Labels==
 ===Red===
