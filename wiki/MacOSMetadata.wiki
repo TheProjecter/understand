@@ -11,7 +11,17 @@ It seems that not all metadata is archived by every archiving tool available for
   # at least one symbolic link
   # at least one hard link
   # a socket file (or a hard link to one)
-  * Create a Finder {{{Burn Folder}}}, a Finder {{{Smart Folder}}}, an {{{Alias}}}, a file with the Finder {{{Locked}}} ({{{UserImmutable}}}) attribute, a file with the Stationary Pad attribute, a File with a Finder {{{Label}}} (one of {{{Red}}}, {{{Orange}}}, {{{Yellow}}}, {{{Green}}}, {{{Blue}}}, {{{Purple}}} or {{{Grey}}}), a file with a Mac OS X-style {{{Finder Comment}}}, a file and/or directory with a custom icon, a Quarantined file
+
+  * Create a number of Mac OS X-specific objects, including: 
+  # a Finder {{{Burn Folder}}}
+  # a Finder {{{Smart Folder}}}
+  # an {{{Alias}}}
+  # a file with the Finder {{{Locked}}} ({{{UserImmutable}}}) attribute
+  # a file with the Stationary Pad attribute
+  # a File with a Finder {{{Label}}} (one of {{{Red}}}, {{{Orange}}}, {{{Yellow}}}, {{{Green}}}, {{{Blue}}}, {{{Purple}}} or {{{Grey}}})
+  # a file with a Mac OS X-style {{{Finder Comment}}}
+  # a file and/or directory with a custom icon
+  # a Quarantined file
 
 ===Caveats and Historical Issues===
 Note: Some of these problems have been fixed in later versions, or have been worked around in some manner. 
@@ -131,6 +141,15 @@ com.apple.FinderInfo:
   fdLocation           = (v = 0, h = 0)
   opaque               = 0
 }}} 
+
+===Yellow===
+  * Exposed by a pseudo-extended attribute that looks like:
+{{{
+com.apple.FinderInfo:
+0000   00 00 00 00 00 00 00 00 00 0A 00 00 00 00 00 00    ................
+0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+
+}}}
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
