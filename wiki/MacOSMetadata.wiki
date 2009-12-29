@@ -54,6 +54,15 @@ Note: Some of these problems have been fixed in later versions, or have been wor
 }}}
   * When the {{{Category}}} property is set, and no other properties are modified, the {{{:SUMMARYINFORMATION:$DATA:}}} and {{{:{4C8CC155-6C1E-11D1-8E41-00C04FB9386D}:$DATA:}}} extended attributes are unchanged from their initial state
 
+=== Samba Metadata Options ===
+  * The manpage for {{{smb.conf}}} mentions some interesting configuration options that relate to metadata:
+  # {{{dos filemode =}}} {{{no}}}/{{{yes}}}
+  # {{{dos filetime resolution =}}} {{{no}}}/{{{yes}}}
+  # {{{dos filetimes =}}} {{{yes}}}/{{{no}}}
+  # {{{ea support =}}} {{{no}}}/{{{yes}}}
+  * The default options are listed in order of potential values, sorted by the default
+  * The version that ships with Mac OS X contains even more potential options that aren't mentioned in the manpage
+
 === Cygwin File Attributes (NTEA)===
   * When the {{{CYGWIN}}} environment variable contains {{{ntea}}}, POSIX file permissions will be stored in NTFS Streams
   * For example, setting a file's permissions to {{{777}}} results in something similar to:
