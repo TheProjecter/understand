@@ -220,8 +220,7 @@ com.apple.FinderInfo:
 com.apple.quarantine: 0000;4b392bb2;Firefox;|org.mozilla.firefox
 com.apple.quarantine: 0000;4b38d820;Firefox;|org.mozilla.firefox
 }}}
-  * For a JPEG file downloaded by Safari, this looks like:
-{{{com.apple.quarantine: 0000;4b3a3be6;Safari;|com.apple.Safari}}}
+  * For a JPEG file downloaded by Safari, this looks like: {{{com.apple.quarantine: 0000;4b3a3be6;Safari;|com.apple.Safari}}}
 
 ===Safari File Origin Info=== 
   * For downloaded files, Safari creates an extended attribute named {{{com.apple.metadata:kMDItemWhereFroms}}} containing a binary property list, with the source URL for reference
