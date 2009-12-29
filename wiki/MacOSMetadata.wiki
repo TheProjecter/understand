@@ -104,7 +104,7 @@ com.apple.metadata:kMDItemFinderComment:
 
 }}}
 
-===Experiment===
+===Experiment, Part 1===
   * It may possible to add a Finder comment to a new file by editing the string in the XML that was produced earlier, and converting it back into a binary property list file, like this:
   * Create a plain-text {{{CustomComment.plist}}} file containing this content:
 {{{
@@ -118,6 +118,17 @@ com.apple.metadata:kMDItemFinderComment:
  * Use {{{touch}}} to create a new, empty file named {{{NoComment}}}
  * Attempt to apply the new "comment" to {{{NoComment}}} using {{{xattr -w "com.apple.metadata:kMDItemFinderComment" `cat CustomComment.plist` NoComment}}}
  * Notice that the Finder Comment hasn't changed, since the conversion processes are seemingly lossy (need to investigate)
+
+===Experiment, Part 2===
+  * Using a hex editor, and the raw binary {{{plist}}} dump that was created earlier, we can attempt to modify the comment string directly, using a hex editor
+  * Unfortunately, this doesn't produce a useful result when the {{{plutil -lint}}} function is used:
+{{{
+HexedComment.plist:
+XML parser error:
+	Unexpected character b at line 1
+Old-style plist parser error:
+	Unexpected ';' or '=' after key at line 1
+}}}
 
 ==Mac OS X Finder Colour Labels==
 ===Red===
