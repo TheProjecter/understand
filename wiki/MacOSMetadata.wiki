@@ -75,6 +75,14 @@ com.apple.metadata:kMDItemFinderComment:
 
 }}}
   * It seems that no additional extended attributes are created, although some presumably exist
+  * We can extract this, scrub out the ASCII textual representation and line numbers, paste that result into a hex editor, and produce a file of type {{{Apple binary property list}}}
+  * Using {{{plutil -convert xml1}}} on this file, we can create an XML representation of the comment that looks like this:
+{{{
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<string>Spotlight Comment</string>
+</plist>
+}}}
 
 ==Mac OS X Finder Colour Labels==
 ===Red===
