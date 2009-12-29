@@ -1,5 +1,4 @@
 #labels Deprecated
-
 SVN/1.5.4 (r33841) neon/0.28.3
 
 https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2451 has HPUX nettl IGSSN and ICXGBE sample frames
@@ -38,3 +37,8 @@ https://www.wireshark.org/lists/wireshark-dev/200611/msg00233.html - SNA VMStrac
 http://www.ethereal.com/lists/ethereal-dev/200303/msg00006.html - HP RBOOT
 http://www.ethereal.com/lists/ethereal-dev/200308/msg00022.html - Endace ERF 1 (ATM, Ethernet, Cisco HDLC)
 http://www.ethereal.com/lists/ethereal-dev/200308/msg00399.html - Endace ERF 2 (Ethernet, ATM, POS CHDLC, POS PPP)
+
+==Iterasi packages==
+FireFox add-on stores working data inside $HOME/Library/Caches/TemporaryItems/iterasi/{5-part GUID} as a loose collection of objects related to a page (e.g. PNG/GIF/JPEG image files and CSS documents), as well as a thumbnail.jpg file, an Asset.xml file and a {5-part GUID}-Document.txt file. Naming conventions are {5-part GUID}-Style{1-indeterminate number}.css for stylesheets, {5-part GUID}-Default.html for the main document, and {5-part GUID}-Asset{1-indeterminate number}.{file name extension} for all others.
+
+It seems that the main document is compressed and encrypted using an unknown set of algorithms, according to Asset.xml - presumably to obfuscate the content of it. 
