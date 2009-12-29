@@ -102,8 +102,9 @@ com.apple.metadata:kMDItemFinderComment:
 <string>Spotlight Comment</string>
 </plist>
 
-===Experiment===
 }}}
+
+===Experiment===
   * It may possible to add a Finder comment to a new file by editing the string in the XML that was produced earlier, and converting it back into a binary property list file, like this:
   * Create a plain-text {{{CustomComment.plist}}} file containing this content:
 {{{
