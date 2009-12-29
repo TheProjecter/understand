@@ -233,6 +233,16 @@ com.apple.metadata:kMDItemWhereFroms:
 0030   00 00 00 00 01 01 00 00 00 00 00 00 00 02 00 00    ................
 0040   00 00 00 00 00 00 00 00 00 00 00 00 00 2C          .............,
 }}}
+  * {{{plutil -convert xml1}}} will decompose this into XML that looks like:
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>http://www.apple.com/startpage/</string>
+</array>
+</plist>
+}}}
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
