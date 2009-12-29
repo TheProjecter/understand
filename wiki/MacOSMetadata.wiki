@@ -220,9 +220,11 @@ com.apple.FinderInfo:
 com.apple.quarantine: 0000;4b392bb2;Firefox;|org.mozilla.firefox
 com.apple.quarantine: 0000;4b38d820;Firefox;|org.mozilla.firefox
 }}}
+  * For a JPEG file downloaded by Safari, this looks like:
+{{{com.apple.quarantine: 0000;4b3a3be6;Safari;|com.apple.Safari}}}
 
-===Safari {{{.WebArchive}}} Origin Info=== 
-  * For at least Web Archive files, Safari creates an extended attribute named {{{com.apple.metadata:kMDItemWhereFroms}}} containing a binary property list, with the source URL for reference
+===Safari File Origin Info=== 
+  * For downloaded files, Safari creates an extended attribute named {{{com.apple.metadata:kMDItemWhereFroms}}} containing a binary property list, with the source URL for reference
   * This metadata is shown to the user in the Finder's {{{Get Info}}} dialogue box, and is also collected for use by Spotlight
   * For example, for a Web Archive containing the content of [http://www.apple.com/startpage Apple's StartPage], this looks like:
 {{{
@@ -242,6 +244,18 @@ com.apple.metadata:kMDItemWhereFroms:
 	<string>http://www.apple.com/startpage/</string>
 </array>
 </plist>
+}}}
+  * For the JPEG that was mentioned earlier, the File Origin information looks like:
+{{{
+com.apple.metadata:kMDItemWhereFroms:
+0000   62 70 6C 69 73 74 30 30 A1 01 5F 10 49 68 74 74    bplist00.._.Ihtt
+0010   70 3A 2F 2F 69 6D 61 67 65 73 2E 61 70 70 6C 65    p://images.apple
+0020   2E 63 6F 6D 2F 73 74 61 72 74 70 61 67 65 2F 69    .com/startpage/i
+0030   6D 61 67 65 73 2F 32 30 30 39 2F 30 39 2F 70 72    mages/2009/09/pr
+0040   6F 6D 6F 2D 74 6F 75 63 68 2D 32 30 30 39 30 39    omo-touch-200909
+0050   30 39 2E 6A 70 67 08 0A 00 00 00 00 00 00 01 01    09.jpg..........
+0060   00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 00    ................
+0070   00 00 00 00 00 00 00 56                            .......V
 }}}
 
 ==A Mac OS 7.0.1 Alias==
