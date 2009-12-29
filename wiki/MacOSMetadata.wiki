@@ -56,6 +56,13 @@ Note: Some of these problems have been fixed in later versions, or have been wor
 
 === Cygwin File Attributes (NTEA)===
   * When the {{{CYGWIN}}} environment variable contains {{{ntea}}}, POSIX file permissions will be stored in NTFS Streams
+  * For example, setting a file's permissions to {{{777}}} results in something similar to:
+{{{
+
+user..UNIXATTR:
+0000   FF 01 00 00                                        ....
+
+}}}
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
