@@ -74,6 +74,7 @@ com.apple.metadata:kMDItemFinderComment:
 0030   00 00 00 00 00 00 00 00 00 00 00 00 1C             .............
 
 }}}
+  * It seems that no additional extended attributes are created, although some presumably exist
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
