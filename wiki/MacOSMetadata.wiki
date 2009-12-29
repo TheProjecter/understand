@@ -18,8 +18,9 @@ Note: Some of these problems have been fixed in later versions, or have been wor
  
   * The version of XAR (1.4) shipped with Mac OS X 10.5.x contains a [http://code.google.com/p/xar/issues/detail?id=49 bug] that causes ACLs to be stripped away when archived - although they're still present in the file system itself
   * In addition XAR 1.4 doesn't seem to care about Finder Creation timestamps, or Finder Comments (exposed as a {{{com.apple.metadata:kMDItemFinderComment}}} extended attribute)
-
+  * Pax loses BSD Flags when archiving files, meaning that Finder Locks are also lost
   * XAR 1.5.2 seems to have problems with archiving and restoring files containing extended attributes based upon Samba NTFS Streams, thanks to an XML generation and parsing issue that has been [http://code.google.com/p/xar/issues/detail?id=70 reported] to the developers
+
 
 ==NTFS Streams and MS-DOS/Windows Flags on HFS+ (via Samba)==
   * When a file is created using a Windows XP (and 2000?) system, no NTFS attributes are added, and Samba pretends that the {{{Archive}}} bit is set - although this is never set on the physical host file system, and attempts to clear it are silently ignored
