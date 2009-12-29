@@ -211,6 +211,29 @@ com.apple.FinderInfo:
   opaque               = 0
 }}}
 
+==Internet-Originated Files Metadata==
+===Quarantined Files===
+  * The Quarantine status is controlled by the {{{com.apple.quarantine}}} extended attribute
+  * Typically, the Quarantine data consists of a set of 4 semicolon-delimited values (a set of decimal digits of an unknown purpose - typically {{{0000}}}, a checksum of an indeterminate type, the name of the application that created the Quarantined file, and the application's UTI (Uniform Type Identifier) prefixed with a pipe symbol)
+  * For example, for two different files downloaded using Mozilla FireFox, this looks like:
+{{{
+com.apple.quarantine: 0000;4b392bb2;Firefox;|org.mozilla.firefox
+com.apple.quarantine: 0000;4b38d820;Firefox;|org.mozilla.firefox
+}}}
+
+===Safari {{{.WebArchive}}} Origin Info=== 
+  * For at least Web Archive files, Safari creates an extended attribute named {{{com.apple.metadata:kMDItemWhereFroms}}} containing a binary property list, with the source URL for reference
+  * This metadata is shown to the user in the Finder's {{{Get Info}}} dialogue box, and is also collected for use by Spotlight
+  * For example, for a Web Archive containing the content of [http://www.apple.com/startpage Apple's StartPage], this looks like:
+{{{
+com.apple.metadata:kMDItemWhereFroms:
+0000   62 70 6C 69 73 74 30 30 A1 01 5F 10 1F 68 74 74    bplist00.._..htt
+0010   70 3A 2F 2F 77 77 77 2E 61 70 70 6C 65 2E 63 6F    p://www.apple.co
+0020   6D 2F 73 74 61 72 74 70 61 67 65 2F 08 0A 00 00    m/startpage/....
+0030   00 00 00 00 01 01 00 00 00 00 00 00 00 02 00 00    ................
+0040   00 00 00 00 00 00 00 00 00 00 00 00 00 2C          .............,
+}}}
+
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
 ==Mac OS 7.0.1 User, Group, and Member files==
