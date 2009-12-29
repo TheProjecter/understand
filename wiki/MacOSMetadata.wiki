@@ -216,13 +216,26 @@ com.apple.FinderInfo:
 ==Internet-Originated Files Metadata==
 ===Quarantined Files===
   * The Quarantine status is controlled by the {{{com.apple.quarantine}}} extended attribute
-  * Typically, the Quarantine data consists of a set of 4 semicolon-delimited values (a set of decimal digits of an unknown purpose - typically {{{0000}}}, a checksum of an indeterminate type, the name of the application that created the Quarantined file, and the application's UTI (Uniform Type Identifier) prefixed with a pipe symbol)
+  * Typically, the Quarantine data consists of a set of 4 semicolon-delimited values (a set of decimal digits of an unknown purpose - typically {{{0000}}}, an 8 character opaque ID, the name of the application that created the Quarantined file, and the application's UTI (Uniform Type Identifier) prefixed with a pipe symbol)
   * For example, for two different files downloaded using Mozilla FireFox, this looks like:
 {{{
 com.apple.quarantine: 0000;4b392bb2;Firefox;|org.mozilla.firefox
 com.apple.quarantine: 0000;4b38d820;Firefox;|org.mozilla.firefox
 }}}
-  * For a JPEG file downloaded by Safari, this looks like: {{{com.apple.quarantine: 0000;4b3a3be6;Safari;|com.apple.Safari}}}
+  * For a [http://images.apple.com/startpage/images/2009/09/promo-touch-20090909.jpg JPEG file] downloaded by Safari, this looks like: {{{com.apple.quarantine: 0000;4b3a3be6;Safari;|com.apple.Safari}}}
+
+===Opaque Quarantine IDs===
+NOTE: This information may not be accurate, and is currently considered to be of draft quality.
+
+  * It is not known if the first 3 characters of the ID vary between Mac OS X installations, applications/application types, or hardware configurations
+  * For most files that the author has seen, these characters have been {{{4b3}}}, although it is not guaranteed that this will always be the case
+  * It may be the case that these IDs are based upon date and time (including seconds, and smaller units of time measurement), application PID, UNIX UID number, or some other data source - although it is likely that they are also derived from the content of the file itself
+  * In the of the JPEG file mentioned earlier, it seems that at least the first 5 characters ({{{4b3a4}}}) remain static when multiple copies are made by dragging the object out of the Safari window into the {{{Desktop}}} directory
+  * A rough pattern emerges, in this case (only the last 3 characters change):
+{{{
+com.apple.quarantine: 0000;4b3a40d0;Safari;|com.apple.Safari
+com.apple.quarantine: 0000;4b3a4107;Safari;|com.apple.Safari
+}}}
 
 ===Safari File Origin Info=== 
   * For downloaded files, Safari creates an extended attribute named {{{com.apple.metadata:kMDItemWhereFroms}}} containing a binary property list, with the source URL for reference
