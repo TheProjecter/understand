@@ -64,6 +64,17 @@ user..UNIXATTR:
 
 }}}
 
+==Mac OS X 10.5 Finder/Spotlight Comments==
+  * Exposed in a pseudo-extended attribute that looks like this:
+{{{
+com.apple.metadata:kMDItemFinderComment:
+0000   62 70 6C 69 73 74 30 30 5F 10 11 53 70 6F 74 6C    bplist00_..Spotl
+0010   69 67 68 74 20 43 6F 6D 6D 65 6E 74 08 00 00 00    ight Comment....
+0020   00 00 00 01 01 00 00 00 00 00 00 00 01 00 00 00    ................
+0030   00 00 00 00 00 00 00 00 00 00 00 00 1C             .............
+
+}}}
+
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
 ==Mac OS 7.0.1 User, Group, and Member files==
