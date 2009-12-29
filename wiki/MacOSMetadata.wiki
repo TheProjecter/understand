@@ -150,6 +150,34 @@ com.apple.FinderInfo:
 0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
 
 }}}
+  * Really looks like this, according to {{{hfsdebug-lite}}}:
+{{{
+  # Finder Info
+  fdType               = 0
+  fdCreator            = 0
+  fdFlags              = 0000000000001010
+                       . Color label = yellow
+  fdLocation           = (v = 0, h = 0)
+  opaque               = 0
+}}}
+
+===Green===
+  * Exposed by a pseudo-extended attribute that looks like:
+{{{
+com.apple.FinderInfo:
+0000   00 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00    ................
+0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+}}}
+  * Really looks like this, according to {{{hfsdebug-lite}}}:
+{{{
+  # Finder Info
+  fdType               = 0
+  fdCreator            = 0
+  fdFlags              = 0000000000000100
+                       . Color label = green
+  fdLocation           = (v = 0, h = 0)
+  opaque               = 0
+}}}
 
 ==A Mac OS 7.0.1 Alias==
 http://understand.googlecode.com/files/MacOS701AliasFixed.png
