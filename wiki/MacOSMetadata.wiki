@@ -25,10 +25,12 @@ It seems that not all metadata is archived by every archiving tool available for
 
 ===Caveats and Historical Issues===
 Note: Some of these problems have been fixed in later versions, or have been worked around in some manner. 
- 
+
+  * Pax and GNU TAR 1.16.1 lose [http://sqrl.it/?6rdc6 BSD Flags] when archiving files, meaning that Finder Locks are also lost
+  * Pax and GNU TAR 1.16.1 refuse to archive socket files, as does STAR 1.5.1
+  * STAR 1.5.1, when compiled on Mac OS X seems to choke on ACLs, and seemingly ignores all extended attributes, even when compiled with the necessary options 
   * The version of XAR (1.4) shipped with Mac OS X 10.5.x contains a [http://code.google.com/p/xar/issues/detail?id=49 bug] that causes ACLs to be stripped away when archived - although they're still present in the file system itself
   * In addition XAR 1.4 doesn't seem to care about Finder Creation timestamps, or Finder Comments (exposed as a {{{com.apple.metadata:kMDItemFinderComment}}} extended attribute)
-  * Pax and TAR lose [http://sqrl.it/?6rdc6 BSD Flags] when archiving files, meaning that Finder Locks are also lost
   * XAR 1.5.2 seems to have problems with archiving and restoring files containing extended attributes based upon Samba NTFS Streams, thanks to an XML generation and parsing issue that has been [http://code.google.com/p/xar/issues/detail?id=70 reported] to the developers
 
 
