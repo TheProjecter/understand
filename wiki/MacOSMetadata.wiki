@@ -111,6 +111,175 @@ user..UNIXATTR:
 
 }}}
 
+==Access Control Lists (ACLs)==
+  * Technically, these are stored within an extended attribute named {{{com.apple.system.Security}}}, although most tools that are capable of dealing with extended attributes (e.g. {{{xattr}}}) and XAR) hide it from the user, and will either ignore the content of it, or treat it as a special type of metadata when handling it
+  * By default, when a file or directory is created, all privileges are either granted or otherwise inherited from the parent directory; and no extended attribute or ACL flag is present in the file system or alluded to from the user's perspective
+  * For an recently-created object with ACLs, the POSIX permission bits do not change; and the {{{Catalog File Record}}} properties look similar to the following, from the perspective of {{{hfsdebug-lite}}}:
+{{{
+# Catalog File Record
+  type                 = file
+  file ID              = 3578569
+  flags                = 0000000000001110
+                       . File has a thread record in the catalog.
+                       . File has extended attributes.
+                       . File has security data (ACLs).
+  reserved1            = 0
+  createDate           = Mon Dec 28 17:22:31 2009
+  contentModDate       = Mon Dec 28 17:25:17 2009
+  attributeModDate     = Wed Dec 30 00:34:07 2009
+  accessDate           = Wed Dec 30 00:33:12 2009
+  backupDate           = 0
+  # BSD Info
+  ownerID              = 501 (tyson)
+  groupID              = 20 (staff)
+  adminFlags           = 00000000
+  ownerFlags           = 00000000
+  fileMode             = ----------
+  linkCount            = 1
+  textEncoding         = 0
+  attrBlocks           = 0
+}}}
+
+  * From the perspective of {{{hfsdebug-lite}}}, the {{{com.apple.system.Security}}} extended attribute values and mappings for a file with the default permissions, and {{{Full Access}}} granted to the Windows XP {{{SYSTEM}}} user on a Samba share look like:
+{{{
+  # Attribute Key
+  keyLength            = 62
+  pad                  = 0
+  fileID               = 3578569
+  startBlock           = 0
+  attrNameLen          = 25
+  attrName             = com.apple.system.Security
+  # Inline Data
+  recordType           = 0x10
+  reserved[0]          = 0
+  reserved[1]          = 0
+  attrSize             = 140 bytes
+  attrData             = 01 2c c1 6d 00 00 00 00 00 00 00 00 00 00 00 00 
+                             ,     m                                     
+                         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                                                                         
+                         00 00 00 00 00 00 00 04 00 00 00 00 47 ec b3 f3 
+                                                              G          
+                         76 19 4d 40 b7 0d 37 14 17 d1 81 db 00 00 00 01 
+                          v     M  @        7                            
+                         00 00 0f a6 ab cd ef ab cd ef ab cd ef ab cd ef 
+                                                                         
+                         00 00 00 14 00 00 00 01 00 00 0a 82 ab cd ef ab 
+                                                                         
+                         cd ef ab cd ef ab cd ef 00 00 00 0c 00 00 00 01 
+                                                                         
+                         00 00 0a 82 ab cd ef ab cd ef ab cd ef ab cd ef 
+                                                                         
+                         00 00 00 01 00 00 00 01 00 00 3f fe 
+                                                        ?    
+      # File Security Information
+      fsec_magic           = 0x12cc16d
+      fsec_owner           = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      fsec_group           = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      # ACL Record
+      acl_entrycount       = 4
+      acl_flags            = 0
+        # ACL Entry
+        ace_applicable     = 47 ec b3 f3 76 19 4d 40 b7 d 37 14 17 d1 81 db 
+          user             = tyson
+          uid              = 501
+          group            = *
+        ace_flags          = 00000000000000000000000000000001 (0x000001)
+                             . KAUTH_ACE_PERMIT
+        ace_rights         = 00000000000000000000111110100110 (0x000fa6)
+                             . KAUTH_VNODE_READ_DATA
+                             . KAUTH_VNODE_WRITE_DATA
+                             . KAUTH_VNODE_APPEND_DATA
+                             . KAUTH_VNODE_READ_ATTRIBUTES
+                             . KAUTH_VNODE_WRITE_ATTRIBUTES
+                             . KAUTH_VNODE_READ_EXTATTRIBUTES
+                             . KAUTH_VNODE_WRITE_EXTATTRIBUTES
+                             . KAUTH_VNODE_READ_SECURITY
+        # ACL Entry
+        ace_applicable     = ab cd ef ab cd ef ab cd ef ab cd ef 0 0 0 14 
+          user             = *
+          group            = staff
+          gid              = 20
+        ace_flags          = 00000000000000000000000000000001 (0x000001)
+                             . KAUTH_ACE_PERMIT
+        ace_rights         = 00000000000000000000101010000010 (0x000a82)
+                             . KAUTH_VNODE_READ_DATA
+                             . KAUTH_VNODE_READ_ATTRIBUTES
+                             . KAUTH_VNODE_READ_EXTATTRIBUTES
+                             . KAUTH_VNODE_READ_SECURITY
+        # ACL Entry
+        ace_applicable     = ab cd ef ab cd ef ab cd ef ab cd ef 0 0 0 c 
+          user             = *
+          group            = everyone
+          gid              = 12
+        ace_flags          = 00000000000000000000000000000001 (0x000001)
+                             . KAUTH_ACE_PERMIT
+        ace_rights         = 00000000000000000000101010000010 (0x000a82)
+                             . KAUTH_VNODE_READ_DATA
+                             . KAUTH_VNODE_READ_ATTRIBUTES
+                             . KAUTH_VNODE_READ_EXTATTRIBUTES
+                             . KAUTH_VNODE_READ_SECURITY
+        # ACL Entry
+        ace_applicable     = ab cd ef ab cd ef ab cd ef ab cd ef 0 0 0 1 
+          user             = daemon
+          uid              = 1
+          group            = daemon
+          gid              = 1
+        ace_flags          = 00000000000000000000000000000001 (0x000001)
+                             . KAUTH_ACE_PERMIT
+        ace_rights         = 00000000000000000011111111111110 (0x003ffe)
+                             . KAUTH_VNODE_READ_DATA
+                             . KAUTH_VNODE_WRITE_DATA
+                             . KAUTH_VNODE_EXECUTE
+                             . KAUTH_VNODE_DELETE
+                             . KAUTH_VNODE_APPEND_DATA
+                             . KAUTH_VNODE_DELETE_CHILD
+                             . KAUTH_VNODE_READ_ATTRIBUTES
+                             . KAUTH_VNODE_WRITE_ATTRIBUTES
+                             . KAUTH_VNODE_READ_EXTATTRIBUTES
+                             . KAUTH_VNODE_WRITE_EXTATTRIBUTES
+                             . KAUTH_VNODE_READ_SECURITY
+                             . KAUTH_VNODE_WRITE_SECURITY
+                             . KAUTH_VNODE_TAKE_OWNERSHIP
+
+
+}}}
+
+  * The perspective of the same object, from a Windows XP machine, using the {{{cacls}}} utility looks like:
+{{{
+cacls "Y:\New Text Document.txt"
+Y:\New Text Document.txt <Account Domain not found>(special access:)
+                                                   READ_CONTROL
+                                                   SYNCHRONIZE
+                                                   FILE_GENERIC_READ
+                                                   FILE_GENERIC_WRITE
+                                                   FILE_READ_DATA
+                                                   FILE_WRITE_DATA
+                                                   FILE_APPEND_DATA
+                                                   FILE_READ_EA
+                                                   FILE_WRITE_EA
+                                                   FILE_READ_ATTRIBUTES
+                                                   FILE_WRITE_ATTRIBUTES
+
+                         BUILTIN\Users:(special access:)
+                                       READ_CONTROL
+                                       SYNCHRONIZE
+                                       FILE_GENERIC_READ
+                                       FILE_READ_DATA
+                                       FILE_READ_EA
+                                       FILE_READ_ATTRIBUTES
+
+                         Everyone:(special access:)
+                                  READ_CONTROL
+                                  SYNCHRONIZE
+                                  FILE_GENERIC_READ
+                                  FILE_READ_DATA
+                                  FILE_READ_EA
+                                  FILE_READ_ATTRIBUTES
+
+                         NT AUTHORITY\SYSTEM:F
+}}}
+
 ==Mac OS X 10.5 Finder/Spotlight Comments==
   * Exposed in a pseudo-extended attribute that looks like this:
 {{{
