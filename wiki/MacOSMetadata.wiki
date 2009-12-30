@@ -97,6 +97,7 @@ com.apple.FinderInfo:
   # {{{dos filetime resolution =}}} {{{no}}}/{{{yes}}}
   # {{{dos filetimes =}}} {{{yes}}}/{{{no}}}
   # {{{ea support =}}} {{{no}}}/{{{yes}}}
+  # {{{store dos attributes =}}} {{{no}}}/{{{yes}}}
   * The default options are listed in order of potential values, sorted by the default
   * The version that ships with Mac OS X contains even more potential options that aren't mentioned in the manpage
 
