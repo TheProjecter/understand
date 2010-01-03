@@ -8,6 +8,7 @@
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (compatible; FriendFeedBot/0.1; +Http://friendfeed.com/about/bot)}}}||[http://friendfeed.com FriendFeed] RSS/Atom feed crawler/ingestion system||
 ||{{{User-Agent}}}||{{{BREW-Applet/0x0101104D (BREW/4.0.4.12; DeviceId:  100001; Lang: en)}}}||QualComm BREW HTTP Applet Example||
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (webOS/1.0; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0}}}||Palm Pre/WebOS WebKit-based browser||
+||{{{User-Agent}}}||{{[WiiConnect24/2.0.3.1}}}||Nintendo WiiConnect24 client||
 
 ==MIME/E-Mail==
 ||<b>String Type</b>||<b>String Content</b>||<b>Source</b>||<b>Purpose/Description</b>||
