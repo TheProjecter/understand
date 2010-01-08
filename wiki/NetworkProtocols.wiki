@@ -1,0 +1,9 @@
+=Banyan VINES IP=
+  * EtherType is {{{0x0bad}}}
+  * Currently supported by [http://www.wireshark.org Wireshark]
+
+==VINES ARP==
+===Query Request===
+
+==VINES SARP==
+===Query Request===
