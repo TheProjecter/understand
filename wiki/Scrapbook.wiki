@@ -62,5 +62,16 @@ a SolarisMetadata attribute copy-SUNWattr_rw 1K
 Potential method for archiving Doors
  find /var/run/name_service_door /var/run/SolarisMetadata  -depth -print | cpio -oP@v
 
+find /var/run/name_service_door /var/run/SolarisMetadata  -depth -print | cpio -oP@v >  ~/CPIO-Test
+/var/run/name_service_door
+/var/run/SolarisMetadata/rcm_daemon_door
+/var/run/SolarisMetadata/SolarisFIFO
+/var/run/SolarisMetadata/file
+/var/run/SolarisMetadata/file attribute .
+/var/run/SolarisMetadata/file attribute AnotherOne
+/var/run/SolarisMetadata
+8 blocks
+
+
 
 It seems that the main document is compressed and encrypted using an unknown set of algorithms, according to Asset.xml - presumably to obfuscate the content of it. 
