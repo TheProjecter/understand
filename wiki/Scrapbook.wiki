@@ -52,5 +52,13 @@ SUNWattr_rw:	unix-rt ldp
 
 Not possible to store directories in namespace
 
+root@opensolaris:~# /etc/tar c@v/f SolarisMetadata.tar SolarisMetadata
+a SolarisMetadata/ 0K
+a SolarisMetadata attribute . 0K
+a SolarisMetadata attribute ANewAttribute 1K
+a SolarisMetadata attribute copy-SUNWattr_ro 1K
+a SolarisMetadata attribute copy-SUNWattr_rw 1K
+
+
 
 It seems that the main document is compressed and encrypted using an unknown set of algorithms, according to Asset.xml - presumably to obfuscate the content of it. 
