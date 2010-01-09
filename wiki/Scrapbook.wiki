@@ -42,10 +42,14 @@ http://www.ethereal.com/lists/ethereal-dev/200308/msg00399.html - Endace ERF 2 (
 FireFox add-on stores working data inside $HOME/Library/Caches/TemporaryItems/iterasi/{5-part GUID} as a loose collection of objects related to a page (e.g. PNG/GIF/JPEG image files and CSS documents), as well as a thumbnail.jpg file, an Asset.xml file and a {5-part GUID}-Document.txt file. Naming conventions are {5-part GUID}-Style{1-indeterminate number}.css for stylesheets, {5-part GUID}-Default.html for the main document, and {5-part GUID}-Asset{1-indeterminate number}.{file name extension} for all others.
 
 OpenSolaris Extended Attributes
-runat . 
-SUNWattr_ro
-SUNWattr_rw
-file claims that these are of type unix-rt ldp
+root@opensolaris:~# runat .
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+root@opensolaris:~# ls
+SUNWattr_ro  SUNWattr_rw
+root@opensolaris:~# file *
+SUNWattr_ro:	unix-rt ldp
+SUNWattr_rw:	unix-rt ldp
+
 Not possible to store directories in namespace
 
 
