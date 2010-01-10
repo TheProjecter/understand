@@ -28,8 +28,8 @@ It doesn't seem to be possible to add Extended Attributes with either {{{setfatt
   * Supposedly possible to store symbolic links, socket files, block node files, character node files and FIFO files
 
 ===File System Creation===
-||{{{mkfs -F udfs  /dev/dsk/c5t0d0p0 -o :psize=512}}}||Unknown UDF version, 512 bytes block size||
-||{{{mkfs -F udfs  /dev/dsk/c5t0d0p0 -o :psize=1024}}}||Unknown UDF version, 1024 bytes block size||
+||{{{mkfs -F udfs  /dev/dsk/c5t0d0p0 -o psize=512}}}||Unknown UDF version, 512 bytes block size||
+||{{{mkfs -F udfs  /dev/dsk/c5t0d0p0 -o psize=1024}}}||Unknown UDF version, 1024 bytes block size||
 
 ===File System Mounting===
 ||{{{mount -F udfs -o rw /dev/dsk/c5t0d0p0 /MountPoint}}}||UDFS driver, read-write mode, c5t0d0p0 (USB disk), defaults||
