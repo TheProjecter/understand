@@ -40,6 +40,7 @@ http://www.ethereal.com/lists/ethereal-dev/200308/msg00399.html - Endace ERF 2 (
 
 ==Iterasi packages==
 FireFox add-on stores working data inside $HOME/Library/Caches/TemporaryItems/iterasi/{5-part GUID} as a loose collection of objects related to a page (e.g. PNG/GIF/JPEG image files and CSS documents), as well as a thumbnail.jpg file, an Asset.xml file and a {5-part GUID}-Document.txt file. Naming conventions are {5-part GUID}-Style{1-indeterminate number}.css for stylesheets, {5-part GUID}-Default.html for the main document, and {5-part GUID}-Asset{1-indeterminate number}.{file name extension} for all others.
+It seems that the main document is compressed and encrypted using an unknown set of algorithms, according to Asset.xml - presumably to obfuscate the content of it. 
 
 OpenSolaris Extended Attributes
 root@opensolaris:~# runat .
@@ -72,6 +73,8 @@ find /var/run/name_service_door /var/run/SolarisMetadata  -depth -print | cpio -
 /var/run/SolarisMetadata
 8 blocks
 
-
-
-It seems that the main document is compressed and encrypted using an unknown set of algorithms, according to Asset.xml - presumably to obfuscate the content of it. 
+Vista/7 UDF:
+sudo mount /dev/scd1 /media/cdrom1 -s -t udf -o ro,user,noauto,exec,umask=0,session=0
+  dvd+rw-mediainfo /dev/dvd
+ wodim dev='/dev/sr1' -toc
+ sudo mount /dev/scd1 /media/cdrom1 -s -t udf -o ro,user,noauto,exec,umask=0,session=0,lastblock=266636
