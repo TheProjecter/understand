@@ -63,8 +63,11 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 <br/>
 ----
 <br/>
+
+==Windows 7==
+  * When mounted under OpenSolaris ({{{snv_111b}}}) automatically, GNOME produces an {{{Unable to mount the volume 'UDF Volume'}}} error
 ==Apple Mac OS X 10.5.6==
-==Metadata==
+===Metadata==
 
 ===Disc Recording Framework Variant==
 Identifies itself as: {{{*Apple Mac OS X DiscRec}}}
