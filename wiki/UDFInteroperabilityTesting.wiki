@@ -24,7 +24,8 @@ It doesn't seem to be possible to add Extended Attributes with either {{{setfatt
 ----
 <br/>
 ==Sun Solaris/OpenSolaris== 
-Identifies itself as: {{{*SUN SOLARIS UDF}}} 
+  * Identifies itself as: {{{*SUN SOLARIS UDF}}} 
+  * Supposedly possible to store symbolic links, socket files, block node files, character node files and FIFO files
 
 ===File System Creation===
 ||{{{mkfs -F udfs  /dev/dsk/c5t0d0p0 512}}}||Unknown UDF version, 512 bytes block size||
@@ -66,6 +67,8 @@ Results in "{{{UDF-fs: No partition found (1)}}}" on Linux kernel 2.6.28-0.131.r
 
 ==Windows 7==
   * When mounted under OpenSolaris ({{{snv_111b}}}) automatically, GNOME produces an {{{Unable to mount the volume 'UDF Volume'}}} error
+  * Might be possible to mount manually somehow, {{{/dev/dsk/c10t0d0p0}}}
+
 ==Apple Mac OS X 10.5.6==
 ===Metadata==
 
