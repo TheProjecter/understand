@@ -78,3 +78,4 @@ sudo mount /dev/scd1 /media/cdrom1 -s -t udf -o ro,user,noauto,exec,umask=0,sess
   dvd+rw-mediainfo /dev/dvd
  wodim dev='/dev/sr1' -toc
  sudo mount /dev/scd1 /media/cdrom1 -s -t udf -o ro,user,noauto,exec,umask=0,session=0,lastblock=266636
+http://serverfault.com/questions/55089/with-what-tool-should-i-format-a-hard-drive-as-udf
