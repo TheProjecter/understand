@@ -19,8 +19,10 @@
   * [http://taosecurity.blogspot.com/2006/01/freebsd-networking-over-firewire-you.html This blog post] contains a {{{tshark}}} text dump of an Apple IP-over-1394 packet that can be converted to a usable packet capture file with {{{text2pcap -l 138 }}}after saving it to a file
   * The Unified EFI (UEFI) 2.3 specifications, which include additional information on the GUID Partition Table (GPT) in chapter 5 are available [http://www.uefi.org/specs/ here], after registration
 
-==Protocol Stack Implementation Projects==
+==Protocol Stack Implementations==
   * An implementation of Media-Oriented Systems Transport (MoST) for Linux is available, [http://most4linux.sourceforge.net/ here]
+  * Microsoft's raw NetBIOS implementation from Windows XP is available, [http://www.mac-net.com/174984.page here]
+  * LANtastic 8.01 (works as a 45 day trial, without a license) is available, [http://pcmicro.com/lantastic here]
 
 ==File System Implementations==
   * An implementation of several variants of the UCSD Pascal/P-System file system is available [http://ucsd-psystem-fs.sourceforge.net/ here]
