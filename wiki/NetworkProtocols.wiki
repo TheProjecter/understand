@@ -5,7 +5,11 @@
   * EtherType is {{{0x81d7}}}
   * Currently not supported by [http://www.wireshark.org Wireshark]
   * Also makes use of the UDP-based [http://en.wikipedia.org/wiki/NetBIOS#Datagram_distribution_service NetBIOS Datagram Service protocol]
+  * Possible to install the reference implementation under Windows Vista/7 with some work
 
 =DEC DNA Routing=
   * EtherType is {{{0x6003}}}
   * Currently supported by [http://www.wireshark.org Wireshark]
+
+="Raw" NetBIOS=
+  * It is possible to install Microsoft's implementation (from Windows XP) under Windows Vista/7, according to [http://www.mac-net.com/174984.page this page]
