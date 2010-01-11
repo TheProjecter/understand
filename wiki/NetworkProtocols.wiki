@@ -1,6 +1,8 @@
 =Banyan VINES IP=
   * EtherType is {{{0x0bad}}}
+  * A copy of the [http://banyan.bamertal.com/Banyan-supplier-help/ProtoDef/ProtoDefMain.htm VINES Protocol Definition] documents (crucial for anyone interested in implementing the protocol in any manner, or understanding how it works) have been found 
   * Currently supported by [http://www.wireshark.org Wireshark]
+  
 =LANtastic=
   * EtherType is {{{0x81d7}}}
   * Currently not supported by [http://www.wireshark.org Wireshark]
