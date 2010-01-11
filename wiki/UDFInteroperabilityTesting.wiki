@@ -2,7 +2,7 @@
 #labels UDF,Interoperability
 =Implementations=
 ==Linux {{{mkudffs}}}==  
-  * Identifies itself as: Application ID: {{{*Linux mkudffs}}}, Implementor ID: {{{*Linux UDFFS}}} 
+  * Identifies itself as: Application ID: {{{*Linux mkudffs}}}, Implementer ID: {{{*Linux UDFFS}}} 
   * Unless changed, the default Volume ID for a freshly-created volume is {{{LinuxUDF}}}
 
 ===Additional Information===
