@@ -15,7 +15,7 @@
   * [http://www.tamosoft.com TamoSoft] [http://www.tamos.com/products/commview/ CommView] supports it's own proprietary, but [http://www.tamos.com/htmlhelp/commview/logformat.htm documented] format, and libpcap and Microsoft Network Monitor formats, but not pcap-ng
 
 ==Current Issues and Bugs==
-===Wireshark/dumpcap (1.3.0-SVN train)===
+===Wireshark/dumpcap (1.3.x/SVN trains)===
 
 Please note that significant enhancements have been made to pcap-ng handling in the latest SVN revisions of Wireshark, and some of these issues may only manifest themselves when working with older pcap-ng files. Depending on the issue at hand, a new capture file may be necessary to replace an existing one that cannot be parsed correctly.
 
@@ -28,7 +28,7 @@ Please note that significant enhancements have been made to pcap-ng handling in 
 
 
 ==Fixed Issues==
-===Wireshark/dumpcap (1.2.x/1.3.0-SVN train)===
+===Wireshark/dumpcap (1.2.x/1.3.x/SVN trains)===
   * It was possible to crash versions of Wireshark and dumpcap prior to 1.3.0 (SVN revision 28851) whilst loading some pcap-ng files with a large number of packets, or beyond a certain (unknown) size - see [http://understand.googlecode.com/files/USB_DVB_New.ntar.bz2 here] or the bug for sample files - Reported as bug [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3565 3565], which is now resolved as of SVN Revision 28850
 
   * Storing Linux mmapped USB packets in pcap-ng files produces files with unusable metadata (e.g. all packets are dissected as {{{URB_ISOCHRONOUS}}} regardless of type) - Reported as [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3560 bug 3560] - Fixed in SVN Revision 28857
