@@ -23,7 +23,7 @@ It doesn't seem to be possible to add Extended Attributes with either {{{setfatt
 ----
 <br/>
 ==Sun Solaris/OpenSolaris== 
-  * Identifies itself as: {{{*SUN SOLARIS UDF}}} 
+  * Implementer ID: {{{*SUN SOLARIS UDF}}} 
   * Supposedly possible to store symbolic links, socket files, block node files, character node files and FIFO files
 
 ===File System Creation===
@@ -85,7 +85,7 @@ Identifies itself as: {{{*Apple Mac OS X DiscRec}}}
 ||{{{*UDF Toshiba DVD Video}}}||
 ||{{{*UDF FreeEASpace}}}||
 ||{{{*UDF DVD CGMS Info}}}||
-||{{{*UDF LV Info}}}||
+||{{{*UDF LV Info}}}||Logical Volume Descriptor||
 ||{{{OSTA Compressed Unicode}}}||
 ||{{{*OSTA UDF Compliant}}}||
 ||{{{*Philips DVD Video}}}||
