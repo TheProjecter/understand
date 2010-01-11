@@ -2,11 +2,10 @@
 #labels UDF,Interoperability
 =Implementations=
 ==Linux {{{mkudffs}}}==  
-Identifies itself as: Application ID: {{{*Linux mkudffs}}}, Implementor ID: {{{*Linux UDFFS}}} 
-
+  * Identifies itself as: Application ID: {{{*Linux mkudffs}}}, Implementor ID: {{{*Linux UDFFS}}} 
+  * Unless changed, the default Volume ID for a freshly-created volume is {{{LinuxUDF}}}
 
 ===Additional Information===
-Default Volume ID for a volume is {{{LinuxUDF}}}
 A "{{{lost+found}}}" directory is created when a volume is initialised with {{{mkudffs}}}.
 It doesn't seem to be possible to add Extended Attributes with either {{{setfattr}}} or {{{attr}}}.
 
