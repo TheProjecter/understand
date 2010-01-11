@@ -1,6 +1,9 @@
-=Banyan VINES IP=
-  * EtherType is {{{0x0bad}}}
+=Banyan VINES Protocols=
   * A copy of the [http://banyan.bamertal.com/Banyan-supplier-help/ProtoDef/ProtoDefMain.htm VINES Protocol Definition] documents (crucial for anyone interested in implementing the protocol in any manner, or understanding how it works) have been found 
+  * Additional resources of interest are available [http://banyan.bamertal.com/ here]
+
+==Banyan VINES IP==
+  * EtherType is {{{0x0bad}}}
   * Currently supported by [http://www.wireshark.org Wireshark]
   
 =LANtastic=
