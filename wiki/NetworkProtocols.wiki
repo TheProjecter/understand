@@ -4,7 +4,7 @@
 =LANtastic=
   * EtherType is {{{0x81d7}}}
   * Currently not supported by [http://www.wireshark.org Wireshark]
-  * Also makes use of the UDP-based NetBIOS Datagram Service protocol
+  * Also makes use of the UDP-based [http://en.wikipedia.org/wiki/NetBIOS#Datagram_distribution_service NetBIOS Datagram Service protocol]
 
 =DEC DNA Routing=
   * EtherType is {{{0x6003}}}
