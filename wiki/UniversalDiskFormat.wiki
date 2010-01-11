@@ -3,3 +3,6 @@
   * The current steward/maintainer of the UDF specifications is the [http://www.osta.org Optical Storage Technology Association (OSTA)], who currently make them freely available [http://www.osta.org/specs/ here] as PDF files
   * Some information on various implementations is curated on the [UDFInteroperabilityTesting] page of this wiki
   * Additional factoids and information on UDF are also available over at [http://en.wikipedia.org/wiki/Universal_Disk_Format Wikipedia]
+
+==Useful Tools==
+  * [http://www.13thmonkey.org/udfclient UDFClient] includes a tool ({{{udfdump}}}) to print the structures of a UDF volume - requires BSD Make (AKA {{{bmake}}}) on some systems) 
