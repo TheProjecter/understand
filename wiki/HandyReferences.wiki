@@ -24,5 +24,9 @@
   * Microsoft's raw NetBIOS implementation from Windows XP is available, [http://www.mac-net.com/174984.page here]
   * LANtastic 8.01 (works as a 45 day trial, without a license) is available, [http://pcmicro.com/lantastic here]
 
+==Tools==
+  * [http://www.wireshark.org Wireshark] is probably the best (Open Source) protocol analyser and network monitor - no introduction is really necessary
+  * Until someone can add support for capturing on the Windows loopback interface to LibPCap, a 30 day trial of [http://www.tamos.com/products/commview/ TamoSoft CommView] is probably the best bet - it saves files in a number of formats (including the LibPCap format, and a proprietary format that supports multiple link types which is also supported by Wireshark)
+
 ==File System Implementations==
   * An implementation of several variants of the UCSD Pascal/P-System file system is available [http://ucsd-psystem-fs.sourceforge.net/ here]
