@@ -1,9 +1,11 @@
 =Banyan VINES IP=
   * EtherType is {{{0x0bad}}}
   * Currently supported by [http://www.wireshark.org Wireshark]
+=LANtastic=
+  * EtherType is {{{0x81d7}}}
+  * Currently not supported by [http://www.wireshark.org Wireshark]
+  * Also makes use of the UDP-based NetBIOS Datagram Service protocol
 
-==VINES ARP==
-===Query Request===
-
-==VINES SARP==
-===Query Request===
+=DEC DNA Routing=
+  * EtherType is {{{0x6003}}}
+  * Currently supported by [http://www.wireshark.org Wireshark]
