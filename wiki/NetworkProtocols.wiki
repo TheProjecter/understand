@@ -9,6 +9,7 @@
 =LANtastic=
   * EtherType is {{{0x81d7}}}
   * Currently not supported by [http://www.wireshark.org Wireshark]
+  * A sample traffic capture file is [http://understand.googlecode.com/files/LANtastic_Broadcasts.pcap here]
   * Also makes use of the UDP-based [http://en.wikipedia.org/wiki/NetBIOS#Datagram_distribution_service NetBIOS Datagram Service protocol]
   * Possible to install the reference implementation under Windows Vista/7 with some work
 
