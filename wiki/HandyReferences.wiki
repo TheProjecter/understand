@@ -16,6 +16,7 @@
   * Requests For Comments (RFC) documents from the IETF are available [http://www.ietf.org/rfc.html here]
   * The [http://www.osta.org Optical Storage Technology Association (OSTA)] Universal Disk Format (UDF) specifications are available [http://osta.org/specs/index.htm here]
   * A number of specifications covered under the [http://www.microsoft.com/interop/osp/default.mspx Microsoft Open Specification Promise] are available [http://msdn.microsoft.com/en-us/library/cc203350.aspx here]
+  * A copy of the [http://banyan.bamertal.com/Banyan-supplier-help/ProtoDef/ProtoDefMain.htm VINES Protocol Definition] is available 
   * A header file containing a list of libpcap/tcpdump DLT values is available [http://fxr.watson.org/fxr/source/net/bpf.h here] (although it may not be up-to-date)
   * [http://taosecurity.blogspot.com/2006/01/freebsd-networking-over-firewire-you.html This blog post] contains a {{{tshark}}} text dump of an Apple IP-over-1394 packet that can be converted to a usable packet capture file with {{{text2pcap -l 138 }}}after saving it to a file
   * The Unified EFI (UEFI) 2.3 specifications, which include additional information on the GUID Partition Table (GPT) in chapter 5 are available [http://www.uefi.org/specs/ here], after registration
