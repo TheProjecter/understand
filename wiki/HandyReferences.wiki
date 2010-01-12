@@ -8,6 +8,8 @@
   * Even more sample files are available on the old [http://www.ethereal.com/lists/ Ethereal Mailing Lists], although they may disappear in the future - archiving those files here, or on the new Wireshark Wiki might be a good idea
   * The [https://bugs.wireshark.org Wireshark Bugzilla] instance is also another good source of capture files 
   * The page [http://aa-security.de/dumps/ here] has some capture files of historical interest (containing 3Com XNS, Token Ring, NetBIOS, IPX, ISDN and FDDI packets, amongst others)
+  * [http://www.thetechfirm.com/packets/index.html This page] has samples of various protocols, and notes on differences between analyser dissector implementations
+  * An annotated trace of an iTunes 7 DAAP session is available, [http://www.webpages.ttu.edu/mroth/tunes/login.htm here]
   * A capture file containing SocketCAN frames is [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4299 here]
   * The page [http://jon.oberheide.org/uverse/ here] has some AT&T U-Verse packet captures
 
