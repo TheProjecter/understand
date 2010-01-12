@@ -25,6 +25,7 @@
   * An implementation of Media-Oriented Systems Transport (MoST) for Linux is available, [http://most4linux.sourceforge.net/ here]
   * Microsoft's raw NetBIOS implementation from Windows XP is available, [http://www.mac-net.com/174984.page here]
   * LANtastic 8.01 (works as a 45 day trial, without a license) is available, [http://pcmicro.com/lantastic here]
+  * An implementation of AX.25 and a number of other amateur radio-related protocols, as well as links to protocol documentation is available, [http://www.linux-ax25.org here]
 
 ==Tools==
   * [http://www.wireshark.org Wireshark] is probably the best (Open Source) protocol analyser and network monitor - no introduction is really necessary
