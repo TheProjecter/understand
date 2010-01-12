@@ -23,6 +23,7 @@
   * [http://taosecurity.blogspot.com/2006/01/freebsd-networking-over-firewire-you.html This blog post] contains a {{{tshark}}} text dump of an Apple IP-over-1394 packet that can be converted to a usable packet capture file with {{{text2pcap -l 138 }}}after saving it to a file
   * The Unified EFI (UEFI) 2.3 specifications, which include additional information on the GUID Partition Table (GPT) in chapter 5 are available [http://www.uefi.org/specs/ here], after registration
   * The Plan9 IL protocol specifications are available, [http://doc.cat-v.org/plan_9/4th_edition/papers/il/ here]
+  * DECnet Phase IV protocol specifications are available, [http://linux-decnet.sourceforge.net/docs/doc_index.html here]
 
 ==Protocol Stack Implementations==
   * An implementation of Media-Oriented Systems Transport (MoST) for Linux is available, [http://most4linux.sourceforge.net/ here]
