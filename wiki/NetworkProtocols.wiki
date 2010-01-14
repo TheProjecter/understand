@@ -19,3 +19,6 @@
 
 ="Raw" NetBIOS=
   * It is possible to install Microsoft's implementation (from Windows XP) under Windows Vista/7, according to [http://www.mac-net.com/174984.page this page]
+
+= Xerox Network Services (XNS) =
+== NetBSD 3.x ==
