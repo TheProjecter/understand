@@ -7,6 +7,7 @@
   * A trove of obscure, unique, old, and new capture files that have been used in the development and testing of [http://www.wireshark.org Wireshark] is available in the form of the [http://www.wireshark.org/lists/ Wireshark Mailing Lists]
   * Even more sample files are available on the old [http://www.ethereal.com/lists/ Ethereal Mailing Lists], although they may disappear in the future - archiving those files here, or on the new Wireshark Wiki might be a good idea
   * The [https://bugs.wireshark.org Wireshark Bugzilla] instance is also another good source of capture files 
+  * [http://packetlife.net/captures/ Packet Life] have various user-submitted capture files, as well as forums and a number of other resources
   * The page [http://aa-security.de/dumps/ here] has some capture files of historical interest (containing 3Com XNS, Token Ring, NetBIOS, IPX, ISDN and FDDI packets, amongst others)
   * [http://www.thetechfirm.com/packets/index.html This page] has samples of various protocols, and notes on differences between analyser dissector implementations
   * An annotated trace of an iTunes 7 DAAP session is available, [http://www.webpages.ttu.edu/mroth/tunes/login.htm here]
