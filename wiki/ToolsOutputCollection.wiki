@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= {{{uname}}} =
-=={{{uname -a}}}
+={{{uname}}}=
+=={{{uname -a}}}==
 ||Operating System/Kernel||{{{uname}}} String||
 ||Fedora 11 (Linux)||Linux nagasaki.home 2.6.30.10-105.fc11.i686.PAE #1 SMP Thu Dec 24 16:41:17 UTC 2009 i686 i686 i386 GNU/Linux||
