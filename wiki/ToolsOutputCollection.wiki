@@ -3,5 +3,5 @@
 ={{{uname}}}=
 =={{{uname -a}}}==
 ||Operating System/Kernel||{{{uname}}} String||
-||Fedora 11 (Linux)||{{{Linux nagasaki.home 2.6.30.10-105.fc11.i686.PAE #1 SMP Thu Dec 24 16:41:17 UTC 2009 i686 i686 i386 GNU/Linux}}}}||
+||Fedora 11 (Linux)||{{{Linux nagasaki.home 2.6.30.10-105.fc11.i686.PAE #1 SMP Thu Dec 24 16:41:17 UTC 2009 i686 i686 i386 GNU/Linux}}}||
 ||Novell NetWare 6.5SP8a/Open Enterprise Server 2||{{{NetWare IA32 NLM 6 50 Intel Pentium unknown unknown NetWare}}}||
