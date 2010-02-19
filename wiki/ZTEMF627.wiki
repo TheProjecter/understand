@@ -18,3 +18,4 @@ Some additional information of interest is available [http://www.anotherurl.com/
 
 == USB ==
   * Reported in {{{lspci}}} as {{{Bus 002 Device 105: ID 19d2:0031 ONDA Communication S.p.A.}}}
+  * The device has multiple modes of operation (default state is an emulated USB/SCSI CD-ROM drive that must be "ejected" in order to switch to modem mode)
