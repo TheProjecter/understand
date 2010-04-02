@@ -48,3 +48,6 @@ If you used {{{./qemu-omap3/arm-softmmu/qemu-system-arm -M n800 -kernel riscos -
 
 == Screenshots of RISC OS on QEMU ==
 <a href="http://picasaweb.google.com/lh/photo/c9sQrKtw8Hy4KUIU-B3LfQ?feat=embedwebsite"><img src="http://lh5.ggpht.com/_Y5mZY1-de8o/SjJ25da9wzI/AAAAAAAAB2k/gs4XqH5oWZE/s144/serial_console_1.png" /></a>
+
+== Additional Information ==
+  * [https://www.riscosopen.org/wiki/documentation/pages/Using+the+Cortex-A8+port This page] on the RISC OS Open Wiki has slightly more up-to-date information regarding building RISC OS images for QEMU.
