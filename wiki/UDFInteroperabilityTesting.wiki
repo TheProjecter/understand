@@ -5,10 +5,9 @@ NOTE: This content is currently being reorganised. For historical purposes, prio
 
 [http://code.google.com/p/understand/source/browse/wiki/UDFInteroperabilityTesting.wiki?spec=svn542&r=542 Existing Content]
 
-==NetBSD 5.99.24/i386 - UDF 2.01==
+==NetBSD 5.99.24/i386==
+===UDF 2.01===
 {{{
-http://netbsd.gw.com/cgi-bin/man-cgi?mount_udf+8+NetBSD-5.0
-http://netbsd.gw.com/cgi-bin/man-cgi?newfs_udf+8+NetBSD-5.0
 Create a volume on an entire disk using "newfs_udf -s 512 /dev/rwd1d" (example)
 Mount the new volume using "mount /dev/wd1d /mnt" (example)
 Volume creation and mounting (when manually specifying 512byte blocks) works
@@ -20,5 +19,8 @@ Creation of character nodes doesn't work
 Creation of block nodes doesn't work
 Setting of NetBSD-style Extended Attributes using setextattr doesn't work
 }}}
+===Tools and Documentation===
+[http://netbsd.gw.com/cgi-bin/man-cgi?mount_udf+8+NetBSD-5.0 {{{mount_udf}}} Manual Page]
+[http://netbsd.gw.com/cgi-bin/man-cgi?newfs_udf+8+NetBSD-5.0 {{{newfs_udf}}} Manual Page]
 
 ==Linux 2.6.30.10-105.2.23.fc11.i686.PAE - UDF 2.01==
