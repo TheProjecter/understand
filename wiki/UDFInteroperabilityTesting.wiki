@@ -22,7 +22,7 @@ Setting of NetBSD-style Extended Attributes using setextattr doesn't work
 ===Tools and Documentation===
 <a href="http://netbsd.gw.com/cgi-bin/man-cgi?mount_udf+8+NetBSD-5.0"> {{{mount_udf}}} Manual Page</a>
 
-[[http://netbsd.gw.com/cgi-bin/man-cgi?newfs_udf+8+NetBSD-5.0 {{{newfs_udf}}} Manual Page]]
+<a href="http://netbsd.gw.com/cgi-bin/man-cgi?newfs_udf+8+NetBSD-5.0"> {{{newfs_udf}}} Manual Page</a>
 
 
 ==Linux 2.6.30.10-105.2.23.fc11.i686.PAE - UDF 2.01==
