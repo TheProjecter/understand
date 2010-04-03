@@ -1,5 +1,5 @@
 #summary Documenting the compatibility and interactions of numerous UDF implementations
-#labels UDF,Interoperability
+#labels UDF,Interoperability,Deprecated
 =Implementations=
 ==Linux {{{mkudffs}}}==  
   * Identifies itself as: Application ID: {{{*Linux mkudffs}}}, Implementer ID: {{{*Linux UDFFS}}} 
