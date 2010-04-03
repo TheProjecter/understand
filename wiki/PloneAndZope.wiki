@@ -1,4 +1,5 @@
 #summary Various notes related to Zope and Plone
+#labels Deprecated
 
 ==Resolving the {{{Malformed MIME type (BROKEN)}}} AROfficeTransforms 0.9.4 installation error==
 
