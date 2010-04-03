@@ -1,4 +1,4 @@
-#summary Documenting the compatibility and interactions of numerous UDF implementations
+#summary DEPRECATED - Documenting the compatibility and interactions of numerous UDF implementations
 #labels UDF,Interoperability,Deprecated
 =Implementations=
 ==Linux {{{mkudffs}}}==  
