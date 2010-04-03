@@ -1,5 +1,5 @@
 ﻿#summary Running QNX Neutrino on QEMU
-#labels QEMU,OMAP3,QNX,Neutrino,BeagleBoard,Momentics
+#labels QEMU,OMAP3,QNX,Neutrino,BeagleBoard,Momentics,Deprecated
 
 ==Installing QNX SDP On Linux Hosts==
   * If you haven't already done so, [https://www.qnx.com/account/login.html#showcreate register] for a QNX.com account, by following the instructions provided
