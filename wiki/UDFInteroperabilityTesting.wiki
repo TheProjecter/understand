@@ -37,3 +37,6 @@ Setting of NetBSD-style Extended Attributes using setextattr doesn't work
   * POSIX metadata imported from an NTFS volume
   * Junctions, Windows Symbolic Links
   * NTFS ACLs
+
+==OS/2 Warp 4==
+  * Install [http://hobbes.nmsu.edu/download/pub/os2/system/patches/fixpack/warp_4/fp15.zip Fix Pack 15] and the [http://www.os2site.com/sw/drivers/cdrom/udffile.zip UDF components pack]
