@@ -1,4 +1,5 @@
 #summary Content related to the Internet Relay Chat protocol, and various protocol extensions
+#labels Deprecated
 
 ==Specifications and Implementations==
   * The IRC protocol is documented in [http://www.faqs.org/rfcs/rfc1459.html Request for Comments (RFC) Document #1459]
