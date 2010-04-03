@@ -1,2 +1,0 @@
-#summary Additional information on the Bluetooth short-range wireless protocol
-#labels Bluetooth,Networks,Protocols
