@@ -1,5 +1,5 @@
 #summary Examples of code using various different APIs on various OSes
-#labels C,Objective-C,Objective-C,APIs,Sample_Code,Symbian_OS,Qt,Novell_NetWare,Mac_OS,Mac_OS_X,Carbon,Cocoa,POSIX,Cocoa,GNUstep
+#labels C,Objective-C,Objective-C,APIs,Sample_Code,Symbian_OS,Qt,Novell_NetWare,Mac_OS,Mac_OS_X,Carbon,Cocoa,POSIX,Cocoa,Deprecated
 
 ==ANSI C/POSIX (C)==
 ==Mac OS X Carbon (C/C++)==
