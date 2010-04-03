@@ -25,4 +25,15 @@ Setting of NetBSD-style Extended Attributes using setextattr doesn't work
 <a href="http://netbsd.gw.com/cgi-bin/man-cgi?newfs_udf+8+NetBSD-5.0"> {{{newfs_udf}}} Manual Page</a>
 
 
-==Linux 2.6.30.10-105.2.23.fc11.i686.PAE - UDF 2.01==
+==Linux 2.6.30.10-105.2.23.fc11.i686.PAE==
+===UDF 2.01===
+==Windows 7==
+  * NTFS Streams
+  * Shortcuts
+  * Indexed, Compressed, Encrypted bits
+  * Archive, Read-only, System, Hidden bits
+  * OS/2 metadata imported from an NTFS volume
+  * Mac OS metadata imported from an NTFS volume
+  * POSIX metadata imported from an NTFS volume
+  * Junctions, Windows Symbolic Links
+  * NTFS ACLs
