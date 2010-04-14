@@ -1,4 +1,4 @@
 #summary One-sentence summary of this page.
 
-||Operating System||Name||Description||
+||<font align="center"><b>Operating System</b></font>||<font align="center"><b>Name</b>||<font align="center"><b>Description</b>||
 ||Linux||[http://www.tuxera.com/community/ntfs-3g-advanced/extended-attributes/ system.ntfs_attrib]||NTFS-3G Base64-Encoded Windows FS Flags||
