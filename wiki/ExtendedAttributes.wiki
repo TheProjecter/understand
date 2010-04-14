@@ -4,3 +4,4 @@
 ||Linux||[http://www.tuxera.com/community/ntfs-3g-advanced/extended-attributes/ system.ntfs_attrib]||NTFS-3G Base64-Encoded Windows FS Flags||
 ||Linux||security.selinux||SELinux Security Context Metadata||
 ||Linux||[http://beagle-project.org/Enabling_Extended_Attributes user.Beagle]||Beagle-specific metadata||
+||Linux||[http://www.novell.com/documentation/oes2/stor_nss_lx_nw/?page=/documentation/oes2/stor_nss_lx_nw/data/b52o663.html netware.metadata]||Novell NetWare/Open Enterprise Server NSS file flags||
