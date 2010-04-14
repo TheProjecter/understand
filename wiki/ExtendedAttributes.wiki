@@ -7,3 +7,5 @@
 ||Linux||[http://www.novell.com/documentation/oes2/stor_nss_lx_nw/?page=/documentation/oes2/stor_nss_lx_nw/data/b52o663.html netware.metadata]||Novell NetWare/Open Enterprise Server NSS file flags||
 
 http://developer.novell.com/documentation/xattr/attr_enu/data/bktitle.html
+
+nss /ListXattrNWMetadata
