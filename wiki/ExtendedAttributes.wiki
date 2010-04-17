@@ -5,6 +5,8 @@
 ||Linux||security.selinux||SELinux Security Context Metadata||
 ||Linux||[http://beagle-project.org/Enabling_Extended_Attributes user.Beagle]||Beagle-specific metadata||
 ||Linux||[http://www.novell.com/documentation/oes2/stor_nss_lx_nw/?page=/documentation/oes2/stor_nss_lx_nw/data/b52o663.html netware.metadata]||Novell NetWare/Open Enterprise Server NSS file flags||
+||Linux||[http://www.mail-archive.com/lustre-discuss@lists.lustre.org/msg06105.html lustre.lov]||Lustre stripe count/stripe size metadata||
+||Linux||[http://www.mail-archive.com/lustre-discuss@lists.lustre.org/msg06105.html trusted.lov]||Lustre stripe count/stripe size metadata||
 
 http://developer.novell.com/documentation/xattr/attr_enu/data/bktitle.html
 star -xattr -H=exustar -c -f cups-log.star /var/log/cups
