@@ -8,6 +8,7 @@ https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2894 has Endace ERFII/Extens
   * Assuming that the module exists, and was loaded, you should see {{{vcan: Virtual CAN interface driver}}} in the output of {{{dmesg}}}
   * Output from the other kernel modules should look like this:
 {{{vcan: Virtual CAN interface driver}}}<br/>{{{can: controller area network core (rev 20081130 abi 8)}}}<br/>{{{NET: Registered protocol family 29}}}<br/>{{{can: raw protocol (rev 20081130)}}}
+ ip link add type vcan &&  ip link add dev can0 type vcan
   * Run {{{svn checkout svn://svn.berlios.de/socketcan/trunk socketcan}}} to check out a set of tools for working with Socket-CAN, and then run {{{cd socketcan/can-utils && make}}} to build them
   * Run {{{sudo ./vcan create}}} to create a new {{{vcan0}}} interface, and then {{{sudo ifconfig vcan0 up}}} to bring it up
   * If it worked, the output should look like this:
