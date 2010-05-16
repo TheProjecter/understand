@@ -10,8 +10,8 @@
 ==Applications That Should Support pcap-ng, But Don't==  
   * [http://www.aircrack-ng.org AirCrack-NG] doesn't appear to have any bugs/requests filed against it for pcap-ng support
   * Microsoft Network Monitor (any version) doesn't support pcap-ng files, and it probably won't. (Come on! You can even add proprietary extensions if you must, as long as they don't break other applications).
-  * The Linux BlueZ {{{hcidump}}} utility supports it's own custom file format, and a {{{btsnoop}}} file format, but not pcap-ng
-  * The {{{pppdump}}} utility records packets in a custom file format, and it seems that these currently don't convert fully to pcap-ng - we'd like that fixing
+  * The Linux BlueZ {{{hcidump}}} utility supports its own custom file format, and a {{{btsnoop}}} file format, but not pcap-ng
+  * The {{{pppdump}}} utility records packets in a custom file format, which as of late converts cleanly into a PCap-NG file (since support for the PPP direction bit in packet headers has been added to Wireshark and LibPCap)
   * [http://www.tamosoft.com TamoSoft] [http://www.tamos.com/products/commview/ CommView] supports it's own proprietary, but [http://www.tamos.com/htmlhelp/commview/logformat.htm documented] format, and libpcap and Microsoft Network Monitor formats, but not pcap-ng
 
 ==Current Issues and Bugs==
