@@ -12,4 +12,4 @@ Add your content here.
   * Nokia N73 smartphone ([http://code.google.com/p/understand/downloads/detail?name=PictBridge-Nokia-Device-Qualifiers.pcap&can=2&q= PictBridge qualifiers trace])
   * A Western Digital 500GB external hard disk drive ([http://understand.googlecode.com/files/Western_Digtal_USB_HDD_Transactions.tar.bz2 a number of USB Mass Storage trace files in a BZip2'd TARball])
   * Pinnacle 72e USB DVB-T receiver ([http://code.google.com/p/understand/downloads/detail?name=USB_DVB_New.ntar.bz2&can=2&q= sample trace file containing tuning events and MPEG-2 Transport Streams])
-  * [http://code.google.com/p/understand/wiki/ZTEMF627 ZTE MF626] UMTS/HSDPA/GPRS/EDGE modem
+  * [http://code.google.com/p/understand/wiki/ZTEMF627 ZTE MF627] UMTS/HSDPA/GPRS/EDGE modem
