@@ -8,7 +8,7 @@ Add your content here.
 = Devices =
 
   * [BTVoyager210 BT Voyager 210] ADSL residential gateway
-  * EA-branded LogiTech microphone (trace coming soon)
+  * EA-branded LogiTech microphone (trace available [http://code.google.com/p/understand/downloads/detail?name=LogiTech_Generic_Microphone.ntar&can=2&q= here])
   * Sony Ericsson C510 mobile phone ([http://code.google.com/p/understand/downloads/detail?name=SEMC-C510-MTP_Linux-gnomad2.pcap.gz&can=2&q= MTP endpoint trace]) 
   * Trust-branded PixArt 3-button/scroll-wheel optical mouse (trace available [http://code.google.com/p/understand/downloads/detail?name=PixArt_Trust_Optical_Mouse.ntar&can=2&q= here])
   * Nokia N73 smartphone ([http://code.google.com/p/understand/downloads/detail?name=PictBridge-Nokia-Device-Qualifiers.pcap&can=2&q= PictBridge qualifiers trace])
