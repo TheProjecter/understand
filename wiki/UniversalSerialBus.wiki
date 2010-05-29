@@ -10,7 +10,7 @@ Add your content here.
   * [BTVoyager210 BT Voyager 210] ADSL residential gateway
   * EA-branded LogiTech microphone (trace coming soon)
   * Sony Ericsson C510 mobile phone ([http://code.google.com/p/understand/downloads/detail?name=SEMC-C510-MTP_Linux-gnomad2.pcap.gz&can=2&q= MTP endpoint trace]) 
-  * Trust-branded PixArt 3-button/scroll-wheel optical mouse (trace coming soon)
+  * Trust-branded PixArt 3-button/scroll-wheel optical mouse (trace available [http://code.google.com/p/understand/downloads/detail?name=PixArt_Trust_Optical_Mouse.ntar&can=2&q= here])
   * Nokia N73 smartphone ([http://code.google.com/p/understand/downloads/detail?name=PictBridge-Nokia-Device-Qualifiers.pcap&can=2&q= PictBridge qualifiers trace])
   * A Western Digital 500GB external hard disk drive ([http://understand.googlecode.com/files/Western_Digtal_USB_HDD_Transactions.tar.bz2 a number of USB Mass Storage trace files in a BZip2'd TARball])
   * Pinnacle 72e USB DVB-T receiver ([http://code.google.com/p/understand/downloads/detail?name=USB_DVB_New.ntar.bz2&can=2&q= sample trace file containing tuning events and MPEG-2 Transport Streams])
