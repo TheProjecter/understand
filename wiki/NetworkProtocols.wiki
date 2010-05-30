@@ -6,6 +6,9 @@
   * EtherType is {{{0x0bad}}}
   * Currently supported by [http://www.wireshark.org Wireshark]
 
+== CCSDS ==
+  * A sample capture file containing a number of CCSDS packets encapsulated in modified Ethernet framing are available [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3153 here]
+
 =Controller Area Network=
   * A sample traffic capture file, containing various frames with SocketCAN encapsulation is available [http://code.google.com/p/understand/downloads/detail?name=CANtest.pcap&can=2&q= here]
 
