@@ -15,6 +15,6 @@
 = Software =
 == Protocol Analysis ==
 === Wireshark ===
-  * As of SVN revision 33021 of Wireshark, improvements have been made to both support of PPP-over-USB using [http://tools.ietf.org/html/rfc1662 RFC 1662] HDLC-like framing, and "native" PPP as part of the USB Communications Device Class
+  * As of SVN revision 33021 of Wireshark, improvements have been made to both support of PPP-over-USB using [http://tools.ietf.org/html/rfc1662 RFC 1662] HDLC-like framing, and "native" PPP as part of the USB Communications Device Class - meaning that higher-layer protocols such as IPv4, and PPP CHAP are now dissected (although issues still remain around fragmented packets)
   * Support for Ethernet, and ATM over USB is still unimplemented
   * Support for most of the USB Mass Storage Class (and SCSI); most of the USB Hub Class; and parts of the USB Human Interface Device class has been implemented prior to that revision, for a while
