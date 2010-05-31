@@ -15,6 +15,8 @@
 =DEC DNA Routing=
   * EtherType is {{{0x6003}}}
   * Currently supported by [http://www.wireshark.org Wireshark]
+= DOCSIS =
+  * A sample capture file containing DOCSIS Management traffic and IP traffic encapsulated in MPEG-2 Transport Stream framing; and Wireshark configuration information for dissecting it is available [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4204 here]
 
 =Frame Relay=
   * A sample traffic capture file, containing Frame Relay, Q.933, LMI, DNS, Inverse ARP, and EIGRP packets is available [http://code.google.com/p/understand/downloads/detail?name=Frame_Relay_Sample_1.cap&can=2&q= here]. 
