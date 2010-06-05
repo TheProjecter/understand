@@ -8,3 +8,4 @@
   * Support for dissection of DOCSIS frames encapsulated within MPEG-2 Transport Streams has been implemented for a while, so it seems - a sample of these might be attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3218 Bug #3218]
   * [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4338 Bug #4338] has a patch related to MPEG-2 Transport Stream PCR clock measurement/analysis 
   * Avalpa have some sample files created using their Open Source OpenCaster software available [http://www.avalpa.com/the-key-values/15-free-software/59-opencaster-demo-roll here]
+  * A sample trace file containing DVB-related SimulCrypt traffic is available here [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=2935 here]
