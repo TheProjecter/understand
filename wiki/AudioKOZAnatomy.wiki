@@ -28,7 +28,7 @@ It appears that many of them relate to non-standard or missing data structures t
 
 I have placed a {{{script}}} log of these error messages [http://understand.googlecode.com/files/KOZ-Playback.txt.bz2 here], along with the extracted [http://house404.co.uk/KOZ/image-file.jpg JPEG image], and the [http://house404.co.uk/KOZ/UtadaHikaru-ThisIsLove.koz .KOZ file itself].
 
-I have not been able to get a satisfactory amount of information about the file from the [http://www.wireshark.org Wireshark] protocol analyser's MPEG Audio Layer 3/MPEG-2 dissector.
+I have been unable to get a satisfactory amount of information about the file from the [http://www.wireshark.org Wireshark] protocol analyser's MPEG Audio Layer 3/MPEG-2 dissector.
 
 I have also not been able to play it in either the Linux or Symbian versions of !RealPlayer or in Xine (although the first frame plays in Xine after changing the extension, before playback cuts out).
 
