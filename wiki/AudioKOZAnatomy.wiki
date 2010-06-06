@@ -47,7 +47,7 @@ I am unsure about what {{{trackdbfx.dat}}} is used for, or what the data contain
 
 ==Misc Notes==
 I have determined that it is possible to crash [OrangeMusicPlayer Orange Music Player] by playing a corrupt/damaged .KOZ file to the point where the file is damaged.
-At least during testing, the player either closed gracefully, died and prevented applications other than the Telephone function from playing audio, or crashed other processes on the handset (including the Telephone process) and required the a power-cycle of the handset.
+At least during testing, the player either closed gracefully, died and prevented applications other than the Telephone function from playing audio, or crashed other processes on the handset (including the Telephone process) and required a reboot of the handset.
 
 I would expect that the player would present an error message and gracefully close the file, instead of crashing/freezing the handset or processes running on it.
 
