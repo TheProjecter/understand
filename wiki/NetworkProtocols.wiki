@@ -21,6 +21,10 @@
 =Frame Relay=
   * A sample traffic capture file, containing Frame Relay, Q.933, LMI, DNS, Inverse ARP, and EIGRP packets is available [http://code.google.com/p/understand/downloads/detail?name=Frame_Relay_Sample_1.cap&can=2&q= here]. 
   
+=IEEE 1394/FireWire=
+  * A number of trace files containing IEEE 1394 Isochronous frames from a Mark-of-the-Unicorn 828mkII audio device are available [http://www.atrad.com.au/~jwoithe/motu/ here] (in ISODump format)
+  * Additional information about that device, and some more trace files are available [http://www.olafchrist.de/ieee1394/ here]
+
 =LANtastic=
   * EtherType is {{{0x81d7}}}
   * Currently not supported by [http://www.wireshark.org Wireshark]
