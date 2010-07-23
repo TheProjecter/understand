@@ -36,6 +36,7 @@
 ==Tools==
   * [http://www.wireshark.org Wireshark] is probably the best (Open Source) protocol analyser and network monitor - no introduction is really necessary
   * Until someone can add support for capturing on the Windows loopback interface to LibPCap, a 30 day trial of [http://www.tamos.com/products/commview/ TamoSoft CommView] is probably the best bet - it saves files in a number of formats (including the LibPCap format, and a proprietary format that supports multiple link types which is also supported by Wireshark)
+  * For capturing 802.11 traffic on Windows Vista or Windows 7 machines, [http://www.microsoft.com/downloads/details.aspx?familyid=983b941d-06cb-4658-b7f6-3088333d062f&displaylang=en Microsoft Network Monitor 3.4] is worth a try - although it saves 802.11 traces with a proprietary header that's only supported by NM itself, and versions of Wireshark after 1.5.0 r33583
 
 ==File System Implementations==
   * An implementation of several variants of the UCSD Pascal/P-System file system is available [http://ucsd-psystem-fs.sourceforge.net/ here]
