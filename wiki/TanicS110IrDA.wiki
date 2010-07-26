@@ -1,7 +1,7 @@
 #summary An attempt at reverse-engineering and documenting the non-standard encapsulation of IrDA protocols used by devices based upon the Tanic S110 chipset
 
 = Frame Samples =
-All of these full-length frame samples are taken from the {{{SEMC-IrDA.cap}}} trace file that is currently in my private collection. I'll upload it soon. 
+All of these full-length frame samples are taken from the {{{SEMC-IrDA.cap}}} trace file that's available [http://understand.googlecode.com/files/SEMC-IrDA.cap.bz2 here].
 
 ==Sample 1==
 {{{
