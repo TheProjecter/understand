@@ -1,13 +1,43 @@
 #summary An attempt at reverse-engineering and documenting the non-standard encapsulation of IrDA protocols used by devices based upon the Tanic S110 chipset
 
-= Introduction =
+= Frame Samples =
+All of these full-length frame samples are taken from the {{{SEMC-IrDA.cap}}} trace file that is currently in my private collection. I'll upload it soon. 
 
-Add your content here.
+{{{
+No.     Time        Source                Destination           Protocol Info
+  21925 497.332749  host                  5.2                   USB      URB_BULK
 
+Frame 21925 (65 bytes on wire, 65 bytes captured)
+    Arrival Time: Jul 25, 2010 23:06:44.533075000
+    [Time delta from previous captured frame: 0.167289000 seconds]
+    [Time delta from previous displayed frame: 0.167289000 seconds]
+    [Time since reference or first frame: 497.332749000 seconds]
+    Frame Number: 21925
+    Frame Length: 65 bytes
+    Capture Length: 65 bytes
+    [Frame is marked: False]
+    [Protocols in frame: usb]
+    [Coloring Rule Name: IrDA Bridge/Other Device]
+    [Coloring Rule String: usb.bInterfaceClass == 0x00 ]
+USB URB
+    URB id: 0x00000000cb0e7a00
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_BULK (3)
+    Endpoint: 0x02
+    Device: 5
+    URB bus id: 6
+    Device setup request: not present ('-')
+    Data: present (0)
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 41
+    Data length [bytes]: 41
+    [Response in: 21926]
+    [bInterfaceClass: Use class info in Interface Descriptor (0x00)]
+    Application Data: 55AA2500C0C0C0C0C0C0C0C0C0C0C0FF3F01D7210000FFFF...
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 55 aa 25 00 c0 c0 c0 c0   ........U.%.....
+0020  c0 c0 c0 c0 c0 c0 c0 ff 3f 01 d7 21 00 00 ff ff   ........?..!....
+0030  ff ff 01 ff 00 84 25 00 48 4f 53 54 31 00 3e 31   ......%.HOST1.>1
+0040  c1                                                .
+}}}
