@@ -83,3 +83,6 @@ USB URB
 0030  00 91 24 00 53 6f 6e 79 20 45 72 69 63 73 73 1f   ..$.Sony Ericss.
 0040  4d c1                                             M.
 }}}
+
+== Potential Reference Materials ==
+  * The STIR4200 Linux driver source at [http://www.kernel.org/home/ftp/pub/scm/linux/kernel/git/daniel/linux-tux3/drivers/net/irda/stir4200.c Kernel.org] describes certain aspects of frame construction, from the perspective of an otherwise unrelated device
