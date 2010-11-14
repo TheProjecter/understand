@@ -24,7 +24,7 @@ Please note that significant enhancements have been made to pcap-ng handling in 
 
   * {{{Juniper ATM1 PIC}}} {{{VC-MUX}}} packets in libpcap files become {{{ATM OAM Cell}}} packets when saved into pcap-ng files, and cannot be dissected for a currently unknown reason
 
-  * It appears that it is not possible currently, to export Bluetooth HCI H1 packets in Symbian OS btsnoop capture files to pcap-ng
+  * It appears that it is not currently possible to export Bluetooth HCI H1 packets from Symbian OS btsnoop capture files to pcap-ng
 
 
 
