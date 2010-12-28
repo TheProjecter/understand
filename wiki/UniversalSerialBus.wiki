@@ -38,7 +38,7 @@
 ||ISI/PhoNet||2 byte header ({{{0x001B}}})||Nokia N73 smartphone||A Wireshark dissector for handling USB-encapsulated ISI/PhoNet frames is linked to from [http://vmlemon.wordpress.com/2010/12/25/wireshark-usb-phonet-dissector/ this] blog post||
 
 == Asynchronous Transfer Mode (ATM) ==
-=== Alcatel SpeedTouch Implementation ===
+=== Alcatel !SpeedTouch Implementation ===
 ==== ILMI Packet Example ====
 
 {{{
