@@ -22,3 +22,6 @@
   * Support for most of the USB Mass Storage Class (and SCSI); most of the USB Hub Class; and parts of the USB Human Interface Device class has been implemented prior to that revision, for a while
 
 = Protocols =
+
+||<b>Protocol</b>||</b>Encapsulation</b>||<b>Device</b>||<b>Additional Information</b>||
+||Ethernet||6 byte header, additional padding||Samsung CMC-730-based WiMAX device||A hex dump of an Ethernet payload in a USBSnoop log is available, [http://code.google.com/p/madwimax/wiki/ProtocolSummary here]||
