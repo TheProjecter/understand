@@ -23,5 +23,5 @@
 
 = Protocols =
 
-||<b>Protocol</b>||</b>Encapsulation</b>||<b>Device</b>||<b>Additional Information</b>||
+||<b>Protocol</b>||<b>Encapsulation</b>||<b>Device</b>||<b>Additional Information</b>||
 ||Ethernet||6 byte header, additional padding||Samsung CMC-730-based WiMAX device||A hex dump of an Ethernet payload in a USBSnoop log is available, [http://code.google.com/p/madwimax/wiki/ProtocolSummary here]||
