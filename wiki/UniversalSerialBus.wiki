@@ -36,3 +36,47 @@
 ||<b>Protocol</b>||<b>Encapsulation</b>||<b>Device</b>||<b>Additional Information</b>||
 ||Ethernet||6 byte header, additional padding after Ethernet data||Samsung CMC-730-based WiMAX device||A hex dump of an Ethernet payload in a USBSnoop log is available, [http://code.google.com/p/madwimax/wiki/ProtocolSummary here]||
 ||ISI/PhoNet||2 byte header ({{{0x001B}}})||Nokia N73 smartphone||A Wireshark dissector for handling USB-encapsulated ISI/PhoNet frames is linked to from [http://vmlemon.wordpress.com/2010/12/25/wireshark-usb-phonet-dissector/ this] blog post||
+
+== Asynchronous Transfer Mode (ATM) ==
+=== Alcatel SpeedTouch Implementation ===
+==== ILMI Packet Example ====
+
+{{{
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000                                                ILMI      iso.3.6.1.4.1.3.1.1[Packet size limited during capture]
+
+Frame 1: 53 bytes on wire (424 bits), 53 bytes captured (424 bits)
+    Arrival Time: Dec 28, 2010 15:05:44.000000000 GMT Standard Time
+    Epoch Time: 1293548744.000000000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 53 bytes (424 bits)
+    Capture Length: 53 bytes (424 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: user_dlt:data:ilmi]
+DLT: 148
+Data (5 bytes)
+    Data: 00000100ec
+    [Length: 5]
+ILMI
+    version: version-1 (0)
+    community: ILMI
+    data: trap (4)
+        trap
+            enterprise: 1.3.6.1.4.1.3.1.1 (iso.3.6.1.4.1.3.1.1)
+            agent-addr: 0.0.0.0 (0.0.0.0)
+            generic-trap: coldStart (0)
+            specific-trap: 0
+            time-stamp: 0
+            variable-bindings: 0 items
+[Packet size limited during capture: ILMI truncated]
+
+0000  00 00 01 00 ec 30 34 02 01 00 04 04 49 4c 4d 49   .....04.....ILMI
+0010  a4 29 06 08 2b 06 01 04 01 03 01 01 40 04 00 00   .)..+.......@...
+0020  00 00 02 01 00 02 01 00 43 01 00 30 0e 30 0c 06   ........C..0.0..
+0030  08 2b 06 01 02                                    .+...
+
+}}}
