@@ -20,3 +20,5 @@
   * Support for MPEG-2 Transport Stream payloads is available using the patch attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4814 Bug #4814]
   * Support for some form of ATM over USB is unimplemented
   * Support for most of the USB Mass Storage Class (and SCSI); most of the USB Hub Class; and parts of the USB Human Interface Device class has been implemented prior to that revision, for a while
+
+= Protocols =
