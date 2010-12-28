@@ -41,6 +41,10 @@
 === Alcatel !SpeedTouch Implementation ===
 ==== ILMI Packet Example ====
 
+The trace file corresponding to this textual dump is available, [http://code.google.com/p/understand/downloads/detail?name=AlcatelILMI-2.cap here]. 
+
+Please refer to that URL for instructions on dissection.
+
 {{{
 No.     Time        Source                Destination           Protocol Info
       1 0.000000                                                ILMI      iso.3.6.1.4.1.3.1.1[Packet size limited during capture]
