@@ -37,7 +37,7 @@
 ||ISO/IEC 13818-1||USB framing only||Pinnacle 72e USB DVB-T receiver||A sample trace file containing tuning events and MPEG-2 Transport Stream data is available,  [http://code.google.com/p/understand/downloads/detail?name=USB_DVB_New.ntar.bz2 here]||
 
 == Asynchronous Transfer Mode (ATM) ==
-=== Alcatel !SpeedTouch Implementation ===
+=== Alcatel !SpeedTouch 330 Implementation ===
 ==== ILMI Packet Example ====
 
 The trace file corresponding to this textual dump is available, [http://code.google.com/p/understand/downloads/detail?name=AlcatelILMI-2.cap here]. 
