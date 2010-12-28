@@ -16,8 +16,6 @@
 
   * A Western Digital 500GB external hard disk drive ([http://understand.googlecode.com/files/Western_Digtal_USB_HDD_Transactions.tar.bz2 a number of USB Mass Storage trace files in a BZip2'd TARball])
 
-  * Pinnacle 72e USB DVB-T receiver ([http://code.google.com/p/understand/downloads/detail?name=USB_DVB_New.ntar.bz2 sample trace file containing tuning events and MPEG-2 Transport Streams])
-
   * Thomson Telecom SpeedTouch 330 ADSL modem/ATM adapter ([http://code.google.com/p/understand/downloads/detail?name=Thomson_SpeedTouch_330_Connection_and_Firmware_load_1.cap connection and firmware initialisation trace])
 
   * [http://code.google.com/p/understand/wiki/ZTEMF627 ZTE MF627] UMTS/HSDPA/GPRS/EDGE modem
@@ -36,6 +34,7 @@
 ||<b>Protocol</b>||<b>Encapsulation</b>||<b>Device</b>||<b>Additional Information</b>||
 ||Ethernet||6 byte header, additional padding after Ethernet data||Samsung CMC-730-based WiMAX device||A hex dump of an Ethernet payload in a USBSnoop log is available, [http://code.google.com/p/madwimax/wiki/ProtocolSummary here]||
 ||ISI/PhoNet||2 byte header ({{{0x001B}}})||Nokia N73 smartphone||A Wireshark dissector for handling USB-encapsulated ISI/PhoNet frames is linked to from [http://vmlemon.wordpress.com/2010/12/25/wireshark-usb-phonet-dissector/ this] blog post||
+||ISO/IEC 13818-1||USB framing only||Pinnacle 72e USB DVB-T receiver||A sample trace file containing tuning events and MPEG-2 Transport Stream data is available,  [http://code.google.com/p/understand/downloads/detail?name=USB_DVB_New.ntar.bz2 here]||
 
 == Asynchronous Transfer Mode (ATM) ==
 === Alcatel !SpeedTouch Implementation ===
