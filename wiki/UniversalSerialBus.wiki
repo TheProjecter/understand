@@ -38,6 +38,9 @@
 
 == Asynchronous Transfer Mode (ATM) ==
 === Alcatel !SpeedTouch 330 Implementation ===
+
+The Alcatel !SpeedTouch 330 utilises {{{URB_BULK}}} URBs for the majority of its data transportation requirements. AAL5 frames are often concatenated together into a single URB (without padding), for efficiency. 
+
 ==== ILMI Packet Example ====
 
 The trace file corresponding to this textual dump is available, [http://code.google.com/p/understand/downloads/detail?name=AlcatelILMI-2.cap here]. 
