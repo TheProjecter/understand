@@ -41,7 +41,7 @@
 
 The Alcatel !SpeedTouch 330 utilises {{{URB_BULK}}} URBs for the majority of its data transportation requirements. AAL5 frames are often concatenated together into a single URB (without padding), for efficiency. 
 
-A trace file containing a number of frames, from which the example below is derived from, is available [http://code.google.com/p/understand/downloads/detail?name=SpeedTouch-330_ILMI_IPv4_mDNS.cap here].
+A trace file containing a number of frames, from which the example below is a derivative of, is available [http://code.google.com/p/understand/downloads/detail?name=SpeedTouch-330_ILMI_IPv4_mDNS.cap here].
 
 ==== ILMI Packet Example ====
 
