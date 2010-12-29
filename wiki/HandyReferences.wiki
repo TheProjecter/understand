@@ -30,6 +30,7 @@
   * DECnet Phase IV protocol specifications are available, [http://linux-decnet.sourceforge.net/docs/doc_index.html here]
 
 ==Protocol Stack Implementations==
+  * An implementation of FlexRay for Linux is available, [http://scriptkiller.de/en/a37/computer_electronics/linux/flexray_4_linux/flexray_protocol_stack_for_linux/ here]
   * An implementation of Media-Oriented Systems Transport (MoST) for Linux is available, [http://most4linux.sourceforge.net/ here]
   * Microsoft's raw NetBIOS implementation from Windows XP is available, [http://www.mac-net.com/174984.page here]
   * LANtastic 8.01 (works as a 45 day trial, without a license) is available, [http://pcmicro.com/lantastic here]
