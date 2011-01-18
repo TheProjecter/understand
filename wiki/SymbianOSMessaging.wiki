@@ -3,7 +3,11 @@
 
 == Introduction =
 
-== Symbian OS 8.1a/S60v2 Feature Pack 3 (Nokia N70) Implementation ==
+== S60 3rd Edition (Nokia N73) Implementation ==
+
+H:\Private\1000484b\Mail2
+
+== Symbian OS 8.1a/S60 2nd Edition Feature Pack 3 (Nokia N70) Implementation ==
 === File System Layout ===
 A typical directory structure containing Mail files looks like this:<br/>
 [http://understand.googlecode.com/files/Mail_Directory_Tree_Graph.png]
