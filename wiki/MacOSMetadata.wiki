@@ -317,7 +317,7 @@ com.apple.metadata:kMDItemFinderComment:
  * Notice that the Finder Comment hasn't changed, since the conversion processes are seemingly lossy (need to investigate)
 
 ===Experiment, Part 2===
-  * Using a hex editor, and the raw binary {{{plist}}} dump that was created earlier, we can attempt to modify the comment string directly, using a hex editor
+  * Using a hex editor, and the raw binary {{{plist}}} dump that was created earlier, we can attempt to modify the comment string directly
   * Unfortunately, this doesn't produce a useful result when the {{{plutil -lint}}} function is used:
 {{{
 HexedComment.plist:
