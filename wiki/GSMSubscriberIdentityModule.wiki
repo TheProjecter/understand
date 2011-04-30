@@ -1,3 +1,9 @@
 #summary Content related to Identity Module smartcards, as used in GSM and UMTS networks.
 
+= Dedicated Hardware/Wireshark Dissector =
+
   * A Wireshark dissector, and information on hardware that can potentially be used to trace SIM card traffic from handsets is available, [http://bb.osmocom.org/trac/wiki/SIMtrace here]
+
+= USB Modems, and Mobile Phones (AT Commands) =
+
+= Nokia Mobile Phones (Intelligent Service Interface/USB) =
