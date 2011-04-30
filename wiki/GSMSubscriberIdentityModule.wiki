@@ -1,13 +1,3 @@
 #summary Content related to Identity Module smartcards, as used in GSM and UMTS networks.
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * A Wireshark dissector, and information on hardware that can potentially be used to trace SIM card traffic from handsets is available, [http://bb.osmocom.org/trac/wiki/SIMtrace here]
