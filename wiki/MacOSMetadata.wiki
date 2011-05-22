@@ -18,7 +18,7 @@ It seems that not all metadata is archived by every archiving tool available for
   # an {{{Alias}}}
   # a file with the Finder {{{Locked}}} ({{{UserImmutable}}}) attribute
   # a file with the {{{Stationary Pad}}} attribute
-  # a File with a Finder {{{Label}}} (one of {{{Red}}}, {{{Orange}}}, {{{Yellow}}}, {{{Green}}}, {{{Blue}}}, {{{Purple}}} or {{{Grey}}})
+  # a file with a Finder {{{Label}}} (one of {{{Red}}}, {{{Orange}}}, {{{Yellow}}}, {{{Green}}}, {{{Blue}}}, {{{Purple}}} or {{{Grey}}})
   # a file with a Mac OS X-style {{{Finder Comment}}}
   # a file and/or directory with a custom icon
   # a Quarantined file
