@@ -1,9 +1,9 @@
 #summary Content related to the Digital Video Broadcasting standards, and dissection thereof using Wireshark
 
 =Patches=
-  * The patch attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4814 Bug #4814] will enable support for dissection of MPEG-2 Transport Streams encapsulated in USB framing that are either being captured from a live USB capture session (only supported under Linux), or stored in a trace file on-disk. It was committed in SVN revision 37039. 
+  * The patch attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4814 Bug #4814] will enable support for dissection of MPEG-2 Transport Streams encapsulated in USB framing that are either being captured from a live USB capture session (only supported under Linux), or stored in a trace file on-disk. It was committed in [http://anonsvn.wireshark.org/viewvc?view=revision&revision=37039] SVN revision 37039. 
   * A patch attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=4178 Bug #4178] claims to support dissection of DVB IP datacasts, under certain conditions
-  * The patches attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5654 Bug #5654] adds support for the DVB Common Interface protocol. It was committed in SVN revision 36163.
+  * The patches attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5654 Bug #5654] adds support for the DVB Common Interface protocol. It was committed in [http://anonsvn.wireshark.org/viewvc?view=revision&revision=36163 SVN revision 36163].
 
 =Somewhat Related Stuff=
   * Support for dissection of DOCSIS frames encapsulated within MPEG-2 Transport Streams has been implemented for a while, so it seems - a sample of these might be attached to [https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=3218 Bug #3218]
