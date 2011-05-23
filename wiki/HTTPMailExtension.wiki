@@ -1,7 +1,7 @@
 #summary Bolting HTTPMail "support" onto SVN, piece by piece...
 
 ==Detecting the Presence of the HTTPMail Extensions==
-According to [http://msdn.microsoft.com/en-us/library/dd299450(v=exchg.80).aspx {{{[MS-XWDMAIL]}}}], a server is supposed to send an {{{Allow-Extension}}} HTTP header containing the value {{{urn:schemas:httpmail}}} with the output of the {{{OPTIONS}}} verb. 
+According to [http://msdn.microsoft.com/en-us/library/dd299450(v=exchg.80).aspx {{{MS-XWDMAIL}}}], a server is supposed to send an {{{Allow-Extension}}} HTTP header containing the value {{{urn:schemas:httpmail}}} with the output of the {{{OPTIONS}}} verb. 
 
 ==Potential Non-Code Intrusive Hacks/Workarounds==
 Add {{{Header append Allow-Extension urn:schemas:httpmail}}} or {{{Header add Allow-Extension urn:schemas:httpmail}}} to permanently switch on the HTTPMail extension notice, at the cost of potentially violating the spec or upsetting clients. According to the specification, it is also necessary to send a {{{Public-Extension}}} header containing the same value as {{{Allow-Extension}}}, prior to that header.`
