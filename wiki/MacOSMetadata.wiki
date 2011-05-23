@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Content related to metadata under the Mac OS
 
 ==Mac OS X Archival Experiment==
 It seems that not all metadata is archived by every archiving tool available for Mac OS X, and tools that claim to be able to archive a piece of metadata may not do so with full fidelity.
