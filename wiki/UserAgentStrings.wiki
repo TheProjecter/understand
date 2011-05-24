@@ -8,6 +8,7 @@
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (compatible; FriendFeedBot/0.1; +Http://friendfeed.com/about/bot)}}}||[http://friendfeed.com FriendFeed] RSS/Atom feed crawler/ingestion system||
 ||{{{User-Agent}}}||{{{BREW-Applet/0x0101104D (BREW/4.0.4.12; DeviceId:  100001; Lang: en)}}}||QualComm BREW HTTP Applet Example||
 ||{{{User-Agent}}}||{{{Mozilla/5.0 (webOS/1.0; U; en-US) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/1.0 Safari/525.27.1 Pre/1.0}}}||Palm Pre/WebOS WebKit-based browser||
+||{{{User-Agent}}}||{{{Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Safari/534.13}}}||Google Chrome 9.0.597.98 under Windows 7||
 ||{{{User-Agent}}}||{{{WiiConnect24/2.0.3.1}}}||Nintendo WiiConnect24 client||
 ||{{{User-Agent}}}||{{{Dreamweaver/10.0}}}||Adobe DreamWeaver CS3||
 ||{{{User-Agent}}}||{{{WebDAVFS/1.7 (01708000) Darwin/9.6.0 (i386)}}}||Mac OS X 10.5.6 WebDAV client||
