@@ -1,4 +1,4 @@
-#summary DEPRECATED - Documenting the compatibility and interactions of numerous UDF implementations
+#summary Documenting the compatibility and interactions of numerous UDF implementations
 #labels UDF,Interoperability
 
 NOTE: This content is currently being reorganised. For historical purposes, prior versions of this page will remain accessible in the revision control system.
