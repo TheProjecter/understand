@@ -11,6 +11,7 @@
 ||{{{User-Agent}}}||{{{WiiConnect24/2.0.3.1}}}||Nintendo WiiConnect24 client||
 ||{{{User-Agent}}}||{{{Dreamweaver/10.0}}}||Adobe DreamWeaver CS3||
 ||{{{User-Agent}}}||{{{WebDAVFS/1.7 (01708000) Darwin/9.6.0 (i386)}}}||Mac OS X 10.5.6 WebDAV client||
+||{{{User-Agent}}}||{{{ZTE-G-X991-Rio-orange/X991_V1_Z2_FRES_D18F108 Profile/MIDP-2.0 Configuration/CLDC-1.1 Obigo/Q03C}}}||ZTE G-X991/Orange Rio mobile phone||
 
 ==MIME/E-Mail==
 ||<b>String Type</b>||<b>String Content</b>||<b>Source</b>||<b>Purpose/Description</b>||
