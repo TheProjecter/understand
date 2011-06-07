@@ -481,10 +481,10 @@ http://understand.googlecode.com/files/MacOS701AliasFixed.png
   * It appears that creation of "whiteout" nodes using {{{mknod MacOSXWhiteout w}}} on UDF volumes under Mac OS X 10.6 fails with {{{mknod: MacOSXWhiteout: Operation not supported}}}.
 
 == Web Internet Location files (Mac OS X 10.6) ==
-  * These have a file name suffix of {{{.webloc}}}, a Mac OS creator code of {{{MACS}}} and a type code of {{{ilht}}}
+  * These have a file name suffix of {{{.webloc}}}, a Mac OS creator code of {{{MACS}}} and a type code of {{{ilht}}}.
   * Web Internet Location files are treated in a similar manner to standard {{{Clipping}}} files when dropped onto an application window (i.e. their textual content is copied into a text entry widget).
   * Internally, they consist of two components:
-   * An XML document containing a serialisation of a property list, similar to 
+   * An XML document containing a serialised property list, similar to: 
    {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
