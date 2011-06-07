@@ -301,6 +301,8 @@ com.apple.metadata:kMDItemFinderComment:
 
 }}}
 
+  * For certain types of "special files", such as device node and FIFO nodes on certain file systems (e.g. UDF), Finder comments are stored inside a {{{cmmt}}} atom of type {{{ustr}}} in the {{{.DS_Store}}} file at the root of the volume.
+
 ===Experiment, Part 1===
   * It may possible to add a Finder comment to a new file by editing the string in the XML that was produced earlier, and converting it back into a binary property list file, like this:
   * Create a plain-text {{{CustomComment.plist}}} file containing this content:
