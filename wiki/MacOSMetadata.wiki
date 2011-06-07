@@ -475,3 +475,4 @@ http://understand.googlecode.com/files/MacOS701AliasFixed.png
 ==Universal Disk Format==
 === FIFOs, Block Nodes and Character Nodes==
 === Extended Attributes ===
+=== Whiteout Nodes ===
