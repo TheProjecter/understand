@@ -102,7 +102,7 @@ com.apple.FinderInfo:
   * The version that ships with Mac OS X contains even more potential options that aren't mentioned in the manpage
 
 === Cygwin File Attributes (NTEA)===
-  * When the {{{CYGWIN}}} environment variable contains {{{ntea}}}, POSIX file permissions will be stored in NTFS Streams
+  * When the {{{CYGWIN}}} environment variable on a Windows client machine contains {{{ntea}}}, POSIX file permissions will be stored in NTFS Streams
   * For example, setting a file's permissions to {{{777}}} results in something similar to:
 {{{
 
