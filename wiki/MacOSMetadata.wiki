@@ -280,6 +280,11 @@ Y:\New Text Document.txt <Account Domain not found>(special access:)
                          NT AUTHORITY\SYSTEM:F
 }}}
 
+== Mac OS X Smart Folders ==
+  * Smart Folders are XML-serialised property lists with the file name suffix {{{.savedSearch}}}.
+
+{{{ Paste data here}}}
+
 ==Mac OS X 10.5 Finder/Spotlight Comments==
   * Exposed in a pseudo-extended attribute that looks like this:
 {{{
