@@ -281,7 +281,8 @@ Y:\New Text Document.txt <Account Domain not found>(special access:)
 }}}
 
 == Mac OS X Smart Folders ==
-  * Smart Folders are XML-serialised property lists with the file name suffix {{{.savedSearch}}}.
+  * Smart Folders are XML-serialised property lists with the file name suffix {{{.savedSearch}}} that store search queries for later reuse. They are conceptually similar to Windows's "Saved Searches"/"Search Folders".
+  * An example of a query for the string "{{{test}}}" on a system-wide basis:
 
    {{{ 
 
