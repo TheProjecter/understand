@@ -478,4 +478,8 @@ http://understand.googlecode.com/files/MacOS701AliasFixed.png
 === Finder Aliases/Bookmarks ===
 === Whiteout Nodes ===
 
-  * It appears that creation of "whiteout" nodes using {{{mknod MacOSXWhiteout w}}} on UDF volumes under Mac OS X 10.6 fails with {{{mknod: MacOSXWhiteout: Operation not supported}}} 
+  * It appears that creation of "whiteout" nodes using {{{mknod MacOSXWhiteout w}}} on UDF volumes under Mac OS X 10.6 fails with {{{mknod: MacOSXWhiteout: Operation not supported}}}.
+
+== Web Internet Location files (Mac OS X 10.6) ==
+  * These have a file name suffix of {{{.webloc}}}, and are treated in a similar manner to standard {{{Clipping}}} files when dropped onto an application window (i.e. their textual content is copied into a text entry widget).
+  * The Mac OS creator code for these files is {{{MACS}}}, and their type code is {{{ilht}}}.
