@@ -473,6 +473,9 @@ http://understand.googlecode.com/files/MacOS701AliasFixed.png
 ==Mac OS X 10.6 Bookmarks==
 
 ==Universal Disk Format==
-=== FIFOs, Block Nodes and Character Nodes==
 === Extended Attributes ===
+=== FIFOs, Block Nodes and Character Nodes==
+=== Finder Aliases/Bookmarks ===
 === Whiteout Nodes ===
+
+  * It appears that creation of "whiteout" nodes using {{{mknod MacOSXWhiteout w}}} on UDF volumes under Mac OS X 10.6 fails with {{{mknod: MacOSXWhiteout: Operation not supported}}} 
