@@ -5,7 +5,7 @@
 
 == Tools ==
 
-  * "[https://code.launchpad.net/~lapseofreason0 Leap of Reason]" has published an experimental Python script for parsing raw message dumps on [https://code.launchpad.net/~lapseofreason0/+junk/symbian-messages LaunchPad], in addition to publishing some [http://bazaar.launchpad.net/~lapseofreason0/+junk/symbian-messages/view/head:/SymbianMessageFormat.txt documentation] from his reverse-engineering efforts
+  * "[https://code.launchpad.net/~lapseofreason0 Lapse of Reason]" has published an experimental Python script for parsing raw message dumps on [https://code.launchpad.net/~lapseofreason0/+junk/symbian-messages LaunchPad], in addition to publishing some [http://bazaar.launchpad.net/~lapseofreason0/+junk/symbian-messages/view/head:/SymbianMessageFormat.txt documentation] from his reverse-engineering efforts
 
   * A .NET-based application ([http://sourceforge.net/projects/nbuexplorer/  NBUExtractor]) seems to support extraction of formatted SMS data from back-ups created with the Nokia PC Suite for Windows 
 
