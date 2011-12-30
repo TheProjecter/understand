@@ -7,3 +7,11 @@
 == USB Modems, and Mobile Phones (AT Commands) ==
 
 == Nokia Mobile Phones (Intelligent Service Interface/USB) ==
+
+== ATR Values ==
+
+  * A more extensive database of ATR values for various smartcards is maintained [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt here]
+
+=== Virgin Mobile UK SIM cards ==
+
+  * {{{3B 3F 95 00 80 69 AF 03 15 01 79 00 00 06 0E 83 3E 9F 16}}}
