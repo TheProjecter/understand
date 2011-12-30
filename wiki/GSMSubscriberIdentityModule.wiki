@@ -2,9 +2,9 @@
 
 == Analysis Tools ==
 
-=== CardPeek ===
+=== !CardPeek ===
 
-  * Available for Linux, Mac OS X and Windows from [http://code.google.com/p/cardpeek Google Code]. Requires Lua 5.1+ for installation.
+  * Available for Linux, Mac OS X and Windows from [http://code.google.com/p/cardpeek Google Code]. Requires LibLua 5.1+ for installation.
 
 === Dedicated Hardware/Wireshark Dissector ===
 
