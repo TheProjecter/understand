@@ -4,7 +4,7 @@
 
   * A Python script for interfacing with UMTS USIM, and GSM SIM cards is available [http://ace-host.stuart.id.au/russell/files/python-pcsclite/examples/ here]. 
 
-  Building under Linux requires Python-Sphinx, and a [http://code.google.com/p/understand/source/browse/trunk/smartcards/python-pcsclite-0.8/src/BuildPatch.txt patched] version of the PCSCLite module from [http://ace-host.stuart.id.au/russell/files/python-pcsclite/ here]. 
+  Building under Linux requires Python-Sphinx, and a [http://code.google.com/p/understand/downloads/detail?name=python-pcsclite-0.8_fixed.tar.bz2 patched] version of the PCSCLite module from [http://ace-host.stuart.id.au/russell/files/python-pcsclite/ here]. 
 
   It may also be necessary to create the {{{/usr/lib/python2.7/site-packages/}}} directory manually under Ubuntu.
 
