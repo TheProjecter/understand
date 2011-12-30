@@ -2,7 +2,13 @@
 
 == Analysis Tools ==
 
-  * A Python script for interfacing with UMTS USIM, and GSM SIM cards is available [http://ace-host.stuart.id.au/russell/files/python-pcsclite/examples/ here]. Requires a patched version of the PCSCLite module from [http://ace-host.stuart.id.au/russell/files/python-pcsclite/ here].
+  * A Python script for interfacing with UMTS USIM, and GSM SIM cards is available [http://ace-host.stuart.id.au/russell/files/python-pcsclite/examples/ here]. 
+
+Building under Linux requires Python-Sphinx, and a patched version of the PCSCLite module from [http://ace-host.stuart.id.au/russell/files/python-pcsclite/ here]. 
+
+It may also be necessary to create the [/usr/lib/python2.7/site-packages/] directory manually under Ubuntu.
+
+
 
 === !CardPeek ===
 
