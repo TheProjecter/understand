@@ -1,6 +1,12 @@
 #summary Content related to Identity Module smartcards, as used in GSM and UMTS networks.
 
-== Dedicated Hardware/Wireshark Dissector ==
+== Analysis Tools ==
+
+=== CardPeek ===
+
+  * Available for Linux, Mac OS X and Windows from [http://code.google.com/p/cardpeek Google Code]. Requires Lua 5.1+ for installation.
+
+=== Dedicated Hardware/Wireshark Dissector ===
 
   * A Wireshark dissector, and information on hardware that can potentially be used to trace SIM card traffic from handsets is available, [http://bb.osmocom.org/trac/wiki/SIMtrace here]
 
