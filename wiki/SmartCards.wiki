@@ -6,9 +6,12 @@
 Add your content here.
 
 
-= Details =
+= 13.56 MHz RFID =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Software ==
+
+  * An Open Source implementation of an NFC stack, and various related utilities is available from the [http://www.libnfc.org/documentation/introduction LibNFC] project
+
+== Datasheets ==
+
+  * A [http://idtronic-smarttags.com/pdfs/cards/STM%20SRI512.pdf datasheet] is available for the STMicroElectronics SRI512 chipset
