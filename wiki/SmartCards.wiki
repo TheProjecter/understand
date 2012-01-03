@@ -12,7 +12,7 @@ Add your content here.
 
   * An Open Source implementation of an NFC stack, and various related utilities is available from the [http://www.libnfc.org/documentation/introduction LibNFC] project.
 
-  * The author of this page has 
+  * The author of this page has released a number of small utilities, and enhancements to third-party ones in a [https://bitbucket.org/vmlemon/smartcardtools repository] on BitBucket.
 
 == Datasheets ==
 
