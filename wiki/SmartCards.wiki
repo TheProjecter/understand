@@ -20,6 +20,8 @@ Add your content here.
 
   * A [http://www.acs.com.hk/drivers/eng/TDS_TOPAZ.pdf datasheet] is available from ACS for the InnoVision/Broadcom Topaz family of ISO/IEC 14443-A chipsets. 
 
+  * A [http://datasheets.maxim-ic.com/en/ds/MAX66040.pdf redacted datasheet] is available for the Maxim MAX66040 ISO/IEC 14443-B chipset.
+
 == Hardware ==
 
 === ISO/IEC 14443-A tokens ===
