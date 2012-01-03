@@ -34,4 +34,4 @@ Add your content here.
 
 == Other Information == 
 
- * The [http://wiki.yobi.be/wiki/ YobiWiki] has a fairly exhaustive [http://wiki.yobi.be/wiki/RFID] page on Radio Frequency Identification-related content.
+ * The [http://wiki.yobi.be/wiki/ YobiWiki] has a fairly exhaustive [http://wiki.yobi.be/wiki/RFID page] on Radio Frequency Identification-related content.
