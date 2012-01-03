@@ -133,5 +133,3 @@ Fingerprinting based on ATQA & SAK values:
 == Other Information ==
 
   * The [http://wiki.yobi.be/wiki/ YobiWiki] has a fairly exhaustive [http://wiki.yobi.be/wiki/RFID page] on Radio Frequency Identification-related content.
-
-  * [http://trac.switch-science.com/wiki/FeliCa-international-order Switch Science] of Japan appear to be supplying Sony FeliCa (RC-S701) tags on
