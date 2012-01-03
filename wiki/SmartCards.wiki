@@ -127,6 +127,8 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
+  * These cards are advertised as having a 64-bit UID, consisting of data in the {{{PUPI}}} field (e.g. {{{a2  a6  02  00}}} or {{{34  ab  02  00}}}), and data in the {{{Application Data}}} field (e.g. {{{77  21  71}}}.
+
 == Hardware Suppliers ==
 
   * [http://trac.switch-science.com/wiki/FeliCa-international-order Switch Science] of Japan appear to be supplying Sony FeliCa (RC-S701) tags on an international basis - although the author cannot vouch for the company's service, due to having never utilised it.
