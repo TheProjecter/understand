@@ -26,6 +26,29 @@ Add your content here.
 
   * [http://code.google.com/p/libnfc/issues/detail?id=168 Issue #168] on the LibNFC project's issues list contains some details pertinent to the proprietary "14443-B'" technology used by some Calypso transport cards.
 
+=== Maxim MAX66040E-000AA+ ===
+
+  * LibNFC's <code>nfc-list -v</code> command reports:
+
+{{{
+1 ISO14443B passive target(s) found:
+               PUPI: a2  a6  02  00  
+   Application Data: 30  00  2b  e0  
+      Protocol Info: 77  21  71  
+* Bit Rate Capability:
+ * PICC to PCD, 1etu=64/fc, bitrate 212 kbits/s supported
+ * PICC to PCD, 1etu=32/fc, bitrate 424 kbits/s supported
+ * PICC to PCD, 1etu=16/fc, bitrate 847 kbits/s supported
+ * PCD to PICC, 1etu=64/fc, bitrate 212 kbits/s supported
+ * PCD to PICC, 1etu=32/fc, bitrate 424 kbits/s supported
+ * PCD to PICC, 1etu=16/fc, bitrate 847 kbits/s supported
+* Maximum frame sizes: 32 bytes
+* Protocol types supported: ISO/IEC 14443-4
+* Frame Waiting Time: 38.66 ms
+* Frame options supported: NAD 
+
+}}}
+
 == Hardware Suppliers ==
 
   * [http://trac.switch-science.com/wiki/FeliCa-international-order Switch Science] of Japan appear to be supplying Sony FeliCa (RC-S701) tags on an international basis - although the author cannot vouch for the company's service, due to having never utilised it. 
