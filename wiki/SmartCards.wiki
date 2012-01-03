@@ -24,7 +24,26 @@ Add your content here.
 
 === ISO/IEC 14443-A tokens ===
 
-=== NXP MiFare UltraLight ===
+=== NXP !MiFare Classic 4KB ===
+
+  * LibNFC's {{{nfc-list -v}}} command reports:
+
+{{{
+1 ISO14443A passive target(s) found:
+    ATQA (SENS_RES): 00  02  
+* UID size: single
+* bit frame anticollision supported
+       UID (NFCID1): 7c  52  49  e4  
+      SAK (SEL_RES): 18  
+* Not compliant with ISO/IEC 14443-4
+* Not compliant with ISO/IEC 18092
+Fingerprinting based on ATQA & SAK values:
+* Mifare Classic 4K
+* SmartMX with Mifare 4K emulation
+
+}}}
+
+=== NXP !MiFare !UltraLight ===
 
   * LibNFC's {{{nfc-list -v}}} command reports:
 
