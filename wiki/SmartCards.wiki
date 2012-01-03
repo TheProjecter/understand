@@ -15,6 +15,8 @@ Add your content here.
 
   * The author of this page has released a number of small utilities, and enhancements to third-party ones in a [https://bitbucket.org/vmlemon/smartcardtools repository] on BitBucket.
 
+  * A link to a tool for examining data stored on Atmel CryptoRF tokens, and errata is available in [http://www.libnfc.org/community/topic/235/solved-info-about-nfccryptorf/ this forum post]
+
 == Datasheets ==
 
   * A [http://idtronic-smarttags.com/pdfs/cards/STM%20SRI512.pdf datasheet] is available for the STMicroElectronics SRI512 ISO/IEC 14443-B chipset.
