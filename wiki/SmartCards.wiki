@@ -30,4 +30,8 @@ Add your content here.
 
   * [http://trac.switch-science.com/wiki/FeliCa-international-order Switch Science] of Japan appear to be supplying Sony FeliCa (RC-S701) tags on an international basis - although the author cannot vouch for the company's service, due to having never utilised it. 
 
-  * The Identive Group of the USA appear to be supplying [http://www.identivenfc.com/google-nfc-tags/google-nfc-tags-type1.htm Topaz 512-byte tags] on an international basis - although the author cannot vouch for the company's service, due to having never utilised it. 
+  * The Identive Group of the USA appear to be supplying [http://www.identivenfc.com/google-nfc-tags/google-nfc-tags-type1.htm Topaz 512-byte tags] on an international basis - although the author cannot vouch for the company's service, due to having never utilised it.
+
+== Other Information == 
+
+ * The [http://wiki.yobi.be/wiki/ YobiWiki] has a fairly exhaustive [http://wiki.yobi.be/wiki/RFID] page on Radio Frequency Identification-related content.
