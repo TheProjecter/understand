@@ -133,7 +133,7 @@ Fingerprinting based on ATQA & SAK values:
 
   * The Identive Group of the USA appear to be supplying [http://www.identivenfc.com/google-nfc-tags/google-nfc-tags-type1.htm Topaz 512-byte tags] on an international basis - although the author cannot vouch for the company's service, due to having never utilised it.
 
-  * Maxim supply a number of RFID-related products through a [https://shop.maxim-ic.com/storefront/searchsample.do?event=Sample&menuitem=Sample free sampling programme] - although shipments are slightly delayed due to requiring internal Business Manager authorisation; and a commercial or academic e-mail address is required for successful order approval. <br/> Samples ordered within the UK are usually dispatched from a UK-based warehouse, if memory serves correct.
+  * Maxim supply a number of RFID-related products through a [https://shop.maxim-ic.com/storefront/searchsample.do?event=Sample&menuitem=Sample free sampling programme] - although shipments are slightly delayed due to requiring internal Business Manager authorisation; and a commercial or academic e-mail address is required for successful order approval. <br/> Samples ordered within the UK are usually dispatched from a UK-based warehouse, if memory serves correctly.
 
 == Other Information ==
 
