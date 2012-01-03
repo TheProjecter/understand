@@ -49,7 +49,7 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
-  * Using the [http://code.google.com/p/nfc-tools/wiki/mfoc MFOC utility] under Linux, it is possible to derive the sector keys for a genuine MiFare Classic card, whilst dumping and decrypting its entire contents in a reasonable timeframe (several minutes) on a moderately powerful PC. <br/> It appears that this tool does not work properly under VirtualBox, due to latency induced by the its USB passthrough implementation.
+  * Using the [http://code.google.com/p/nfc-tools/wiki/mfoc MFOC utility] under Linux, it is possible to derive the sector keys for a genuine MiFare Classic card, whilst dumping and decrypting its entire contents in a reasonable timeframe (several minutes) on a moderately powerful PC. <br/> It appears that this tool does not work properly under VirtualBox, due to latency induced by its USB passthrough implementation.
 
 === NXP !MiFare DESFire EV1 ===
 
