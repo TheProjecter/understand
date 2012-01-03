@@ -22,6 +22,27 @@ Add your content here.
 
 == Hardware ==
 
+=== ISO/IEC 14443-A tokens ===
+
+=== NXP MiFare UltraLight ===
+
+  * LibNFC's {{{nfc-list -v}}} command reports:
+
+{{{
+1 ISO14443A passive target(s) found:
+    ATQA (SENS_RES): 00  44  
+* UID size: double
+* bit frame anticollision supported
+       UID (NFCID1): 04  45  57  ba  34  23  80  
+      SAK (SEL_RES): 00  
+* Not compliant with ISO/IEC 14443-4
+* Not compliant with ISO/IEC 18092
+Fingerprinting based on ATQA & SAK values:
+* Mifare Ultralight
+* Mifare UltralightC
+
+}}}
+
 === ISO/IEC 14443-B tokens ===
 
   * [http://code.google.com/p/libnfc/issues/detail?id=168 Issue #168] on the LibNFC project's issues list contains some details pertinent to the proprietary "14443-B'" technology used by some Calypso transport cards.
