@@ -44,7 +44,7 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
-=== NXP !MiFare !DESFire EV1 ===
+=== NXP !MiFare DESFire EV1 ===
 
   * LibNFC's {{{nfc-list -v}}} command reports:
 
