@@ -28,7 +28,7 @@ Add your content here.
 
 === Maxim MAX66040E-000AA+ ===
 
-  * LibNFC's <code>nfc-list -v</code> command reports:
+  * LibNFC's <pre>nfc-list -v</pre> command reports:
 
 {{{
 1 ISO14443B passive target(s) found:
