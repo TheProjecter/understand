@@ -12,11 +12,19 @@ Add your content here.
 
   * An Open Source implementation of an NFC stack, and various related utilities is available from the [http://www.libnfc.org/documentation/introduction LibNFC] project.
 
+  * The author of this page has 
+
 == Datasheets ==
 
   * A [http://idtronic-smarttags.com/pdfs/cards/STM%20SRI512.pdf datasheet] is available for the STMicroElectronics SRI512 ISO/IEC 14443-B chipset.
 
   * A [http://www.acs.com.hk/drivers/eng/TDS_TOPAZ.pdf datasheet] is available from ACS for the InnoVision/Broadcom Topaz family of ISO/IEC 14443-A chipsets. 
+
+== Hardware ==
+
+=== ISO/IEC 14443-B tokens ===
+
+  * [http://code.google.com/p/libnfc/issues/detail?id=168 Issue #168] on the LibNFC project's issues list contains some details pertinent to the proprietary "14443-B'" technology used by some Calypso transport cards.
 
 == Hardware Suppliers ==
 
