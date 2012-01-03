@@ -127,7 +127,7 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
-  * These cards are advertised as having a 64-bit UID, consisting of data in the {{{PUPI}}} field (e.g. {{{a2  a6  02  00}}} or {{{34  ab  02  00}}}), and data in the {{{Application Data}}} field (e.g. {{{77  21  71}}}.
+  * These cards are advertised as having a 64-bit UID, consisting of data in the {{{PUPI}}} field (e.g. {{{a2  a6  02  00}}} or {{{34  ab  02  00}}}), and data in the {{{Application Data}}} field (e.g. {{{77  21  71}}}).
 
 == Hardware Suppliers ==
 
