@@ -96,8 +96,7 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 === TouchATag SAM APDUs ===
 
 ||<b>Command</b>||<b>Response</b>||<b>Purpose</b>||
-||<font color="red">80</font> <font color="blue">14</font> 06 00 08||41 43 4f 53 06 04 08 20 90 00||Get Card Info - Operating System Revision Number||
-
+||<font color="red">80</font> <font color="purple">14</font> <font color="green">06</font> 00 08||41 43 4f 53 06 04 08 20 90 00||<font color="purple">Get Card Info</font> - <font color="green">Operating System Revision</font>||
 
 == Software ==
   * The [http://www.opensc-project.org/opensc OpenSC project] supply a number of tools for working with contact smartcards under Windows, Mac OS X, and Linux (plus other UNIX-esque operating systems). 
