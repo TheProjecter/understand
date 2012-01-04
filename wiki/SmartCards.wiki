@@ -58,7 +58,7 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 	Tesco Mobile (UK) SIM
 }}}
 
-  * Seems to be based upon the "Gemplus GemXplore 3G USIM" product, according to comparisons of ATR values from Ludovic's database beginning with {{{0x3B9F95801F}}}.
+  * Seems to be based upon the "Gemplus [http://cosconor.fr/GSM/Divers/Others/Cours/SIM%20Cards/GemXplore3G%20V2.pdf GemXplore 3G] USIM" product, according to comparisons of ATR values from Ludovic's database beginning with {{{0x3B9F95801F}}}.
 
   * Unusual in that it returns an EMV-style {{{0x9F7F}}}/CPLC tag, similar to the following, according to [http://code.google.com/p/cardpeek/ CardPeek]:
 
