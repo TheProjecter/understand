@@ -96,13 +96,6 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 == Software ==
   * The [http://www.opensc-project.org/opensc OpenSC project] supply a number of tools for working with contact smartcards under Windows, Mac OS X, and Linux (plus other UNIX-esque operating systems). 
 
-== Other Information ==
-  * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
-
-  * A popular [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt database] of smartcard ATR (Answer To Reset) values is maintained by [http://ludovicrousseau.blogspot.com/ Ludovic Rousseau].
-
-  * A [http://www.ugosweb.com/emv/index.aspx database] of EMV tag descriptions, derived from the EMVCo specifications is published by Ugo Chirico.
-
 == Tracing APDUs under Windows 7 (x86-64) ==
 
 *Note:* Administrative privileges may be necessary for the successful completion of this activity.
@@ -116,6 +109,13 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
   * Run the executable, and perform any necessary tasks that invoke PCSC APIs.
 
   * Quit the application, and then inspect the newly-created {{{winscard.txt}}} file.
+
+== Other Information ==
+  * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
+
+  * A popular [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt database] of smartcard ATR (Answer To Reset) values is maintained by [http://ludovicrousseau.blogspot.com/ Ludovic Rousseau].
+
+  * A [http://www.ugosweb.com/emv/index.aspx database] of EMV tag descriptions, derived from the EMVCo specifications is published by Ugo Chirico.
 
 = 13.56 MHz RFID =
 
