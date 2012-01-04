@@ -103,6 +103,20 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 
   * A [http://www.ugosweb.com/emv/index.aspx database] of EMV tag descriptions, derived from the EMVCo specifications is published by Ugo Chirico.
 
+== Tracing APDUs under Windows 7 (x86-64) ==
+
+*Note:* Administrative privileges may be necessary for the successful completion of this activity.
+
+  * Download the [http://www.fernandes.org/apduview/apduview.zip apduview.zip] archive from [http://www.fernandes.org/apduview/index.html this page]
+
+  * Extract the archive's {{{winscard.dll}}} file to the location of the executable that utilises the PCSC APIs (e.g. {{{C:\Program Files (x86)\touchatag}}}).
+
+  * Copy {{{C:\Windows\SysWOW64\WinSCard.dll}}} to the same directory as the executable, under the new name of {{{original.dll}}} (e.g. {{{C:\Program Files (x86)\touchatag\original.dll}}}).
+
+  * Run the executable, and perform any necessary tasks that invoke PCSC APIs.
+
+  * Quit the application, and then inspect the newly-created {{{winscard.txt}}} file.
+
 = 13.56 MHz RFID =
 
 == Software ==
