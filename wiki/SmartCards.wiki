@@ -113,7 +113,7 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 
   * A link to a tool for examining data stored on Atmel CryptoRF tokens, and errata is available in [http://www.libnfc.org/community/topic/235/solved-info-about-nfccryptorf/ this forum post].
 
-  * The [http://rfidiot.org/ RFIDIOT project] supply a package of tools for manipulating the contents of various types of RFID tokens, and examining Machine-Readable Travel Documents and EMV cards.  
+  * The [http://rfidiot.org/ RFIDIOT] project supply a package of tools for manipulating the contents of various types of RFID tokens, and examining Machine-Readable Travel Documents and EMV cards.  
 
 == Datasheets ==
 
