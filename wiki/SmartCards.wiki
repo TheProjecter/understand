@@ -7,6 +7,63 @@ Add your content here.
 
 = ISO/IEC 7816 Contact Cards =
 
+== Hardware ==
+
+=== GSM and UMTS SIM cards ==
+
+=== Tesco Mobile UK USIM card ===
+
+  * The {{{pcsc-scan}}} utility reports: 
+
+{{{
+ATR: 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 10 31 41 00 B0
++ TS = 3B --> Direct Convention
++ T0 = 9F, Y(1): 1001, K: 15 (historical bytes)
+  TA(1) = 95 --> Fi=512, Di=16, 32 cycles/ETU
+    125000 bits/s at 4 MHz, fMax for Fi = 5 MHz => 156250 bits/s
+  TD(1) = 80 --> Y(i+1) = 1000, Protocol T = 0 
+-----
+  TD(2) = 1F --> Y(i+1) = 0001, Protocol T = 15 - Global interface bytes following 
+-----
+  TA(3) = 43 --> Clock stop: state L - Class accepted by the card: (3G) A 5V B 3V 
++ Historical bytes: 80 31 E0 73 36 21 13 57 4A 33 0E 10 31 41 00
+  Category indicator byte: 80 (compact TLV data object)
+    Tag: 3, len: 1 (card service data byte)
+      Card service data byte: E0
+        - Application selection: by full DF name
+        - Application selection: by partial DF name
+        - BER-TLV data objects available in EF.DIR
+        - EF.DIR and EF.ATR access services: by GET RECORD(s) command
+        - Card with MF
+    Tag: 7, len: 3 (card capabilities)
+      Selection methods: 36
+        - DF selection by path
+        - DF selection by file identifier
+        - Short EF identifier supported
+        - Record number supported
+      Data coding byte: 21
+        - Behaviour of write functions: proprietary
+        - Value 'FF' for the first byte of BER-TLV tag fields: invalid
+        - Data unit in quartets: 2
+      Command chaining, length fields and logical channels: 13
+        - Logical channel number assignment: by the card
+        - Maximum number of logical channels: 4
+    Tag: 5, len: 7 (card issuer's data)
+      Card issuer data: 4A 33 0E 10 31 41 00
++ TCK = B0 (correct checksum)
+
+Possibly identified card (using /home/tyson/.smartcard_list.txt):
+3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 10 31 41 00 B0
+	SIM card O2 (UK, Pay-As-You-Go)
+	Tesco Mobile (UK) SIM
+}}}
+
+  * Seems to be based upon the "Gemplus GemXplore 3G USIM" product, according to comparisons of ATR values from Ludovic's database.
+
+  * Unusual in that it returns an EMV-style {{{0x9F7F}}}/CPLC tag, similar to the following, according to CardPeek:
+
+https://lh3.googleusercontent.com/-R3nm7Dzgx0o/TwSA09hDbnI/AAAAAAAAEoY/9gCxIIt7E-U/s640/EMV_USIM.png
+
 == Software ==
   * The [http://www.opensc-project.org/opensc OpenSC project] supply a number of tools for working with contact smartcards under Windows, Mac OS X, and Linux (plus other UNIX-esque operating systems). 
 
@@ -14,6 +71,8 @@ Add your content here.
   * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
 
   * A popular [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt database] of smartcard ATR (Answer To Reset) values is maintained by [http://ludovicrousseau.blogspot.com/ Ludovic Rousseau].
+
+  * A [http://www.ugosweb.com/emv/index.aspx database] of EMV tag descriptions, derived from the EMVCo specifications is published by Ugo Chirico.
 
 = 13.56 MHz RFID =
 
