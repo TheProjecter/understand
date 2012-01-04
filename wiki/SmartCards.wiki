@@ -13,7 +13,7 @@ Add your content here.
 == Other Information ==
   * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
 
-  * A popular [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt database] of smartcard <acronym title="Answer To Reset">ATR</acronym> values is maintained by Ludovic Rousseau.
+  * A popular [http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt database] of smartcard ATR (Answer To Reset) values is maintained by Ludovic Rousseau.
 
 = 13.56 MHz RFID =
 
