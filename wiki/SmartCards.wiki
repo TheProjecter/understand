@@ -9,6 +9,8 @@ Add your content here.
 
 == Hardware ==
 
+=== EMV payment cards ===
+
 === GSM and UMTS SIM cards ==
 
 === Tesco Mobile UK USIM card ===
