@@ -7,6 +7,13 @@ Add your content here.
 
 = ISO/IEC 7816 Contact Cards =
 
+== Software ==
+  * The [http://www.opensc-project.org/opensc OpenSC project] supply a number of tools for working with contact smartcards under Windows, Mac OS X, and Linux (plus other UNIX-esque operating systems). 
+
+== Other Information ==
+  * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the 
+University of Southampton's Department of Electronics and Computer Science.
+
 = 13.56 MHz RFID =
 
 == Software ==
