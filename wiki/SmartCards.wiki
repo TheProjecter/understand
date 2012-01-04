@@ -123,7 +123,7 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 
   * A [http://datasheets.maxim-ic.com/en/ds/MAX66040.pdf redacted datasheet] is available for the Maxim MAX66040 ISO/IEC 14443-B chipset.
 
-  * A [http://mifare.net/index.php/download_file/view/5/ datasheet] (MF0ICU1) is available for the MiFare UltraLight ISO/IEC 14443-A chipset.
+  * A [http://mifare.net/index.php/download_file/view/5/ datasheet] (MF0ICU1) is available for the [http://mifare.net/products/mifare-smartcard-ic-s/mifare_ultralight/ MiFare UltraLight] ISO/IEC 14443-A chipset.
 
 == Hardware ==
 
