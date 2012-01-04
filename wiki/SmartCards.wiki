@@ -62,7 +62,7 @@ Possibly identified card (using /home/tyson/.smartcard_list.txt):
 
   * Unusual in that it returns an EMV-style {{{0x9F7F}}}/CPLC tag, similar to the following, according to [http://code.google.com/p/cardpeek/ CardPeek]:
 
-https://lh3.googleusercontent.com/-R3nm7Dzgx0o/TwSA09hDbnI/AAAAAAAAEoY/9gCxIIt7E-U/s640/EMV_USIM.png
+[http://code.google.com/p/understand/source/browse/trunk/smartcards/Tesco_Mobile_USIM_EMV.xml https://lh3.googleusercontent.com/-R3nm7Dzgx0o/TwSA09hDbnI/AAAAAAAAEoY/9gCxIIt7E-U/s640/EMV_USIM.png]
 
 == Software ==
   * The [http://www.opensc-project.org/opensc OpenSC project] supply a number of tools for working with contact smartcards under Windows, Mac OS X, and Linux (plus other UNIX-esque operating systems). 
