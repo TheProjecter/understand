@@ -169,6 +169,8 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
   * A [http://mifare.net/index.php/download_file/view/5/ datasheet] (MF0ICU1) is available for the [http://mifare.net/products/mifare-smartcard-ic-s/mifare_ultralight/ MiFare UltraLight] ISO/IEC 14443-A chipset.
 
+  * A [http://www.fmsh.com/english/products/FM11RF08_FS_ENG.pdf datasheet] is available for FuDan's FM11RF08 chipset (which is supposedly compatible with existing MiFare Classic implementations).
+
 == Hardware ==
 
 === ISO/IEC 14443-A tokens ===
