@@ -150,6 +150,15 @@ select[N/A] lock[N/A] delete[N/A] create[N/A] rehab[N/A] inval[N/A] list[N/A]
 
   * The [http://rfidiot.org/ RFIDIOT] project supply a package of tools for manipulating the contents of various types of RFID tokens, and examining Machine-Readable Travel Documents and EMV cards.  
 
+  * A driver that supposedly allows for use of LibNFC with generic PCSC-enabled applications is available from the [{{{ifdnfc}}} http://ifdnfc.svn.sourceforge.net/] project on SourceForge. <br/> This doesn't seem to build against the latest version of LibNFC:
+
+{{{
+ifd-nfc.c: In function ‘IFDHTransmitToICC’:
+ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transceive_bytes’
+/usr/local/include/nfc/nfc.h:80:19: note: declared here
+
+}}}
+
 == Datasheets ==
 
   * A [http://idtronic-smarttags.com/pdfs/cards/STM%20SRI512.pdf datasheet] is available for the STMicroElectronics SRI512 ISO/IEC 14443-B chipset.
