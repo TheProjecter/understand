@@ -150,7 +150,7 @@ select[N/A] lock[N/A] delete[N/A] create[N/A] rehab[N/A] inval[N/A] list[N/A]
 
   * The [http://rfidiot.org/ RFIDIOT] project supply a package of tools for manipulating the contents of various types of RFID tokens, and examining Machine-Readable Travel Documents and EMV cards.  
 
-  * A driver that supposedly allows for use of LibNFC with generic PCSC-enabled applications is available from the [{{{ifdnfc}}} http://ifdnfc.svn.sourceforge.net/] project on SourceForge. <br/> This doesn't seem to build against the latest version of LibNFC:
+  * A driver that supposedly allows for use of LibNFC with generic PCSC-enabled applications is available from the [http://ifdnfc.svn.sourceforge.net/ {{{ifdnfc}}}] project on SourceForge. <br/> This doesn't seem to build against the latest version of LibNFC:
 
 {{{
 ifd-nfc.c: In function ‘IFDHTransmitToICC’:
