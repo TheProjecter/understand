@@ -1,0 +1,23 @@
+http://www.cyberciti.biz/tips/build-linux-kernel-module-against-installed-kernel-source-tree.html
+
+https://wiki.ubuntu.com/KernelCustomBuild
+
+http://wiki.cchtml.com/index.php/Ubuntu_Dapper_Installation_Guide#Problems_with_module-assistant
+
+== Build the {{{fakehard}}} 802.15.4 driver under Ubuntu ==
+
+root@UmBongo:/usr/src/linux-source-3.0.0/linux-source-3.0.0/drivers/ieee802154# 
+
+{{{
+
+
+#obj-$(CONFIG_IEEE802154_FAKEHARD) += fakehard.o
+
+obj-m += fakehard.o
+
+ccflags-y := -DDEBUG -DCONFIG_FFD
+
+all:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+ 
+}}}
