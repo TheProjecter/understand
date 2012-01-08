@@ -2,6 +2,8 @@ http://www.cyberciti.biz/tips/build-linux-kernel-module-against-installed-kernel
 
 http://permalink.gmane.org/gmane.linux.network.zigbee.devel/870
 
+http://comments.gmane.org/gmane.linux.network.zigbee.devel/903
+
 https://wiki.ubuntu.com/KernelCustomBuild
 
 http://wiki.cchtml.com/index.php/Ubuntu_Dapper_Installation_Guide#Problems_with_module-assistant
