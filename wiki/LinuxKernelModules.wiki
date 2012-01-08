@@ -1,6 +1,6 @@
 http://www.cyberciti.biz/tips/build-linux-kernel-module-against-installed-kernel-source-tree.html
 
-http://permalink.gmane.org/gmane.linux.network.zigbee.devel/870
+http://code.google.com/p/understand/source/browse/trunk/usr/src/linux-source-3.0.0/linux-source-3.0.0/drivers/fakelb.c
 
 http://comments.gmane.org/gmane.linux.network.zigbee.devel/903
 
