@@ -283,7 +283,7 @@ Fingerprinting based on ATQA & SAK values:
 
 == Hardware Suppliers ==
 
-  * Atmel of the USA have a [http://www.atmel.com/forms/Samples.asp?category_id=172&family_id=671&source=getting_started product sampling programme]. <br/> Although the order process appears to be successful (since I receive an e-mail in my university account), I have had limited success with using the confirmation URL provided in said e-mail.
+  * Atmel of the USA have a [http://www.atmel.com/forms/Samples.asp?category_id=172&family_id=671&source=getting_started product sampling programme]. <br/> Although the order process appears to be successful (since I receive an e-mail in my university account), I have had limited success with using the confirmation URL provided in said e-mail, and have not seen any evidence of a product delivery, or further confirmation to date.
 
   * [http://trac.switch-science.com/wiki/FeliCa-international-order Switch Science] of Japan supply Sony FeliCa (RC-S701) tags on an international basis, and fulfil orders promptly. They are also quick to provide refunds, should buyers accidentally make multiple payments for an order. As of writing, the grand total cost of shipping 2 tags to the UK was JPY2,168 (£19.19 according to PayPal).
 
