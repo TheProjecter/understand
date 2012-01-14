@@ -173,6 +173,8 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
 == Hardware ==
 
+=== FeliCa tokens ===
+
 === ISO/IEC 14443-A tokens ===
 
 
