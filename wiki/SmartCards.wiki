@@ -298,6 +298,20 @@ Fingerprinting based on ATQA & SAK values:
 0010   01 01 90 00
 }}}
 
+  * DESFire EV1
+
+{{{
+0000   d5 4b 01 01 03 44 20 07 04 8b 1f f1 ad 26 80 06
+0010   75 77 81 02 80 90 00
+}}}
+
+  * MiFare UltraLight
+
+{{{
+0000   d5 4b 01 01 00 44 00 07 04 2b 6e ba 34 23 80 90
+0010   00
+}}}
+
 == Hardware Suppliers ==
 
   * Atmel of the USA have a [http://www.atmel.com/forms/Samples.asp?category_id=172&family_id=671&source=getting_started product sampling programme]. <br/> Although the order process appears to be successful (since I receive an e-mail in my university account), I have had limited success with using the confirmation URL provided in said e-mail, and have not seen any evidence of a product delivery, or further confirmation to date.
