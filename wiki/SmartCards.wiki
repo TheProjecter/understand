@@ -285,6 +285,14 @@ Fingerprinting based on ATQA & SAK values:
 
   * The {{{Application Data}}} field supposedly contains the "upper 32 bits of the UID" (which appears to be consistent between new cards); and the (variable) PUPI corresponds to the "lower 32 bits of the UID".
 
+=== PN532 Pseudo-APDUs ===
+  * ISO/IEC 14443-B 
+{{{0000   d5 4b 01 01 50 34 ab 02 00 30 00 2b e0 77 21 71
+0010   01 01 90 00}}}
+
+{{{0000   d5 4b 01 01 50 a2 a6 02 00 30 00 2b e0 77 21 71
+0010   01 01 90 00}}}
+
 == Hardware Suppliers ==
 
   * Atmel of the USA have a [http://www.atmel.com/forms/Samples.asp?category_id=172&family_id=671&source=getting_started product sampling programme]. <br/> Although the order process appears to be successful (since I receive an e-mail in my university account), I have had limited success with using the confirmation URL provided in said e-mail, and have not seen any evidence of a product delivery, or further confirmation to date.
