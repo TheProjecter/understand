@@ -235,6 +235,51 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
+=== DESFire EV1 Oyster ===
+
+   * The {{{mifare-desfire-info}}} utility reports:
+
+{{{
+===> 0000   90 60 00 00 00                                   |.`...           |
+<=== 0000   04 01 01 01 00 16 05 91 af                       |.........       |
+===> 0000   90 af 00 00 00                                   |.....           |
+<=== 0000   04 01 01 01 03 16 05 91 af                       |.........       |
+===> 0000   90 af 00 00 00                                   |.....           |
+<=== 0000   04 8b 1f f1 ad 26 80 00 00 00 00 00 42 08 91 00  |.....&......B...|
+===> Version information for tag 048b1ff1ad2680:
+UID:                      0x048b1ff1ad2680
+Batch number:             0x0000000000
+Production date:          week 42, 2008
+Hardware Information:
+    Vendor ID:            0x04
+    Type:                 0x01
+    Subtype:              0x01
+    Version:              1.0
+    Storage size:         0x16 (=2048 bytes)
+    Protocol:             0x05
+Software Information:
+    Vendor ID:            0x04
+    Type:                 0x01
+    Subtype:              0x01
+    Version:              1.3
+    Storage size:         0x16 (=2048 bytes)
+    Protocol:             0x05
+===> 0000   90 45 00 00 00                                   |.E...           |
+<=== 0000   0b 01 91 00                                      |....            |
+Master Key settings (0x0b):
+    0x08 configuration changeable;
+    0x00 PICC Master Key not required for create / delete;
+    0x02 Free directory list access without PICC Master Key;
+    0x01 Allow changing the Master Key;
+===> 0000   90 64 00 00 01 00 00                             |.d.....         |
+<=== 0000   31 91 00                                         |1..             |
+Master Key version: 49 (0x31)
+===> 0000   90 6e 00 00 00                                   |.n...           |
+<=== 0000   e0 04 00 91 00                                   |.....           |
+Free memory: 1248 bytes
+Use random UID: no
+}}}
+
 === NXP !MiFare !UltraLight ===
 
   * LibNFC's {{{nfc-list -v}}} command reports:
