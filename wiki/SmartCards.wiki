@@ -171,6 +171,8 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
   * A [http://www.fmsh.com/english/products/FM11RF08_FS_ENG.pdf datasheet] is available for FuDan's FM11RF08 chipset (which is supposedly compatible with existing MiFare Classic implementations).
 
+  * The [http://www.nxp.com/documents/user_manual/141520.pdf Users Manual] for the NXP PN532 chipset is available.
+
 == Hardware ==
 
 === FeliCa tokens ===
