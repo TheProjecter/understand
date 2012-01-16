@@ -177,6 +177,23 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
 === FeliCa tokens ===
 
+=== Sony FeliCa Lite RC-S701 ===
+
+  * LibNFC's {{{nfc-list -v}}} command reports:
+
+{{{
+1 Felica (212 kbps) passive target(s) found:
+        ID (NFCID2): 01  27  00  5d  1a  05  88  cd  
+    Parameter (PAD): 00  f0  00  00  02  06  03  00  
+   System Code (SC): 88  b4  
+
+1 Felica (424 kbps) passive target(s) found:
+        ID (NFCID2): 01  27  00  5d  1a  05  88  cd  
+    Parameter (PAD): 00  f0  00  00  02  06  03  00  
+   System Code (SC): 88  b4  
+
+}}}
+
 === ISO/IEC 14443-A tokens ===
 
 
