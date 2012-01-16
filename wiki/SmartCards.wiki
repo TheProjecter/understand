@@ -131,6 +131,40 @@ select[N/A] lock[N/A] delete[N/A] create[N/A] rehab[N/A] inval[N/A] list[N/A]
 
   * Quit the application, and then inspect the newly-created {{{winscard.txt}}} file.
 
+== UFeliCa ==
+  * This project's homepage is [http://shirou.prosou.nu/emacs-wiki/Felica-Card.html here], and the latest version at the time of writing is [http://shirou.prosou.nu/src/ufelica/ufelica.tar.gz 0.1.2]
+
+  * By default, the {{{ufelica}}} tool only works with Sony devices - although it is possible to modify it (by patching {{{ufelica.c}}}), in order to attempt to use it with the TouchATag reader.
+
+  * An example of such a patch for the {{{ACR122U-FeliCa(4L)A REV:1.06}}} variant looks like:
+
+{{{
+--- ufelica.c~	2012-01-16 15:34:23.443258964 +0000
++++ ufelica.c	2012-01-16 15:34:23.471258944 +0000
+@@ -80,8 +80,8 @@
+ 
+   for (bus = busses; bus != NULL; bus = bus->next){
+     for (dev = bus->devices; dev != NULL; dev = dev->next){
+-      if((dev->descriptor.idVendor == USB_VENDOR_SONY) &&
+-         (dev->descriptor.idProduct == USB_PRODUCT_SONY_PASORI) ){
++      if((dev->descriptor.idVendor == 0x072f) &&
++         (dev->descriptor.idProduct == 0x2200) ){
+ 
+ 	if (option_verbose > 1) { 
+ 	  printf("class=0x%02X, vendor=0x%04X, product=0x%04X\n",
+}}}
+
+  * Attempting to run the modified tool without root privileges results in:
+{{{
+tyson@UmBongo:~/ufelica$ ./ufelica 
+could not set config 1: Operation not permitted
+could not claim interface 0: Operation not permitted
+error sending control message: Operation not permitted
+error sending control message: Operation not permitted
+00 00 00 00 00 00 00 00 00 00 
+could not release intf 0: Operation not permitted
+}}}
+
 == Other Information ==
   * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
 
