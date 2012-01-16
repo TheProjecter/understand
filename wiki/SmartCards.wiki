@@ -194,6 +194,16 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
 }}}
 
+  * LibNFC's {{{nfc-list -v}}} command reports:
+
+{{{
+Place your NFC Forum Tag Type 3 in the field...
+NDEF Mapping version: 1.0
+NFC Forum Tag Type 3 capacity: 208 bytes
+NDEF data lenght: 60 bytes
+
+}}}
+
 === ISO/IEC 14443-A tokens ===
 
 
