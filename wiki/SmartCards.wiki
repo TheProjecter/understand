@@ -165,6 +165,37 @@ error sending control message: Operation not permitted
 could not release intf 0: Operation not permitted
 }}}
 
+  * Running under {{{sudo}}}, with the PCSC daemon disabled results in:
+{{{
+tyson@UmBongo:~/ufelica$ sudo ./ufelica 
+error sending control message: Broken pipe
+error sending control message: Connection timed out
+00 00 00 00 00 00 00 00 00 00 
+}}}
+
+  * Running under the same configuration, but with the verbose mode flag enabled results in:
+{{{
+tyson@UmBongo:~/ufelica$ sudo ./ufelica  -v
+usb_bus found.
+class=0x00, vendor=0x072F, product=0x2200
+usb_device found.
+002/003     072F/2200
+open successed...
+Query Type = 0
+-- send init  : 00 00 ff 14 ec 62 29 89 11 25 f0 a0 02 a1 00 a2 89 a3 10 a4 03 a5 89 a6 10 1a 00/27
+error sending control message: Broken pipe
+error sending control message: Broken pipe
+Pasori Initializing: ret=-32
+start getting ID.
+-- send get_id_edy  : 00 00 ff 05 fb 50 fe 00 00 00 b2 00/12
+error sending control message: Connection timed out
+control msg sent.
+error sending control message: Connection timed out
+error sending control message: Connection timed out
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+begin closing...
+}}}
+
 == Other Information ==
   * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
 
