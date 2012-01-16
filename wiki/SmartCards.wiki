@@ -357,6 +357,13 @@ Fingerprinting based on ATQA & SAK values:
 0010   00
 }}}
 
+  * Sony FeliCa Lite RC-S701
+
+{{{
+0000   d5 4b 01 01 14 01 01 27 00 5d 1a 05 8a cd 00 f0
+0010   00 00 02 06 03 00 88 b4 90 00
+}}}
+
 == Hardware Suppliers ==
 
   * Atmel of the USA have a [http://www.atmel.com/forms/Samples.asp?category_id=172&family_id=671&source=getting_started product sampling programme]. <br/> Although the order process appears to be successful (since I receive an e-mail in my university account), I have had limited success with using the confirmation URL provided in said e-mail, and have not seen any evidence of a product delivery, or further confirmation to date.
