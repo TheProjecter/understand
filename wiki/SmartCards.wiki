@@ -196,6 +196,12 @@ error sending control message: Connection timed out
 begin closing...
 }}}
 
+  * It seems that doing this will cause issues for other applications/services that attempt to use the card reader until it is disconnected; and the following can sometimes be seen in {{{dmesg}}}:
+
+{{{
+[  183.861824] usb 2-2: usbfs: USBDEVFS_CONTROL failed cmd ufelica rqt 64 rq 0 len 12 ret -110
+}}}
+
 == Other Information ==
   * A [http://doc.utwente.nl/55705/1/dsse-tr-95-5.pdf paper] on the subject of smartcards and smartcard operating systems was published in 1995 by Pieter H. Hartel, and Eduard K. de Jong Frz at the University of Southampton's Department of Electronics and Computer Science.
 
