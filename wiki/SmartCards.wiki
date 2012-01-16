@@ -194,7 +194,7 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
 }}}
 
-  * LibNFC's {{{nfc-list -v}}} command reports:
+  * LibNFC's {{{nfc-read-forum-tag3}}} command reports:
 
 {{{
 Place your NFC Forum Tag Type 3 in the field...
