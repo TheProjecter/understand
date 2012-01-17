@@ -275,6 +275,14 @@ NDEF data lenght: 60 bytes
 
 }}}
 
+libnfc.chip.pn53x - InListPassiveTarget
+libnfc.driver.acr122 - TX: ff  00  00  00  09  d4  4a  01  01  00  ff  ff  01  00  
+libnfc.driver.acr122 - RX: d5  4b  01  01  14  01  01  27  00  5d  1a  05  88  cd  00  f0  00  00  02  06  03  00  88  b4  90  00  
+
+libnfc.chip.pn53x - InListPassiveTarget
+libnfc.driver.acr122 - TX: ff  00  00  00  09  d4  4a  01  02  00  ff  ff  01  00  
+libnfc.driver.acr122 - RX: d5  4b  01  01  14  01  | <font color="red">01  27  00  5d  1a  05  88  cd </font> | <font color="green">00  f0  00  00  02  06  03  00 </font>| <font color="blue">88  b4 </font> | 90  00  
+
 === ISO/IEC 14443-A tokens ===
 
 
