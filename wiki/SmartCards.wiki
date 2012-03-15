@@ -476,7 +476,7 @@ Fingerprinting based on ATQA & SAK values:
 40 01 2B
 }}}
 
-  * The TAMA commands are wrapped in an {{{InDataExchange}}} ({{0x40}}}) packet that looks like {{{d4 40 01 2b}}}
+  * The TAMA commands are wrapped in an {{{InDataExchange}}} ({{{0x40}}}) packet that looks like {{{d4 40 01 2b}}}
 
   * The {{{Get System Information}}} command returns a result similar to {{{00 00 0f a2 a6 02 00 30 00 2b e0 00 00 13 07 b2}}}
 
