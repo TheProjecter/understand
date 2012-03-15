@@ -467,6 +467,19 @@ Fingerprinting based on ATQA & SAK values:
 
   * The {{{Application Data}}} field supposedly contains the "upper 32 bits of the UID" (which appears to be consistent between new cards); and the (variable) PUPI corresponds to the "lower 32 bits of the UID".
 
+  * It is possible to run the {{{Get System Information}}} ({{0x2B}}}) command using this PN532 TAMA shell script on a TouchATag reader:
+
+{{{
+02; // Get firmware version
+//4A  01  00; // 1 target requested
+4a 01 03 00
+40 01 2B
+}}}
+
+  * The TAMA commands are wrapped in an {{{InDataExchange}}} ({{0x40}}}) packet that looks like {{{d4 40 01 2b}}}
+
+  * The {{{Get System Information}}} command returns a result similar to {{{00 00 0f a2 a6 02 00 30 00 2b e0 00 00 13 07 b2}}}
+
 === PN532 Pseudo-APDUs ===
   * ISO/IEC 14443-B 
 
