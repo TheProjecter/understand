@@ -488,7 +488,7 @@ Fingerprinting based on ATQA & SAK values:
 
   * The {{{Application Data}}} field supposedly contains the "upper 32 bits of the UID" (which appears to be consistent between new cards); and the (variable) PUPI corresponds to the "lower 32 bits of the UID".
 
-  * It is possible to run the {{{Get System Information}}} ({{0x2B}}}) command using this PN532 TAMA shell script on a TouchATag reader:
+  * It is possible to run the {{{Get System Information}}} ({{{0x2B}}}) command using this PN532 TAMA shell script on a TouchATag reader:
 
 {{{
 02; // Get firmware version
