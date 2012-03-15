@@ -436,6 +436,27 @@ Fingerprinting based on ATQA & SAK values:
 
 }}}
 
+  * Using the following TAMA script, it is possible to access the EMV Payment System Environment, and obtain the name of the first application:
+
+{{{
+02; // Get firmware version
+4A  01  00; // 1 target requested
+
+// Select the payment system environment
+40 01 00 A4 04 00 0E 31 50 41 59 2E 53 59 53 2E 44 44 46 30 31;
+
+40 01 80 A8 00 00 02 83 00
+
+40 01 00 c0 00 00 26;
+
+40 01 00 b2 00 0c 00;
+
+40 01 00 b2 01 0c 00;
+
+40 01 00 b2 01 0c 21;
+
+}}}
+
 === ISO/IEC 14443-B tokens ===
 
   * [http://code.google.com/p/libnfc/issues/detail?id=168 Issue #168] on the LibNFC project's issues list contains some details pertinent to the proprietary "14443-B'" technology used by some Calypso transport cards.
