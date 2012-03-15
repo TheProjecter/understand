@@ -445,7 +445,7 @@ Fingerprinting based on ATQA & SAK values:
 // Select the payment system environment
 40 01 00 A4 04 00 0E 31 50 41 59 2E 53 59 53 2E 44 44 46 30 31;
 
-40 01 80 A8 00 00 02 83 00
+40 01 80 A8 00 00 02 83 00;
 
 40 01 00 c0 00 00 26;
 
