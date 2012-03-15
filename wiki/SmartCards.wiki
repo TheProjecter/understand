@@ -493,8 +493,8 @@ Fingerprinting based on ATQA & SAK values:
 {{{
 02; // Get firmware version
 //4A  01  00; // 1 target requested
-4a 01 03 00
-40 01 2B
+4a 01 03 00;
+40 01 2B;
 }}}
 
   * The TAMA commands are wrapped in an {{{InDataExchange}}} ({{{0x40}}}) packet that looks like {{{d4 40 01 2b}}}
