@@ -244,6 +244,8 @@ ifd-nfc.c:355:17: error: too few arguments to function ‘nfc_initiator_transcei
 
   * The [http://www.nxp.com/documents/user_manual/141520.pdf Users Manual] for the NXP PN532 chipset is available.
 
+  * A [http://www.acs.com.hk/drivers/eng/API_ACR122U_v2.00.pdf manual] for a variant of the ACS ACR122U card reader is available.
+
 == Hardware ==
 
 === FeliCa tokens ===
