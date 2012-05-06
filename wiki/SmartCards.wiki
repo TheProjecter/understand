@@ -10,6 +10,95 @@ Add your content here.
 == Hardware ==
 
 === EMV payment cards ===
+=== Orange Cash PayPass (Contact Interface) ===
+  * The {{{pcsc-scan}}} utility reports: 
+{{{
+tyson@UmBongo:~$ pcsc_scan 
+PC/SC device scanner
+V 1.4.17 (c) 2001-2009, Ludovic Rousseau <ludovic.rousseau@free.fr>
+Compiled with PC/SC lite version: 1.5.5
+Scanning present readers...
+0: ACS ACR122U 00 00
+
+Fri May  4 16:45:30 2012
+ Reader 0: ACS ACR122U 00 00
+  Card state: Card inserted, 
+  ATR: 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
+
+ATR: 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
++ TS = 3B --> Direct Convention
++ T0 = 6E, Y(1): 0110, K: 14 (historical bytes)
+  TB(1) = 00 --> VPP is not electrically connected
+  TC(1) = 00 --> Extra guard time: 0
++ Historical bytes: 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
+  Category indicator byte: 80 (compact TLV data object)
+    Tag: 3, len: 1 (card service data byte)
+      Card service data byte: 80
+        - Application selection: by full DF name
+        - EF.DIR and EF.ATR access services: by GET RECORD(s) command
+        - Card with MF
+    Tag: 6, len: 6 (pre-issuing data)
+      Data: B0 84 12 01 6E 01
+    Tag: 8, len: 3 (status indicator)
+      LCS (life card cycle): 00 (No information given)
+      SW: 9000 (Normal processing.)
+
+Possibly identified card (using /home/tyson/.smartcard_list.txt):
+3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
+        Barclaycard Platinum VISA
+}}}
+
+The {{{ChAP.py}}} script reports (on a newly-personalised, non-activated card):
+ 
+{{{
+tyson@UmBongo:~/Downloads$ ./ChAP-0.1b/ChAP.py 
+Failed to load symbol for: SCardCancelTransaction, /lib/libpcsclite.so.1: undefined symbol: SCardCancelTransaction!
+insert a card within 10s
+PSE found!
+  6f: File Control Information (FCI) Template (30 bytes):
+     84: DF Name (14 bytes): 1PAY.SYS.DDF01
+     a5: Proprietary Information (12 bytes):
+        88: Short File Identifier (1 bytes): 01
+        5f2d: Language Preference (2 bytes): en
+        9f11: Issuer Code Table Index (1 bytes): 01
+  Checking for records:
+  Record 01, File 01: length 41
+      AID found: a0 00 00 00 04 10 10
+  Found AID: MASTERCARD - a0 00 00 00 04 10 10
+  6f: File Control Information (FCI) Template (56 bytes):
+     84: DF Name (7 bytes): a0 00 00 00 04 10 10
+     a5: Proprietary Information (45 bytes):
+        50: Application Label (10 bytes): MASTERCARD
+        87: Application Priority Indicator (1 bytes): skipping BER-TLV object!
+  Processing Options:   77: Response Message Template Format 2 (14 bytes): 82 02 18 00 94 08 20 03 03 00 28 01 02 00
+    Cardholder verification is supported
+    Terminal risk management is to be performed
+    SFI 04: starting record 03, ending record 03; 00 offline data authentication records
+      record 03:    70: Record Template (19 bytes):
+     9f08: Application Version Number (2 bytes): 00 02
+     9f42: Application Currency Code (2 bytes): 0826 (United Kingdom)
+     5f30: Service Code (2 bytes): 0221
+     9f44: Application Currency Exponent (1 bytes): 02
+  PIN tries left: 5
+Log Format:  9f 27 01 9f 02 06 5f 2a 02 9a 03 9f 36 02 9f 52 06
+  Found AID: PSD Entry - a0 00 00 00 04 10 10
+  6f: File Control Information (FCI) Template (56 bytes):
+     84: DF Name (7 bytes): a0 00 00 00 04 10 10
+     a5: Proprietary Information (45 bytes):
+        50: Application Label (10 bytes): MASTERCARD
+        87: Application Priority Indicator (1 bytes): skipping BER-TLV object!
+  Processing Options:   77: Response Message Template Format 2 (14 bytes): 82 02 18 00 94 08 20 03 03 00 28 01 02 00
+    Cardholder verification is supported
+    Terminal risk management is to be performed
+    SFI 04: starting record 03, ending record 03; 00 offline data authentication records
+      record 03:    70: Record Template (19 bytes):
+     9f08: Application Version Number (2 bytes): 00 02
+     9f42: Application Currency Code (2 bytes): 0826 (United Kingdom)
+     5f30: Service Code (2 bytes): 0221
+     9f44: Application Currency Exponent (1 bytes): 02
+  PIN tries left: 5
+Log Format:  9f 27 01 9f 02 06 5f 2a 02 9a 03 9f 36 02 9f 52 06
+}}}
 
 === GSM and UMTS SIM cards ==
 
