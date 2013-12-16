@@ -6,6 +6,69 @@
 Add your content here.
 
 == Firmware ==
+
+=== Telnet Interface ===
+  * A basic Telnet session involving connecting to the server, retrieving help information, and then dumping the device configuration:
+{{{
+telnet 192.168.1.69
+Trying 192.168.1.69...
+Connected to 192.168.1.69.
+Escape character is '^]'.
+
+HP JetDirect
+
+Please type "?" for HELP, or "/" for current settings
+> ?
+
+	To Change/Configure Parameters Enter: 
+	Parameter-name: value <Carriage Return>
+
+	Parameter-name	Type of value 
+	ip:		IP-address in dotted notation 
+	subnet-mask:	address in dotted notation (enter 0 for default) 
+	default-gw:	address in dotted notation (enter 0 for default) 
+	syslog-svr:	address in dotted notation (enter 0 for default) 
+	idle-timeout:	seconds in integers 
+	set-cmnty-name:	alpha-numeric string (32 chars max) 
+	host-name:	alpha-numeric string (upper case only, 32 chars max) 
+	dhcp-config: 	0 to disable, 1 to enable 
+	allow:		<ip> [mask] (0 to clear, list to display, 10 max) 
+	addrawport:	<TCP port num> (<TCP port num> 3000-9000) 
+	deleterawport:	<TCP port num>  
+	listrawport:	(No parameter required) 
+	ipx/spx: 	0 to disable, 1 to enable 
+	dlc/llc: 	0 to disable, 1 to enable 
+	banner: 	0 to disable, 1 to enable 
+
+	Type passwd to change the password.
+
+ Type "?" for HELP, "/" for current settings or "quit" to save-and-exit.
+ Or type "exit" to exit without saving configuration parameter entries 
+> /
+
+   ===JetDirect Telnet Configuration===
+	Firmware Rev.	: F.08.20
+	MAC Address	: 00:01:e6:5b:ff:14
+	Config By	: DHCP 
+
+	IP Address	: 192.168.1.69
+	Subnet Mask	: 255.255.255.0
+	Default Gateway	: 192.168.1.1
+	Syslog Server	: Not Specified
+	Idle Timeout	: 90 Seconds
+	Set Cmnty Name	: Not Specified
+	Host Name	: NPI5BFF14
+
+	DHCP Config	: Enabled 
+	Passwd		: Disabled 
+   	IPX/SPX      	: Enabled 
+   	DLC/LLC     	: Enabled 
+	Banner page	: Enabled 
+> exit
+
+ EXITING WITHOUT SAVING ANY ENTRIES 
+> Connection closed by foreign host.
+}}}
 == External Hardware == 
   * 10BaseT Ethernet port (RJ-45)
   * Centronics/Parallel printer port
