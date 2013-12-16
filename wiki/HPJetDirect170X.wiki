@@ -21,6 +21,10 @@ Add your content here.
   * SNMP via Java-based configuration utility
   * HTTP
 
+== Official Manuals ==
+
+  * [http://h20565.www2.hp.com/portal/site/hpsc/template.BINARYPORTLET/public/kb/docDisplay/resource.process/?javax.portlet.begCacheTok=com.vignette.cachetoken&javax.portlet.endCacheTok=com.vignette.cachetoken&javax.portlet.rid_ba847bafb2a2d782fcbb0710b053ce01=docDisplayResURL&javax.portlet.rst_ba847bafb2a2d782fcbb0710b053ce01=wsrp-resourceState%3DdocId%253Demr_na-c00758101-1%257CdocLocale%253D&javax.portlet.tpst=ba847bafb2a2d782fcbb0710b053ce01_ws_BI&ac.admitted=1387215260922.876444892.492883150 HP Jetdirect Print Server 170X Installation and Configuration Guide]
+
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
