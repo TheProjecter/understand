@@ -17,7 +17,7 @@ Add your content here.
 
 == Internal Hardware ==
 
-  * Access to the motherboard is provided after removing two Torx screws, located on the bottom of the device. I found that the thicker blade of a pair of cheap hairdressing scissors was capable of undoing them - but use of a Torx screwdriver is recommended...
+  * Access to the motherboard is provided after removing two Torx screws, located on the bottom of the device. I found that the thicker blade of a pair of large, cheap hairdressing scissors was capable of undoing them - but use of a Torx screwdriver is recommended...
 
 === Motherboard (Front) ===
 
