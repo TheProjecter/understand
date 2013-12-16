@@ -7,6 +7,18 @@ Add your content here.
 
 == Firmware ==
 
+=== Embedded HTTP Server ===
+
+  * Seems to implement only HTTP/1.0, and returns the header "{{{Server:HTTP/1.0\r\n}}}" in its responses to requests
+
+  * Serves a number of Java class files from a virtual root directory, and from the {{{/wjjava/snmp/}}} directory, including:
+
+   * {{{SNMPBinding.class}}}
+   * {{{MsgBox.class}}}
+   * {{{Home.class}}}
+
+Judging from a brief overview of a network trace file that I created whilst configuring the server, strings included in these classes include references to "{{{Venice}}}", copyright statements, SCM usernames, ASN.1, and IPX - although I have not taken the time to manually download/extract, and decompile these.  
+
 === Telnet Interface ===
   * A basic Telnet session involving connecting to the server, retrieving help information, and then dumping the device configuration:
 {{{
