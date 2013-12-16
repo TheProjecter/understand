@@ -20,6 +20,8 @@ Add your content here.
   * Novell IPX
   * SNMP via Java-based configuration utility
   * HTTP
+  * [http://h30499.www3.hp.com/t5/Black-and-White/What-is-DLC-LLC/td-p/4846949#.Uq86Cjz5OtU IBM DLC/LLC]
+  * DHCP/BootP
 
 == Official Manuals ==
 
