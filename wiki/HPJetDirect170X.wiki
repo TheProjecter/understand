@@ -25,6 +25,9 @@ http://lh4.googleusercontent.com/-W1WLTNuH0vM/Uq8-CfjDd-I/AAAAAAAAFgY/z3aV-iUai8
 === Motherboard (Reverse) ===
 http://lh4.googleusercontent.com/--ZkBE3-f6AQ/Uq8-CbeXoCI/AAAAAAAAFgY/RIjius1sAYE/s400/IMG00975-20131216-1644.jpg
 
+=== Intel 802.3/Ethernet Media Access Controller/AUI Chip ===
+  * A datasheet for the [http://www.digchip.com/datasheets/parts/datasheet/227/LXT908PC.php LXT908PC] Ethernet MAC chip is available. 
+
 == Supported Protocols ==
   * IPv4 
   * Novell IPX
