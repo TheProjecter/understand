@@ -5,6 +5,15 @@
 
 Add your content here.
 
+== Firmware ==
+== External Hardware == 
+  * 10BaseT Ethernet port (RJ-45)
+  * Centronics/Parallel printer port
+  * Server Test button
+  * 9-35 VDC mains adapter socket
+
+== Compatible Mains Adapters (Non-HP) ==
+  * Panasonic  
 
 == Supported Protocols ==
   * IPv4 
