@@ -36,6 +36,16 @@ http://lh4.googleusercontent.com/--ZkBE3-f6AQ/Uq8-CbeXoCI/AAAAAAAAFgY/RIjius1sAY
 
   * A series of [http://www.datasheetcatalog.com/datasheets_pdf/L/M/3/1/LM317D2T.shtml datasheets] for what seem to be third-party clones of the LM317D2T chip are available. I do not know which corresponds precisely to the chip on the motherboard.
 
+=== Agilent 1QM7-0003 Chip ===
+  * I have not yet been able to determine the purpose of this (SoC?) chip, although it seems that a few companies may distribute it.
+
+=== Oki/OkiData MS4V16258B-45J Chip ===
+  * Have been unable to find a datasheet, or supplier information - but I suspect that this be a co-processor implementing support for a page definition language, or a memory chip, given the presence of another OkiData chip.
+   * This chip was probably custom-designed for this product.
+
+=== Oki/OkiData 1818-8754 Chip === 
+   * Marked with "(C) 00 HP - iIPS R27V1602E-56 1392BA1". Purpose unknown; maybe custom-designed.
+
 == Supported Protocols ==
   * IPv4 
   * Novell IPX
