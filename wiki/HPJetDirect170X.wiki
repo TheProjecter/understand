@@ -6,7 +6,11 @@
 Add your content here.
 
 
-= Details =
+== Supported Protocols ==
+  * IPv4 
+  * Novell IPX
+  * SNMP via Java-based configuration utility
+  * HTTP
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
