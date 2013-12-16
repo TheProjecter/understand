@@ -28,6 +28,10 @@ http://lh4.googleusercontent.com/--ZkBE3-f6AQ/Uq8-CbeXoCI/AAAAAAAAFgY/RIjius1sAY
 === Intel 802.3/Ethernet Media Access Controller/AUI Chip ===
   * A datasheet for the [http://www.digchip.com/datasheets/parts/datasheet/227/LXT908PC.php LXT908PC] Ethernet MAC chip is available. 
 
+=== Pulse PE-68041 Isolation Transformer Chip === 
+
+  * A datasheet for the [http://www.datasheetarchive.com/dlmain/Datasheets-8/DSA-151194.pdf PE-68041] isolation transformer by Pulse Engineering is available.
+
 == Supported Protocols ==
   * IPv4 
   * Novell IPX
