@@ -20,8 +20,10 @@ Add your content here.
   * Access to the motherboard is provided after removing two Torx screws, located on the bottom of the device. I found that the thicker blade of a pair of large, cheap hairdressing scissors was capable of undoing them - but use of a Torx screwdriver is recommended...
 
 === Motherboard (Front) ===
+http://lh4.googleusercontent.com/-W1WLTNuH0vM/Uq8-CfjDd-I/AAAAAAAAFgY/z3aV-iUai8g/s400/IMG00974-20131216-1643.jpg
 
 === Motherboard (Reverse) ===
+http://lh4.googleusercontent.com/--ZkBE3-f6AQ/Uq8-CbeXoCI/AAAAAAAAFgY/RIjius1sAYE/s400/IMG00975-20131216-1644.jpg
 
 == Supported Protocols ==
   * IPv4 
