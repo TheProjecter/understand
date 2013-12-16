@@ -32,6 +32,10 @@ http://lh4.googleusercontent.com/--ZkBE3-f6AQ/Uq8-CbeXoCI/AAAAAAAAFgY/RIjius1sAY
 
   * A datasheet for the [http://www.datasheetarchive.com/dlmain/Datasheets-8/DSA-151194.pdf PE-68041] isolation transformer by Pulse Engineering is available.
 
+=== Motorola LM317D2T Voltage/Thermal(?) Regulator Chip ===
+
+  * A series of [http://www.datasheetcatalog.com/datasheets_pdf/L/M/3/1/LM317D2T.shtml datasheets] for what seem to be third-party clones of the LM317D2T chip are available. I do not know which corresponds precisely to the chip on the motherboard.
+
 == Supported Protocols ==
   * IPv4 
   * Novell IPX
