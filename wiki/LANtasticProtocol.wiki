@@ -61,6 +61,8 @@ For some reason, Wireshark dissects this packet as "truncated", after importing 
 
 Strings *may* be preceded by their length?
 
+Payload length seems to be encoded in a weird way (e.g. decimal 134/0x86 -> 0x80 0x00 0xA6, or decimal 91/0x5B -> 0x52 0x4B) - Need to confirm
+
 === Decapsulated payload example ===
 {{{
 No.     Time           Source                Destination           Protocol Length Info
