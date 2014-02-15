@@ -3,7 +3,7 @@
 
 = Introduction =
 
-LANtastic used !EtherType 0x81D7
+LANtastic used !EtherType 0x81D7, and UDP port 138 (for NetBIOS Datagram Service).
 
 = Packet Structure =
 
