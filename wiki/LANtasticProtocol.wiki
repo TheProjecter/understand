@@ -1,0 +1,23 @@
+#summary An attempt at reverse-engineering the legacy LANtastic protocol
+#labels LANtastic,SMB,Protocols
+
+= Introduction =
+
+LANtastic used EtherType ...
+
+= Packet Structure =
+
+== Server Message Block/IBM LAN Manager Tunnelling ==
+{{{
+0000   4e 52 00 0c 29 f0 88 c8 ff ff ff ff ff ff 00 00  NR..)...........
+0010   00 00 00 00 80 00 8c 00 0e 00 00 00 00 00 00 00  ................
+0020   00 00 00 00 00 57 49 4e 2d 54 30 46 54 55 39 53  .....WIN-T0FTU9S
+0030   54 54 4e 35 00 57 49 4e 2d 54 30 46 54 55 39 53  TTN5.WIN-T0FTU9S
+0040   54 54 4e 35 00 ff 53 4d 42 25 00 00 00 00 00 00  TTN5..SMB%......
+0050   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0060   00 00 00 00 00 11 00 00 16 00 00 00 00 00 00 00  ................
+0070   00 00 e8 03 00 00 00 00 00 00 00 00 16 00 56 00  ..............V.
+0080   03 00 01 00 01 00 02 00 27 00 5c 4d 41 49 4c 53  ........'.\MAILS
+0090   4c 4f 54 5c 42 52 4f 57 53 45 00 0a 01 01 00 00  LOT\BROWSE......
+00a0   00 57 49 4e 2d 54 30 46 54 55 39 53 54 54 4e 35                                                  .WIN-T0FTU9STTN5
+}}}
