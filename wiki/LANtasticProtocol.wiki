@@ -7,6 +7,39 @@ LANtastic used !EtherType 0x81D7
 
 = Packet Structure =
 
+== Packet Header ==
+
+{{{
+0000   4e 52 00 0c 29 f0 88 c8 ff ff ff ff ff ff 00 00  NR..)...........
+0010   00 00 00 00 80 00 a6 00 0e 00 00 00 00 00 00 00  ................
+0020   00 00 00 00 00 01 02 5f 5f 4d 53 42 52 4f 57 53  .......__MSBROWS
+0030   45 5f 5f 02 01 57 49 4e 2d 54 30 46 54 55 39 53  E__..WIN-T0FTU9S
+0040   54 54 4e 35 00                                   TTN5.
+}}}
+
+{{{
+0000   4e 52 00 0c 29 f0 88 c8 ff ff ff ff ff ff 00 00  NR..)...........
+0010   00 00 00 00 80 00 7c 00 0e 00 00 00 00 00 00 00  ......|.........
+0020   00 00 00 00 00 57 4f 52 4b 47 52 4f 55 50 20 20  .....WORKGROUP  
+0030   20 20 20 20 1b 57 49 4e 2d 54 30 46 54 55 39 53      .WIN-T0FTU9S
+0040   54 54 4e 35 00                                   TTN5.
+}}}
+
+Fields:
+  * Magic Number(?) (4e 52)
+  * Destination MAC Address (ff ff ff ff ff ff)
+  * Source MAC Address (00 0c 29 f0 88 c8)
+  * Padding?
+
+== Proprietary Discovery? ==
+{{{
+0000   4e 52 00 0c 29 f0 88 c8 ff ff ff ff ff ff 00 00  NR..)...........
+0010   00 00 00 00 80 00 21 00 0e 00 00 00 00 00 00 00  ......!.........
+0020   00 00 00 00 00 4c 41 4e 74 61 73 74 69 63 2d 47  .....LANtastic-G
+0030   72 6f 75 70 04 4c 54 2d 57 49 4e 2d 54 30 46 54  roup.LT-WIN-T0FT
+0040   55 39 53 54 00 00                                U9ST..
+}}}
+
 == Server Message Block/IBM LAN Manager Tunnelling ==
 {{{
 0000   4e 52 00 0c 29 f0 88 c8 ff ff ff ff ff ff 00 00  NR..)...........
