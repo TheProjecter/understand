@@ -59,6 +59,8 @@ In this case (a broadcast packet that seems to correspond to an SMB {{{Get Backu
 
 For some reason, Wireshark dissects this packet as "truncated", after importing the above hex payload into a trace file with a user-specified DLT value. I assume that this is related to the group/machine name data at the end of the packet.
 
+Strings *may* be preceded by their length?
+
 === Decapsulated payload example ===
 {{{
 No.     Time           Source                Destination           Protocol Length Info
