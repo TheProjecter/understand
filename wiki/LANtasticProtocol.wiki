@@ -52,7 +52,7 @@ Fields:
 0070   00 00 e8 03 00 00 00 00 00 00 00 00 16 00 56 00  ..............V.
 0080   03 00 01 00 01 00 02 00 27 00 5c 4d 41 49 4c 53  ........'.\MAILS
 0090   4c 4f 54 5c 42 52 4f 57 53 45 00 0a 01 01 00 00  LOT\BROWSE......
-00a0   00 57 49 4e 2d 54 30 46 54 55 39 53 54 54 4e 35                                                  .WIN-T0FTU9STTN5
+00a0   00 57 49 4e 2d 54 30 46 54 55 39 53 54 54 4e 35  .WIN-T0FTU9STTN5
 }}}
 
 In this case (a broadcast packet that seems to correspond to an SMB {{{Get Backup List Response}}}), it seems that LANtastic encapsulates SMB packets with a ~69 byte header, containing a group name, or a machine name; and some additional, unknown data.
