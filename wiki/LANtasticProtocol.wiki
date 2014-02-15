@@ -3,7 +3,7 @@
 
 = Introduction =
 
-LANtastic used EtherType ...
+LANtastic used !EtherType 0x81D7
 
 = Packet Structure =
 
