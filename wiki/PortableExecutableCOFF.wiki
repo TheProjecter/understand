@@ -1,4 +1,4 @@
-t#summary One-sentence summary of this page.
+#summary One-sentence summary of this page.
 
 = SkyOS PE/COFF executables =
 
