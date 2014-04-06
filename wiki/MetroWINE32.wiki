@@ -1,6 +1,9 @@
 #summary One-sentence summary of this page.
 
 == WWAHost (Windows Web Application Host) ==
+
+Grab from {{{C:\Windows\SysWOW64}}}, under a 64-bit build of Windows 8...
+
 {{{
 tyson@tyson-VirtualBox:/mnt/hgfs/Documents/Desktop/BinUtils$ wine WWAHost.exe 
 err:module:import_dll Library api-ms-win-appmodel-identity-l1-1-0.dll (which is needed by L"Z:\\mnt\\hgfs\\Documents\\Desktop\\BinUtils\\WWAHost.exe") not found
