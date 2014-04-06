@@ -915,7 +915,7 @@ no symbols
 }}}
 
 == Obtaining BeOS R3.1 executables/libraries ==
-Libraries necessary for running BeOS R3.1 executables are available from {{{/beos/system/lib}}}, on the "{{{BeOS Intel R3.1}}}" volume of [http://www.theoldcomputer.com/roms/getfile.php?file=Li9QQy8vT3BlcmF0aW5nLVN5c3RlbXMvQmVPUy9CZU9TIDMuMSAoQkEpLnJhcg== <pre>Track02.iso</pre>]. This can be mounted successfully under a build of Haiku.
+Libraries necessary for running BeOS R3.1 executables are available from {{{/beos/system/lib}}}, on the "{{{BeOS Intel R3.1}}}" volume of [http://www.theoldcomputer.com/roms/getfile.php?file=Li9QQy8vT3BlcmF0aW5nLVN5c3RlbXMvQmVPUy9CZU9TIDMuMSAoQkEpLnJhcg== Track02.iso]. This can be mounted successfully under a build of Haiku.
  
 == Running under WINE ==
 
