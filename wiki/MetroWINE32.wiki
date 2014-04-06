@@ -115,3 +115,9 @@ err:module:import_dll Library api-ms-win-core-string-l2-1-0.dll (which is needed
 err:module:import_dll Library DUI70.dll (which is needed by L"Z:\\mnt\\hgfs\\Documents\\Desktop\\BinUtils\\Metro\\WWAHost.exe") not found
 err:module:LdrInitializeThunk Main exe initialization for L"Z:\\mnt\\hgfs\\Documents\\Desktop\\BinUtils\\Metro\\WWAHost.exe" failed, status c0000135
 }}}
+
+{{{
+tyson@tyson-VirtualBox:/mnt/hgfs/Documents/Desktop/BinUtils/Metro$ wine WWAHost.exe 
+err:module:attach_process_dlls "combase.dll" failed to initialize, aborting
+err:module:LdrInitializeThunk Main exe initialization for L"Z:\\mnt\\hgfs\\Documents\\Desktop\\BinUtils\\Metro\\WWAHost.exe" failed, status c0000142
+}}}
