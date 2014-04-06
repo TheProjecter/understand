@@ -1,5 +1,8 @@
 #summary One-sentence summary of this page.
 
+= SkyOS PE/COFF executables =
+
+For some time, SkyOS used to use PE as its native executable format, and some folks from the ReactOS project managed to sort-of get a SkyOS running using a [https://code.google.com/p/reactos-mirror/source/detail?spec=svn10514&r=10501 small shim] library.
 = BeOS R3 PE/COFF executables =
 
 A rare example of a BeOS PE/COFF executable, containing a port of the GNU {{{file}}} utility is [http://hyperlogos.org/files/gnufile-3.20.1.beos-src.tgz available].
