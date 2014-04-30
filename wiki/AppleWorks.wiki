@@ -16,6 +16,16 @@ Selected "application/x-qt-windows-mime;value="Mac-PICT""
   * Looks like padded text, if pasted into PuppetMaster
   * Hex dump without formatting: {{{02010102020a011283480000}}} (contains ASCII "H", and formatting)
 
+=== Default styles ===
+|| *Style* || *Font* || *Character Format (Bold/Italic)* ||
+|| Text || Times New Roman || No/No ||
+|| Function || Times New Roman || No/No ||
+|| Variable || Times New Roman || Italic only ||
+|| L.C. Greek || Symbol || Italic only ||
+|| U.C. Greek || Symbol || No/No ||
+|| Symbol || Symbol || No/No ||
+|| Matrix-Vector || Times New Roman || Bold only ||
+|| Number || Times New Roman || No/No ||
 
 ===Embedded using OLE in WP document ===
   * Becomes : 
