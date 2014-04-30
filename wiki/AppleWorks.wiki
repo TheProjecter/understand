@@ -16,7 +16,7 @@ Selected "application/x-qt-windows-mime;value="Mac-PICT""
   * Looks like padded text, if pasted into PuppetMaster
   * Hex dump without formatting: {{{02010102020a011283480000}}} (contains ASCII "H", and formatting)
 
-}}}
+
 ===Embedded using OLE in WP document ===
   * Becomes : 
 
