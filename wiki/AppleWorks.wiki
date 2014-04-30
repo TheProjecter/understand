@@ -11,7 +11,17 @@ Selected "application/x-qt-windows-mime;value="Mac-PICT""
 == MathType 2.2 (Equation Editor, Windows) Clipboard data ==
 {{{
 ("application/x-qt-windows-mime;value="MathType EF"", "application/x-qt-windows-mime;value="Embed Source"", "application/x-qt-windows-mime;value="Object Descriptor"") 
+
+  * Looks like padded text, if pasted into PuppetMaster
 }}}
+===Embedded using OLE in WP document ===
+  * Becomes : 
+
+{{{
+("application/x-qt-windows-mime;value="Embedded Object"", "application/x-qt-windows-mime;value="Object Descriptor"")
+}}}
+
+OLE document blob containing font info, {{{ClarisWorks Equation 2.0MathType EFEquation.CWEE2}}}, and presumably raw data like the "padded text"
 
 == WireLust ===
 
