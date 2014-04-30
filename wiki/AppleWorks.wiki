@@ -13,6 +13,8 @@ Selected "application/x-qt-windows-mime;value="Mac-PICT""
 ("application/x-qt-windows-mime;value="MathType EF"", "application/x-qt-windows-mime;value="Embed Source"", "application/x-qt-windows-mime;value="Object Descriptor"") 
 
   * Looks like padded text, if pasted into PuppetMaster
+  * Hex dump without formatting: {{{02010102020a011283480000}}} (contains ASCII "H", and formatting)
+
 }}}
 ===Embedded using OLE in WP document ===
   * Becomes : 
