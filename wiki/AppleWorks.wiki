@@ -16,7 +16,9 @@ Selected "application/x-qt-windows-mime;value="Mac-PICT""
   * Looks like padded text, if pasted into PuppetMaster
   * Hex dump with Math formatting: {{{02010102020a011283480000}}} (contains ASCII "H", and formatting)
 
-  * Hex dump with Text formatting: {{{02010102020a010281480000}}}(contains ASCII "H", and formatting)
+  * Hex dump with Text formatting: {{{02010102020a010281480000}}} (contains ASCII "H", and formatting)
+
+  * Hex dump with Formula formatting: {{{02010102020a010282480000}}} (contains ASCII "H", and formatting)
 
 === Default styles ===
 || *Style* || *Font* || *Character Format (Bold/Italic)* ||
