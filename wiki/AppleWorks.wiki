@@ -1,5 +1,18 @@
 #summary Information about the AppleWorks/ClarisWorks file formats
 
+== Clipboard Data (Windows) ==
+
+A drawing pasted into PuppetMaster (Qt-based application) is identified as:
+{{{
+("application/x-qt-image", "application/x-qt-windows-mime;value="Mac-PICT"") 
+Selected "application/x-qt-windows-mime;value="Mac-PICT"" 
+}}}
+
+== MathType 2.2 (Equation Editor, Windows) Clipboard data ==
+{{{
+("application/x-qt-windows-mime;value="MathType EF"", "application/x-qt-windows-mime;value="Embed Source"", "application/x-qt-windows-mime;value="Object Descriptor"") 
+}}}
+
 == WireLust ===
 
   * A [http://www.wirelust.com/2013/01/17/parsing-appleworks-and-clarisworks-file-formats/ blog post] about these formats was published in 2013
