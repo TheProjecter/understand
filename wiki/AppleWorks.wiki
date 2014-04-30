@@ -1,8 +1,17 @@
-#summary One-sentence summary of this page.
+#summary Information about the AppleWorks/ClarisWorks file formats
 
-= Introduction =
+== WireLust ===
 
-Add your content here.
+  * A [http://www.wirelust.com/2013/01/17/parsing-appleworks-and-clarisworks-file-formats/ blog post] about these formats was published in 2013
+  * A number of example files were also [http://wirelust.com/examples/archiving/appleworks/ published]
+  * 
+
+=== MacWrite, and Additional Documentation ===
+  * A [http://libcwk.cvs.sourceforge.net/viewvc/libcwk/libcwk/ CVS repository], hosted on SourceForge.net contains some C source files from an attempt at writing a parser, plus some documentation on [http://libcwk.cvs.sourceforge.net/viewvc/libcwk/libcwk/doc/ MacWrite's formats]
+
+== Related ==
+
+  * Wikipedia's [http://en.wikipedia.org/wiki/PICT article] on the Macintosh PICT graphics format, used in AppleWorks drawing clipboard data
 
 
 ==File Type and Creator Metadata==
