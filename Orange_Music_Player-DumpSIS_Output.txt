@@ -1,0 +1,81 @@
+C:\Documents and Settings\Tyson Key\Desktop\OMP>C:\epoc32\tools\dumpsis.exe -x -
+v -l -y MusicPlayer.SISX
+
+DUMPSIS  Version  1.0.2
+A utility for decompiling Software Installation (SIS) files
+Copyright (c) Symbian Software Limited 2004-2008. All rights reserved.
+
+[FILELIST]
+
+File1=!:\sys\bin\KozRecognizer.dll@256
+
+File2=!:\resource\plugins\KozRecognizer.rsc@0
+
+
+File3=!:\sys\bin\GroovePlayer.exe@647216
+
+File4=!:\sys\bin\GroovePlayerAacDecoder.dll@647216
+
+File5=!:\resource\apps\GroovePlayer.rsc@0
+
+
+File6=!:\resource\apps\GroovePlayer-S60.rsc@0
+
+
+File7=!:\resource\apps\GroovePlayerImages.mbm@0
+
+
+File8=!:\resource\apps\GroovePlayerIcons.mbm@0
+
+
+File9=!:\private\10003a3f\import\apps\GroovePlayer_reg.rsc@0
+
+
+File10=!:\private\20000F4C\cathome.txt@0
+
+
+File11=!:\private\20000F4C\cathome0.txt@0
+
+
+File12=!:\private\20000F4C\help.txt@0
+
+
+File13=!:\private\20000F4C\about.txt@0
+
+
+File14=!:\private\20000F4C\config.ini@0
+
+
+File15=!:\private\20000F4C\messages_en.txt@0
+
+
+File16=!:\private\20000F4C\onetimehelp.txt@0
+
+
+File17=!:\private\20000F4C\temp\*.*@0
+
+
+File18=!:\private\20000F4C\*.*@0
+
+
+File19=c:\private\20000F4C\GroovePlayer.ini@0
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Cannot delete directory 00931C00 as the directory files are in use
+
+C:\Documents and Settings\Tyson Key\Desktop\OMP>
